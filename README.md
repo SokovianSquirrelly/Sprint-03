@@ -9,8 +9,11 @@ There were 300 points I put on this map, so I used a CSV file that showed the te
 # Development Environment
 
 Text Editor: VS Code
+
 Languages: JavaScript, HTML, & Python
+
 Source Control System: GitHub
+
 Other Tools: ArcGIS, CSV Library in Python
 
 # Useful Websites
