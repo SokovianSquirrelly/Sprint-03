@@ -1,0 +1,412 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Temple Locations</title>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.24/"></script>
+
+    <script>
+      require(["esri/config","esri/Map", "esri/views/MapView",
+      "esri/Graphic", "esri/layers/GraphicsLayer"], function (config, Map, MapView, Graphic, GraphicsLayer)
+      {
+
+        const map = new Map
+        ({
+          basemap: "gray-vector" // Basemap layer service
+        });
+
+        // This is the view that shows up when you first open the application.  It's zoomed in on Rexburg, Idaho.
+
+        const view = new MapView
+        ({
+          map: map,
+          center: [-111.792, 43.823], // Longitude, latitude
+          zoom: 12, // Zoom level
+          container: "viewDiv" // Div element
+        });
+
+        const graphicsLayer = new GraphicsLayer();
+        map.add(graphicsLayer);
+
+        function displayPoint(graphicsLayer, name, latitude, longitude, status, dedDate)
+        {
+          const point =
+          {
+            type: "point",
+            longitude: longitude,
+            latitude: latitude,
+          };
+
+          let color = [0, 0, 0]
+
+          if (status == "Dedicated")
+          {
+            color = [0, 255, 0]; // Green
+          }
+
+          else if (status == "Construction")
+          {
+            color = [255, 255, 0]; // Yellow
+          }
+
+          else
+          {
+            color = [255, 0, 0]; // Red
+          }
+
+          const simpleMarkerSymbol = 
+          {
+            type: "simple-marker",
+            color: color,
+            outline:
+            {
+              color: [0, 0, 0],
+              width: 1
+            }
+          };
+
+          const popupTemplate =
+          {
+            title: '{Name}',
+            content: '{Dedication}'
+          }
+
+          const attributes =
+          {
+            Name: name,
+            Dedication: dedDate
+          }
+
+          const pointGraphic = new Graphic({
+            geometry: point,
+            symbol: simpleMarkerSymbol,
+            attributes: attributes,
+            popupTemplate: popupTemplate
+          });
+          graphicsLayer.add(pointGraphic);
+        }
+            
+        // Here is a list of every single temple and the relevant information for this map.
+
+        displayPoint(graphicsLayer, 'Aba Nigeria Temple', 5.147644, 7.356719, 'Dedicated', '7 August 2005');
+        displayPoint(graphicsLayer, 'Abidjan Ivory Coast Temple', 5.362307, -3.976865, 'Construction', 'Under Construction');     
+        displayPoint(graphicsLayer, 'Accra Ghana Temple', 5.56749, -0.193706, 'Dedicated', '11 January 2004');
+        displayPoint(graphicsLayer, 'Adelaide Australia Temple', -34.892473, 138.635002, 'Dedicated', '15 June 2000');
+        displayPoint(graphicsLayer, 'Alabang Philippines Temple', 14.412913, 121.037838, 'Construction', 'Under Construction');   
+        displayPoint(graphicsLayer, 'Albuquerque New Mexico Temple', 35.167684, -106.525301, 'Dedicated', '5 March 2000');        
+        displayPoint(graphicsLayer, 'Anchorage Alaska Temple', 61.101627, -149.840512, 'Dedicated', '9 January 1999');
+        displayPoint(graphicsLayer, 'Antananarivo Madagascar Temple', -18.87906616, 47.50701587, 'Announced', 'Announced');       
+        displayPoint(graphicsLayer, 'Antofagasta Chile Temple', -23.571891, -70.394525, 'Construction', 'Under Construction');    
+        displayPoint(graphicsLayer, 'Apia Samoa Temple', -13.838064, -171.783034, 'Dedicated', '5 August 1983');
+        displayPoint(graphicsLayer, 'Arequipa Peru Temple', -16.375203, -71.538477, 'Dedicated', '15 December 2019');
+        displayPoint(graphicsLayer, 'Asunción Paraguay Temple', -25.287916, -57.602869, 'Dedicated', '19 May 2002');
+        displayPoint(graphicsLayer, 'Atlanta Georgia Temple', 33.931896, -84.362394, 'Dedicated', '1 June 1983');
+        displayPoint(graphicsLayer, 'Auckland New Zealand Temple', -36.993227, 174.890191, 'Construction', 'Under Construction'); 
+        displayPoint(graphicsLayer, 'Austin Texas Temple', 30.2670225, -97.7431937, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Bacolod Philippines Temple', 10.69024013, 122.986949, 'Construction', 'Under Construction'); 
+        displayPoint(graphicsLayer, 'Bahía Blanca Argentina Temple', -38.69117, -62.235937, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Bangkok Thailand Temple', 13.749491, 100.562527, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Barcelona Spain Temple', 41.3873519, 2.168137032, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Barranquilla Colombia Temple', 11.016798, -74.86261, 'Dedicated', '9 December 2018');
+        displayPoint(graphicsLayer, 'Baton Rouge Louisiana Temple', 30.362664, -91.108385, 'Dedicated', '16 July 2000');
+        displayPoint(graphicsLayer, 'Beira Mozambique Temple', -19.75218687, 34.89397171, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Belém Brazil Temple', -1.387242, -48.459894, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Belo Horizonte Brazil Temple', -19.88029952, -43.978604, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Bengaluru India Temple', 12.992096, 77.704714, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Benin City Nigeria Temple', 6.333923887, 5.604008311, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Bentonville Arkansas Temple', 36.384867, -94.181319, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Bern Switzerland Temple', 47.002192, 7.458244, 'Dedicated', '11 September 1955');
+        displayPoint(graphicsLayer, 'Billings Montana Temple', 45.800505, -108.63939, 'Dedicated', '20 November 1999');
+        displayPoint(graphicsLayer, 'Birmingham Alabama Temple', 33.674623, -86.821236, 'Dedicated', '3 September 2000');
+        displayPoint(graphicsLayer, 'Birmingham England Temple', 52.5396292, -1.891873656, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Bismarck North Dakota Temple', 46.838889, -100.813979, 'Dedicated', '19 September 1999');
+        displayPoint(graphicsLayer, 'Bogotá Colombia Temple', 4.707801, -74.056247, 'Dedicated', '24 April 1999');
+        displayPoint(graphicsLayer, 'Boise Idaho Temple', 43.593523, -116.275034, 'Dedicated', '25 May 1984');
+        displayPoint(graphicsLayer, 'Boston Massachusetts Temple', 42.412002, -71.188091, 'Dedicated', '1 October 2000');
+        displayPoint(graphicsLayer, 'Bountiful Utah Temple', 40.882853, -111.846812, 'Dedicated', '8 January 1995');
+        displayPoint(graphicsLayer, 'Brasília Brazil Temple', -15.747835, -47.880945, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Brazzaville Republic of the Congo Temple', -4.264179924, 15.24465842, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Brigham City Utah Temple', 41.505376, -112.016592, 'Dedicated', '23 September 2012');
+        displayPoint(graphicsLayer, 'Brisbane Australia Temple', -27.480886, 153.033841, 'Dedicated', '15 June 2003');
+        displayPoint(graphicsLayer, 'Brussels Belgium Temple', 50.84628862, 4.358919827, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Budapest Hungary Temple', 47.49318344, 19.02998867, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Buenos Aires Argentina Temple', -34.729286, -58.518225, 'Dedicated', '17 January 1986');
+        displayPoint(graphicsLayer, 'Buenos Aires City Center Argentina Temple', -34.60835674, -58.38076837, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Burley Idaho Temple', 42.52659109, -113.764841, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Busan Korea Temple', 35.12952831, 129.0506618, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Cagayan de Oro Philippines Temple', 8.452425275, 124.6265346, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Calgary Alberta Temple', 51.140861, -114.2333, 'Dedicated', '28 October 2012');
+        displayPoint(graphicsLayer, 'Cali Colombia Temple', 3.48698324, -76.521499, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Campinas Brazil Temple', -22.896534, -47.001133, 'Dedicated', '17 May 2002');
+        displayPoint(graphicsLayer, 'Cape Town South Africa Temple', -33.94114387, 18.4797749, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Caracas Venezuela Temple', 10.470849, -66.837293, 'Dedicated', '20 August 2000');
+        displayPoint(graphicsLayer, 'Cardston Alberta Temple', 49.19835, -113.309394, 'Dedicated', '26 August 1923');
+        displayPoint(graphicsLayer, 'Casper Wyoming Temple', 42.80908928, -106.361814, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Cebu City Philippines Temple', 10.327659, 123.898299, 'Dedicated', '13 June 2010');
+        displayPoint(graphicsLayer, 'Cedar City Utah Temple', 37.671734, -113.096271, 'Dedicated', '10 December 2017');
+        displayPoint(graphicsLayer, 'Chicago Illinois Temple', 42.086829, -87.859501, 'Dedicated', '9 August 1985');
+        displayPoint(graphicsLayer, 'Chiclayo Peru Temple', -6.770565358, -79.85803689, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Ciudad Juárez Mexico Temple', 31.736269, -106.463209, 'Dedicated', '26 February 2000');
+        displayPoint(graphicsLayer, 'Cleveland Ohio Temple', 41.49354372, -81.68651453, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Cobán Guatemala Temple', 15.459077, -90.365166, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Cochabamba Bolivia Temple', -17.363644, -66.147644, 'Dedicated', '30 April 2000');
+        displayPoint(graphicsLayer, 'Cody Wyoming Temple', 44.51914707, -109.0587431, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Colonia Juárez Chihuahua Mexico Temple', 30.305251, -108.082038, 'Dedicated', '6 March 1999');
+        displayPoint(graphicsLayer, 'Columbia River Washington Temple', 46.226733, -119.274893, 'Dedicated', '18 November 2001');
+        displayPoint(graphicsLayer, 'Columbia South Carolina Temple', 33.959638, -80.893981, 'Dedicated', '16 October 1999');
+        displayPoint(graphicsLayer, 'Columbus Ohio Temple', 39.994089, -83.113214, 'Dedicated', '4 September 1999');
+        displayPoint(graphicsLayer, 'Concepción Chile Temple', -36.851499, -73.049966, 'Dedicated', '28 October 2018');
+        displayPoint(graphicsLayer, 'Copenhagen Denmark Temple', 55.692677, 12.53392, 'Dedicated', '23 May 2004');
+        displayPoint(graphicsLayer, 'Córdoba Argentina Temple', -31.358873, -64.245809, 'Dedicated', '17 May 2015');
+        displayPoint(graphicsLayer, 'Cuernavaca Mexico Temple', 18.92579592, -99.22358826, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Culiacán Mexico Temple', 24.80903766, -107.3930253, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Curitiba Brazil Temple', -25.441304, -49.342138, 'Dedicated', '1 June 2008');
+        displayPoint(graphicsLayer, 'Cusco Peru Temple', -13.53218652, -71.9674022, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Dallas Texas Temple', 32.914288, -96.796525, 'Dedicated', '19 October 1984');
+        displayPoint(graphicsLayer, 'Davao Philippines Temple', 7.088597, 125.579755, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Denver Colorado Temple', 39.568698, -104.965782, 'Dedicated', '24 October 1986');
+        displayPoint(graphicsLayer, 'Deseret Peak Utah Temple', 40.570243, -112.31522, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Detroit Michigan Temple', 42.566266, -83.229983, 'Dedicated', '23 October 1999');
+        displayPoint(graphicsLayer, 'Draper Utah Temple', 40.495893, -111.840748, 'Dedicated', '20 March 2009');
+        displayPoint(graphicsLayer, 'Dubai United Arab Emirates Temple', 25.20477714, 55.26861501, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Durban South Africa Temple', -29.708455, 31.073671, 'Dedicated', '16 February 2020');
+        displayPoint(graphicsLayer, 'Edmonton Alberta Temple', 53.489593, -113.570538, 'Dedicated', '11 December 1999');
+        displayPoint(graphicsLayer, 'Eket Nigeria Temple', 4.644235935, 7.944192935, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Elko Nevada Temple', 40.85249525, -115.750084, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Ephraim Utah Temple', 39.36353987, -111.576, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Farmington New Mexico Temple', 36.76909739, -108.1654604, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Feather River California Temple', 39.146344, -121.639963, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Fort Collins Colorado Temple', 40.494269, -105.038685, 'Dedicated', '16 October 2016');
+        displayPoint(graphicsLayer, 'Fort Lauderdale Florida Temple', 26.070899, -80.355727, 'Dedicated', '4 May 2014');
+        displayPoint(graphicsLayer, 'Fort Worth Texas Temple', 32.77245615, -97.32577137, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Fortaleza Brazil Temple', -3.747847, -38.46101, 'Dedicated', '2 June 2019');
+        displayPoint(graphicsLayer, 'Frankfurt Germany Temple', 50.258246, 8.641316, 'Dedicated', '28 August 1987');
+        displayPoint(graphicsLayer, 'Freetown Sierra Leone Temple', 8.38763235, -13.1387593, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Freiberg Germany Temple', 50.922315, 13.322541, 'Dedicated', '29 June 1985');
+        displayPoint(graphicsLayer, 'Fresno California Temple', 36.828257, -119.852911, 'Dedicated', '9 April 2000');
+        displayPoint(graphicsLayer, 'Fukuoka Japan Temple', 33.572618, 130.391704, 'Dedicated', '11 June 2000');
+        displayPoint(graphicsLayer, 'Gilbert Arizona Temple', 33.291378, -111.737365, 'Dedicated', '2 March 2014');
+        displayPoint(graphicsLayer, 'Grand Junction Colorado Temple', 39.10144203, -108.551144, 'Dedicated', 'Under Construction');
+        displayPoint(graphicsLayer, 'Grand Rapids Michigan Temple', 42.96000014, -85.66611994, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Guadalajara Mexico Temple', 20.66155, -103.42307, 'Dedicated', '29 April 2001');
+        displayPoint(graphicsLayer, 'Guatemala City Guatemala Temple', 14.583303, -90.485576, 'Dedicated', '14 December 1984');
+        displayPoint(graphicsLayer, 'Guayaquil Ecuador Temple', -2.156246, -79.904877, 'Dedicated', '1 August 1999');
+        displayPoint(graphicsLayer, 'Halifax Nova Scotia Temple', 44.66999, -63.489038, 'Dedicated', '14 November 1999');
+        displayPoint(graphicsLayer, 'Hamilton New Zealand Temple', -37.826397, 175.224885, 'Dedicated', '20 April 1958');
+        displayPoint(graphicsLayer, 'Harare Zimbabwe Temple', -17.804085, 31.082426, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Hartford Connecticut Temple', 41.73780896, -72.844528, 'Dedicated', '20 November 2016');
+        displayPoint(graphicsLayer, 'Heber Valley Utah Temple', 40.50665493, -111.389284, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Helena Montana Temple', 46.63372488, -112.01924, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Helsinki Finland Temple', 60.225193, 24.781785, 'Dedicated', '22 October 2006');
+        displayPoint(graphicsLayer, 'Hermosillo Sonora Mexico Temple', 29.102548, -110.94687, 'Dedicated', '27 February 2000');
+        displayPoint(graphicsLayer, 'Hong Kong China Temple', 22.34045, 114.177336, 'Dedicated', '26 May 1996');
+        displayPoint(graphicsLayer, 'Houston Texas Temple', 29.999729, -95.533038, 'Dedicated', '26 August 2000');
+        displayPoint(graphicsLayer, 'Huehuetenango Guatemala Temple', 15.31477661, -91.46964097, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Idaho Falls Idaho Temple', 43.499819, -112.0415, 'Dedicated', '23 September 1945');
+        displayPoint(graphicsLayer, 'Indianapolis Indiana Temple', 39.955588, -86.165741, 'Dedicated', '23 August 2015');
+        displayPoint(graphicsLayer, 'Jacksonville Florida Temple', 30.32990727, -81.65909222, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Johannesburg South Africa Temple', -26.178051, 28.039195, 'Dedicated', '24 August 1985');
+        displayPoint(graphicsLayer, 'Jordan River Utah Temple', 40.566354, -111.931417, 'Dedicated', '16 November 1981');
+        displayPoint(graphicsLayer, 'Kananga Democratic Republic of the Congo Temple', -5.91020663, 22.4092446, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Kansas City Missouri Temple', 39.220473, -94.501331, 'Dedicated', '6 May 2012');
+        displayPoint(graphicsLayer, 'Kaohsiung Taiwan Temple', 22.6507433, 120.3455124, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Kinshasa Democratic Republic of the Congo Temple', -4.327478, 15.27371, 'Dedicated', '14 April 2019');
+        displayPoint(graphicsLayer, 'Knoxville Tennessee Temple', 35.95045605, -83.91792244, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Kona Hawaii Temple', 19.641614, -155.985524, 'Dedicated', '23 January 2000');
+        displayPoint(graphicsLayer, 'Kumasi Ghana Temple', 6.71216336, -1.6057237, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Kyiv Ukraine Temple', 50.404517, 30.395565, 'Dedicated', '29 August 2010');
+        displayPoint(graphicsLayer, 'La Paz Bolivia Temple', -16.49916153, -68.11554837, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Lagos Nigeria Temple', 6.511041599, 3.362081587, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Laie Hawaii Temple', 21.647207, -157.930658, 'Dedicated', '27 November 1919');
+        displayPoint(graphicsLayer, 'Las Vegas Nevada Temple', 36.174597, -115.020052, 'Dedicated', '16 December 1989');
+        displayPoint(graphicsLayer, 'Layton Utah Temple', 41.061699, -111.938379, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Lima Peru Los Olivos Temple', -12.019992, -77.054237, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Lima Peru Temple', -12.069713, -76.948897, 'Dedicated', '10 January 1986');
+        displayPoint(graphicsLayer, 'Lindon Utah Temple', 40.33730438, -111.6953838, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Lisbon Portugal Temple', 38.779187, -9.098784, 'Dedicated', '15 September 2019');
+        displayPoint(graphicsLayer, 'Logan Utah Temple', 41.734161, -111.827943, 'Dedicated', '17 May 1884');
+        displayPoint(graphicsLayer, 'London England Temple', 51.162566, -0.052181, 'Dedicated', '7 September 1958');
+        displayPoint(graphicsLayer, 'Londrina Brazil Temple', -23.3215635, -51.18094185, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Lone Mountain Nevada Temple', 36.23619575, -115.304183, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Los Angeles California Temple', 34.052801, -118.433909, 'Dedicated', '11 March 1956');
+        displayPoint(graphicsLayer, 'Louisville Kentucky Temple', 38.32112, -85.488843, 'Dedicated', '19 March 2000');
+        displayPoint(graphicsLayer, 'Lubbock Texas Temple', 33.528961, -101.941413, 'Dedicated', '21 April 2002');
+        displayPoint(graphicsLayer, 'Lubumbashi Democratic Republic of the Congo Temple', -11.64889247, 27.468461, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Maceió Brazil Temple', -9.669293891, -35.73310333, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Madrid Spain Temple', 40.40009, -3.63158, 'Dedicated', '19 March 1999');
+        displayPoint(graphicsLayer, 'Managua Nicaragua Temple', 12.09094774, -86.234252, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Manaus Brazil Temple', -3.073907, -60.089331, 'Dedicated', '10 June 2012');
+        displayPoint(graphicsLayer, 'Manhattan New York Temple', 40.773112, -73.981622, 'Dedicated', '13 June 2004');
+        displayPoint(graphicsLayer, 'Manila Philippines Temple', 14.601356, 121.069818, 'Dedicated', '25 September 1984');
+        displayPoint(graphicsLayer, 'Manti Utah Temple', 39.272906, -111.63376, 'Dedicated', '21 May 1888');
+        displayPoint(graphicsLayer, 'McAllen Texas Temple', 26.268118, -98.211125, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Medford Oregon Temple', 42.373324, -122.932746, 'Dedicated', '16 April 2000');
+        displayPoint(graphicsLayer, 'Melbourne Australia Temple', -37.868774, 145.212622, 'Dedicated', '16 June 2000');
+        displayPoint(graphicsLayer, 'Memphis Tennessee Temple', 35.240752, -89.839334, 'Dedicated', '23 April 2000');
+        displayPoint(graphicsLayer, 'Mendoza Argentina Temple', -32.863757, -68.881592, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Mérida Mexico Temple', 20.965784, -89.631061, 'Dedicated', '8 July 2000');
+        displayPoint(graphicsLayer, 'Meridian Idaho Temple', 43.671022, -116.415115, 'Dedicated', '19 November 2017');
+        displayPoint(graphicsLayer, 'Mesa Arizona Temple', 33.412876, -111.819571, 'Dedicated', '23 October 1927');
+        displayPoint(graphicsLayer, 'Mexico City Benemérito Mexico Temple', 19.32567858, -99.1472321, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Mexico City Mexico Temple', 19.465905, -99.086754, 'Dedicated', '2 December 1983');
+        displayPoint(graphicsLayer, 'Miraflores Guatemala City Guatemala Temple', 14.60723616, -90.544967, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Missoula Montana Temple', 46.8798746, -113.9964113, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Modesto California Temple', 37.70279243, -121.04679, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Monrovia Liberia Temple', 6.312519434, -10.80861057, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Monterrey Mexico Temple', 25.589364, -100.259975, 'Dedicated', '28 April 2002');
+        displayPoint(graphicsLayer, 'Montevideo Uruguay Temple', -34.888444, -56.074088, 'Dedicated', '18 March 2001');
+        displayPoint(graphicsLayer, 'Monticello Utah Temple', 37.877917, -109.347066, 'Dedicated', '26 July 1998');
+        displayPoint(graphicsLayer, 'Montpelier Idaho Temple', 42.31796632, -111.301722, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Montreal Quebec Temple', 45.563335, -73.490616, 'Dedicated', '4 June 2000');
+        displayPoint(graphicsLayer, 'Moses Lake Washington Temple', 47.103441, -119.272362, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Mount Timpanogos Utah Temple', 40.393166, -111.770509, 'Dedicated', '13 October 1996');
+        displayPoint(graphicsLayer, 'Naga Philippines Temple', 13.62139044, 123.1958061, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Nairobi Kenya Temple', -1.26529552, 36.739816, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Nashville Tennessee Temple', 35.948839, -86.860329, 'Dedicated', '21 May 2000');
+        displayPoint(graphicsLayer, 'Nauvoo Illinois Temple', 40.55048, -91.384378, 'Dedicated', '27 June 2002');
+        displayPoint(graphicsLayer, 'Neiafu Tonga Temple', -18.64422855, -173.9776, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Newport Beach California Temple', 33.629627, -117.848766, 'Dedicated', '28 August 2005');
+        displayPoint(graphicsLayer, 'Nuku\'alofa Tonga Temple', -21.162561, -175.27232, 'Dedicated', '9 August 1983');
+        displayPoint(graphicsLayer, 'Oakland California Temple', 37.808027, -122.19912, 'Dedicated', '17 November 1964');
+        displayPoint(graphicsLayer, 'Oaxaca Mexico Temple', 17.041554, -96.713503, 'Dedicated', '11 March 2000');
+        displayPoint(graphicsLayer, 'Ogden Utah Temple', 41.227786, -111.971506, 'Dedicated', '18 January 1972');
+        displayPoint(graphicsLayer, 'Okinawa Japan Temple', 26.358285, 127.801718, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Oklahoma City Oklahoma Temple', 35.591846, -97.7267, 'Dedicated', '30 July 2000');
+        displayPoint(graphicsLayer, 'Oquirrh Mountain Utah Temple', 40.551145, -111.98751, 'Dedicated', '21 August 2009');
+        displayPoint(graphicsLayer, 'Orem Utah Temple', 40.270755, -111.720916, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Orlando Florida Temple', 28.507348, -81.509578, 'Dedicated', '9 October 1994');
+        displayPoint(graphicsLayer, 'Oslo Norway Temple', 59.91340704, 10.74940548, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Pachuca Mexico Temple', 20.06946393, -98.76211901, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Pago Pago American Samoa Temple', -14.333959, -170.73199, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Palmyra New York Temple', 43.039148, -77.237063, 'Dedicated', '6 April 2000');
+        displayPoint(graphicsLayer, 'Panama City Panama Temple', 8.99146, -79.57048, 'Dedicated', '10 August 2008');
+        displayPoint(graphicsLayer, 'Papeete Tahiti Temple', -17.536618, -149.556019, 'Dedicated', '27 October 1983');
+        displayPoint(graphicsLayer, 'Paris France Temple', 48.817892, 2.123171, 'Dedicated', '21 May 2017');
+        displayPoint(graphicsLayer, 'Payson Utah Temple', 40.019258, -111.749175, 'Dedicated', '7 June 2015');
+        displayPoint(graphicsLayer, 'Perth Australia Temple', -31.906905, 115.869834, 'Dedicated', '20 May 2001');
+        displayPoint(graphicsLayer, 'Philadelphia Pennsylvania Temple', 39.959174, -75.168072, 'Dedicated', '18 September 2016');
+        displayPoint(graphicsLayer, 'Phnom Penh Cambodia Temple', 11.569891, 104.895707, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Phoenix Arizona Temple', 33.698555, -112.172329, 'Dedicated', '16 November 2014');
+        displayPoint(graphicsLayer, 'Pittsburgh Pennsylvania Temple', 40.69404827, -80.140918, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Pocatello Idaho Temple', 42.915259, -112.406374, 'Dedicated', '7 November 2021');
+        displayPoint(graphicsLayer, 'Port Moresby Papua New Guinea Temple', -9.477474, 147.176546, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Port Vila Vanuatu Temple', -17.70379129, 168.30421, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Port-au-Prince Haiti Temple', 18.529017, -72.268143, 'Dedicated', '1 September 2019');
+        displayPoint(graphicsLayer, 'Portland Oregon Temple', 45.425345, -122.742224, 'Dedicated', '19 August 1989');
+        displayPoint(graphicsLayer, 'Porto Alegre Brazil Temple', -30.034047, -51.157868, 'Dedicated', '17 December 2000');
+        displayPoint(graphicsLayer, 'Praia Cape Verde Temple', 14.918789, -23.511157, 'Dedicated', '19 June 2022');
+        displayPoint(graphicsLayer, 'Preston England Temple', 53.672476, -2.631275, 'Dedicated', '7 June 1998');
+        displayPoint(graphicsLayer, 'Prosper Texas Temple', 33.2478259, -96.78503523, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Provo City Center Temple', 40.232667, -111.659299, 'Dedicated', '20 March 2016');
+        displayPoint(graphicsLayer, 'Provo Utah Temple', 40.263666, -111.639779, 'Dedicated', '9 February 1972');
+        displayPoint(graphicsLayer, 'Puebla Mexico Temple', 19.085418, -98.235514, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Querétaro Mexico Temple', 20.61335562, -100.410611, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Quetzaltenango Guatemala Temple', 14.846493, -91.542517, 'Dedicated', '11 December 2011');
+        displayPoint(graphicsLayer, 'Quito Ecuador Temple', -0.213711, -78.441018, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Raleigh North Carolina Temple', 35.732111, -78.861542, 'Dedicated', '18 December 1999');
+        displayPoint(graphicsLayer, 'Recife Brazil Temple', -8.03639, -34.911123, 'Dedicated', '15 December 2000');
+        displayPoint(graphicsLayer, 'Red Cliffs Utah Temple', 37.082184, -113.519741, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Redlands California Temple', 34.049037, -117.140579, 'Dedicated', '14 September 2003');
+        displayPoint(graphicsLayer, 'Regina Saskatchewan Temple', 50.420981, -104.54168, 'Dedicated', '14 November 1999');
+        displayPoint(graphicsLayer, 'Reno Nevada Temple', 39.534611, -119.898913, 'Dedicated', '23 April 2000');
+        displayPoint(graphicsLayer, 'Rexburg Idaho Temple', 43.810922, -111.778979, 'Dedicated', '10 February 2008');
+        displayPoint(graphicsLayer, 'Ribeirão Prêto Brazil Temple', -21.1720216, -47.81439708, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Richmond Virginia Temple', 37.672884, -77.535372, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Rio de Janeiro Brazil Temple', -23.000894, -43.399918, 'Dedicated', '8 May 2022');
+        displayPoint(graphicsLayer, 'Rome Italy Temple', 41.970437, 12.544764, 'Dedicated', '10 March 2019');
+        displayPoint(graphicsLayer, 'Russia Temple', 55.76073993, 37.62402682, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Sacramento California Temple', 38.635116, -121.193925, 'Dedicated', '3 September 2006');
+        displayPoint(graphicsLayer, 'Salt Lake Temple', 40.770468, -111.891958, 'Dedicated', '6 April 1893');
+        displayPoint(graphicsLayer, 'Salta Argentina Temple', -24.837197, -65.470001, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Salvador Brazil Temple', -12.929251, -38.386386, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'San Antonio Texas Temple', 29.641481, -98.488789, 'Dedicated', '22 May 2005');
+        displayPoint(graphicsLayer, 'San Diego California Temple', 32.866389, -117.228769, 'Dedicated', '25 April 1993');
+        displayPoint(graphicsLayer, 'San José Costa Rica Temple', 9.986418, -84.184831, 'Dedicated', '4 June 2000');
+        displayPoint(graphicsLayer, 'San Juan Puerto Rico Temple', 18.385623, -66.029896, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'San Luis Potosí Mexico Temple', 22.18079624, -101.0066917, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'San Pedro Sula Honduras Temple', 15.522544, -88.036856, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'San Salvador El Salvador Temple', 13.683347, -89.246822, 'Dedicated', '21 August 2011');
+        displayPoint(graphicsLayer, 'Santa Cruz Bolivia Temple', -17.8118446, -63.1586036, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Santiago Chile Temple', -33.436174, -70.609521, 'Dedicated', '15 September 1983');
+        displayPoint(graphicsLayer, 'Santiago Philippines Temple', 16.68492792, 121.5607624, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Santiago West Chile Temple', -33.51657781, -70.78841488, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Santo Domingo Dominican Republic Temple', 18.466567, -69.917144, 'Dedicated', '17 September 2000');
+        displayPoint(graphicsLayer, 'Santos Brazil Temple', -23.96182906, -46.33093743, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'São Paulo Brazil Temple', -23.585174, -46.722764, 'Dedicated', '30 October 1978');
+        displayPoint(graphicsLayer, 'São Paulo East Brazil Temple', -23.53285643, -46.20147911, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Sapporo Japan Temple', 43.0249, 141.4457, 'Dedicated', '21 August 2016');
+        displayPoint(graphicsLayer, 'Saratoga Springs Utah Temple', 40.34422619, -111.932607, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Seattle Washington Temple', 47.58407, -122.140876, 'Dedicated', '17 November 1980');
+        displayPoint(graphicsLayer, 'Seoul Korea Temple', 37.558913, 126.931286, 'Dedicated', '14 December 1985');
+        displayPoint(graphicsLayer, 'Shanghai People\'s Republic of China Temple', 31.26225233, 121.5044046, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Singapore Temple', 1.27995248, 103.784842, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Smithfield Utah Temple', 41.84012916, -111.852673, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Snowflake Arizona Temple', 34.502494, -110.111607, 'Dedicated', '3 March 2002');
+        displayPoint(graphicsLayer, 'Spokane Washington Temple', 47.620163, -117.22069, 'Dedicated', '21 August 1999');
+        displayPoint(graphicsLayer, 'St. George Utah Temple', 37.100535, -113.578041, 'Dedicated', '6 April 1877');
+        displayPoint(graphicsLayer, 'St. Louis Missouri Temple', 38.639651, -90.464685, 'Dedicated', '1 June 1997');
+        displayPoint(graphicsLayer, 'St. Paul Minnesota Temple', 44.980261, -92.965199, 'Dedicated', '9 January 2000');
+        displayPoint(graphicsLayer, 'Star Valley Wyoming Temple', 42.712073, -110.932532, 'Dedicated', '30 October 2016');
+        displayPoint(graphicsLayer, 'Stockholm Sweden Temple', 59.124676, 18.109177, 'Dedicated', '2 July 1985');
+        displayPoint(graphicsLayer, 'Suva Fiji Temple', -18.119705, 178.438559, 'Dedicated', '18 June 2000');
+        displayPoint(graphicsLayer, 'Sydney Australia Temple', -33.775617, 151.050592, 'Dedicated', '20 September 1984');
+        displayPoint(graphicsLayer, 'Syracuse Utah Temple', 41.099938, -112.076542, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Tacloban City Philippines Temple', 11.16836755, 124.996893, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Tacoma Washington Temple', 47.24802264, -122.4334873, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Taipei Taiwan Temple', 25.031377, 121.527794, 'Dedicated', '17 November 1984');
+        displayPoint(graphicsLayer, 'Tallahassee Florida Temple', 30.520117, -84.238222, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Tampa Florida Temple', 27.94711924, -82.44934723, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Tampico Mexico Temple', 22.254262, -97.855869, 'Dedicated', '20 May 2000');
+        displayPoint(graphicsLayer, 'Tarawa Kiribati Temple', 1.34948484, 173.040061, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Taylorsville Utah Temple', 40.66671159, -111.95411, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Tegucigalpa Honduras Temple', 14.052174, -87.238019, 'Dedicated', '17 March 2013');
+        displayPoint(graphicsLayer, 'Teton River Idaho Temple', 43.860846, -111.781206, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'The Gila Valley Arizona Temple', 32.862971, -109.789974, 'Dedicated', '23 May 2010');
+        displayPoint(graphicsLayer, 'The Hague Netherlands Temple', 52.054487, 4.502979, 'Dedicated', '8 September 2002');
+        displayPoint(graphicsLayer, 'Tijuana Mexico Temple', 32.488713, -116.929441, 'Dedicated', '13 December 2015');
+        displayPoint(graphicsLayer, 'Tokyo Japan Temple', 35.652838, 139.724539, 'Dedicated', '27 October 1980');
+        displayPoint(graphicsLayer, 'Toluca Mexico Temple', 19.28244316, -99.65490348, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Toronto Ontario Temple', 43.744338, -79.746059, 'Dedicated', '25 August 1990');
+        displayPoint(graphicsLayer, 'Torreón Mexico Temple', 25.55331849, -103.499227, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Trujillo Peru Temple', -8.100149, -79.058515, 'Dedicated', '21 June 2015');
+        displayPoint(graphicsLayer, 'Tucson Arizona Temple', 32.338454, -110.949174, 'Dedicated', '13 August 2017');
+        displayPoint(graphicsLayer, 'Tula Mexico Temple', 20.05333406, -99.3387194, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Tuxtla Gutiérrez Mexico Temple', 16.764164, -93.159155, 'Dedicated', '12 March 2000');
+        displayPoint(graphicsLayer, 'Twin Falls Idaho Temple', 42.586827, -114.441509, 'Dedicated', '24 August 2008');
+        displayPoint(graphicsLayer, 'Urdaneta Philippines Temple', 15.938567, 120.581762, 'Construction', 'Under Construction');
+        displayPoint(graphicsLayer, 'Vancouver British Columbia Temple', 49.151212, -122.658009, 'Dedicated', '2 May 2010');
+        displayPoint(graphicsLayer, 'Veracruz Mexico Temple', 19.13441, -96.10626, 'Dedicated', '9 July 2000');
+        displayPoint(graphicsLayer, 'Vernal Utah Temple', 40.453205, -109.537413, 'Dedicated', '2 November 1997');
+        displayPoint(graphicsLayer, 'Vienna Austria Temple', 48.21633708, 16.36947795, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Villahermosa Mexico Temple', 17.981276, -92.937375, 'Dedicated', '21 May 2000');
+        displayPoint(graphicsLayer, 'Vitória Brazil Temple', -20.3160631, -40.32076995, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Washington D.C. Temple', 39.014079, -77.065624, 'Dedicated', '19 Nobember 1974');
+        displayPoint(graphicsLayer, 'Wellington New Zealand', -41.28903315, 174.7671191, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Wichita Kansas Temple', 37.68296071, -97.32889622, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Willamette Valley Oregon Temple', 44.08885894, -123.03278, 'Announced', 'Announced');
+        displayPoint(graphicsLayer, 'Winnipeg Manitoba Temple', 49.800544, -97.195212, 'Dedicated', '31 October 2021');
+        displayPoint(graphicsLayer, 'Winter Quarters Nebraska Temple', 41.334075, -95.96619, 'Dedicated', '22 April 2001');
+        displayPoint(graphicsLayer, 'Yigo Guam Temple', 13.541741, 144.890143, 'Dedicated', '22 May 2022');
+        displayPoint(graphicsLayer, 'Yorba Linda California Temple', 33.8983749, -117.834721, 'Construction', 'Under Construction');
+
+      });
+    </script>
+
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>
