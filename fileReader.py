@@ -13,4 +13,6 @@ for line in temple_dicts:
     print(f"displayPoint(graphicsLayer, '{line['Temple']}', {line['Latitude']}, {line['Longitude']}, '{line['Status']}', '{line['Dedication Date']}');")
     count = count + 1
 
+area_dicts = []
+
 print(f"Imported {count} temples.")  # This line of code is just to make sure that each temple was imported from the CSV file.
