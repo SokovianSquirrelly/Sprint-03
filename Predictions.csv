@@ -4,7 +4,7 @@ Aguascalientes Mexico,21.92587267,-102.3184713,Medium
 Albany New York,42.65322083,-73.76292648,Low
 Alpine Utah,40.45336705,-111.7774411,Medium
 Amarillo Texas,35.21928086,-101.8419206,Very Low
-Ammon Idaho,43.46980391,-111.9665612,Low
+Ammon Idaho,43.46980391,-111.9665612,Medium-Low
 Angeles Philippines,15.14262959,120.5925716,Medium-Low
 Augusta Maine,44.34003404,-69.79361849,Low
 Baguio Philippines,16.39920553,120.5904212,Medium-Low
@@ -14,6 +14,7 @@ Bend Oregon,44.05851632,-121.3146477,Low
 Blackfoot Idaho,43.19238968,-112.3493034,Low
 Bremerton Washington,47.56567631,-122.6307746,Medium-Low
 Caldwell/Nampa Idaho,43.63062917,-116.6271351,Medium-Low
+Campo Grande Brazil,-20.391495241162566,-54.6422517938049,Medium-Low
 Cardiff Wales,51.48510701,-3.172422409,Low
 Carlsbad/Oceanside California,33.16549593,-117.3498593,Low
 Charleston West Virginia,38.34572804,-81.62966251,Medium-Low
@@ -23,6 +24,7 @@ Ciudad Victoria Mexico,23.78404616,-99.1729901,Low
 Corpus Christi Texas,27.80167905,-97.40135366,Low
 Cuiabá Brazil,-15.62527767,-56.0627967,Medium-Low
 Curitiba East Brazil,-25.44621345,-49.04232099,Medium-Low
+Dayton Ohio,39.764382809197556,-84.19521495238827,Low
 Dover Deleware,39.15782401,-75.52587075,Low
 Durango Mexico,24.05133309,-104.6552452,Low
 Düsseldorf Germany,51.22807306,6.768046653,Low
@@ -31,7 +33,9 @@ Everet Washington,47.98525851,-122.193783,Low
 Farmington Utah,40.97943152,-111.8847556,Medium
 Fayetteville North Carolina,35.05507907,-78.87490395,Low
 Flagstaff Arizona,35.18849488,-111.6739899,Medium-Low
+Fort Wayne Indiana,41.08382764108584,-85.15390045493702,Very Low
 Gillette Wyoming,44.29450746,-105.4989104,Low
+Great Falls Montana,47.5130177064575,-111.3093006094927,Low
 Greenville South Carolina,34.85303392,-82.40036017,Low
 Henderson Nevada,36.04595701,-114.9826913,Medium-High
 Herriman Utah,40.51489763,-112.0355307,Medium-High
@@ -39,8 +43,10 @@ Holladay Utah,40.66861026,-111.823312,Medium-High
 Hurricane Utah,37.17601986,-113.2808453,Medium-Low
 Hyrum/Wellsville Utah,41.63399986,-111.8528125,Medium
 Ibadan Nigeria,7.383957621,3.941919311,Medium
+Ica Peru,-14.075483469062217,-75.73993858430981,Low
 Jackson Mississippi,32.31363097,-90.18340027,Low
 Kanab Utah,37.04330517,-112.5328085,Low
+Kanesville Utah,41.19029711258977,-112.0864915131822,Medium
 Kearns Utah,40.66085918,-111.9961124,Medium-Low
 Kingston Jamaica,18.0311493,-76.80482869,Low
 La Grande Oregon,45.32427079,-118.0868186,Low
@@ -67,7 +73,11 @@ Montgomery Alabama,32.37929231,-86.32146659,Very Low
 Morelia Mexico,19.71017566,-101.1982015,Low
 Morgan Utah,41.03591044,-111.6764792,Low
 Munich Germany,48.18706084,11.59532122,Low
+Nephi Utah,39.7102434791016,-111.83628922521004,Low
 New Delhi India,28.61746294,77.18556037,Low
+Norfolk Virginia,36.849669788490104,-76.28355390579148,Medium-Low
+Nouméa New Caledonia,-22.28153028583601,166.45104660249137,Low
+Olympia Washington,47.047299980603356,-122.89912539025339,Low
 Ottawa Ontario,45.42248008,-75.69319533,Low
 Pelotas Brazil,-31.77793149,-52.35013587,Medium-Low
 Pleasant View Utah,41.31961981,-111.993703,Medium-High
@@ -75,6 +85,7 @@ Port Harcourt Nigeria,4.868272836,6.987092658,High
 Port of Spain Trinidad and Tobago,10.67916767,-61.52050692,Low
 Porto-Novo Benin,6.477464935,2.619364507,Low
 Poza Rica Mexico,20.52936332,-97.45127556,Medium-Low
+Prague Czechia,50.08218163127964,14.406727477227777,Very Low
 Prescott Arizona,34.55872605,-112.4416195,Medium-Low
 Puerto Princesa Philippines,9.852283984,118.7596461,Medium-Low
 Quevedo Ecuador,-1.010161004,-79.45672511,Low
@@ -84,10 +95,11 @@ Renosa Mexico,26.05052376,-98.3069425,Low
 Resistencia Argentina,-27.45633478,-58.98802478,Medium
 Richfield Utah,38.77665428,-112.0883089,Medium
 Riga Latvia,56.98557799,24.1240446,Very Low
-Rigby Idaho,43.67090826,-111.9122482,Very Low
+Rigby Idaho,43.67090826,-111.9122482,Low
 Riverton Utah,40.52145205,-111.9391967,Medium
 Rock Springs/Evanston Wyoming,41.44607657,-110.0669998,Medium-High
 Roseville California,38.75082888,-121.2976612,Low
+Salem Oregon,44.94030571547752,-123.03984008789278,Low
 Saltilo Mexico,25.42887031,-101.0050513,Medium-Low
 San Francisco California,37.77687896,-122.4192731,Low
 Sandy Utah,40.56389136,-111.8391255,Medium
