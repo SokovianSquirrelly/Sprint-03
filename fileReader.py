@@ -2,7 +2,7 @@ import csv
 
 temple_dicts = []
 
-with open("ChurchofJesusChristTemples.csv", 'r') as file:
+with open("ChurchofJesusChristTemples.csv", 'r', encoding="utf-8") as file:
     csvreader = csv.DictReader(file)
     for row in csvreader:
         temple_dicts.append(row)
@@ -19,7 +19,7 @@ print(f"Imported {count} temples.")  # This line of code is just to make sure th
 
 prediction_dicts = []
 
-with open("Predictions.csv", 'r') as p_file:
+with open("Predictions.csv", 'r', encoding="utf-8") as p_file:
     csv_prediction_reader = csv.DictReader(p_file)
     for row in csv_prediction_reader:
         prediction_dicts.append(row)
