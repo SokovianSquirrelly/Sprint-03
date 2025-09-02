@@ -1,6 +1,6 @@
 Temple,Status,Latitude,Longitude,Dedication Date
 Aba Nigeria Temple,Dedicated,5.147644,7.356719,#121: 7 August 2005
-Abidjan Ivory Coast Temple,Construction,5.362307,-3.976865,Under Construction
+Abidjan Ivory Coast Temple,Dedicated,5.362307,-3.976865,#205: 25 May 2025
 Abuja Nigeria Temple,Unknown Location,9.068382757,7.41209401,Announced - Location TBD
 Accra Ghana Temple,Dedicated,5.56749,-0.193706,#117: 11 January 2004
 Adelaide Australia Temple,Dedicated,-34.892473,138.635002,#89: 15 June 2000
@@ -8,12 +8,12 @@ Alabang Philippines Temple,Construction,14.412913,121.037838,Under Construction
 Albuquerque New Mexico Temple,Dedicated,35.167684,-106.525301,#73: 5 March 2000
 Anchorage Alaska Temple,Dedicated,61.101627,-149.840512,#54: 9 January 1999
 Antananarivo Madagascar Temple,Construction,-18.85393042,47.478333,Under Construction
-Antofagasta Chile Temple,Construction,-23.571891,-70.394525,Under Construction
+Antofagasta Chile Temple,Dedicated,-23.571891,-70.394525,#207: 15 June 2025
 Apia Samoa Temple,Dedicated,-13.838064,-171.783034,#22: 5 August 1983
 Arequipa Peru Temple,Dedicated,-16.375203,-71.538477,#167: 15 December 2019
 Asunción Paraguay Temple,Dedicated,-25.287916,-57.602869,#112: 19 May 2002
 Atlanta Georgia Temple,Dedicated,33.931896,-84.362394,#21: 1 June 1983
-Auckland New Zealand Temple,Construction,-36.993227,174.890191,Under Construction
+Auckland New Zealand Temple,Dedicated,-36.993227,174.890191,#203: 13 April 2025
 Austin Texas Temple,Construction,30.51681449,-97.79687,Under Construction
 Bacolod Philippines Temple,Construction,10.696648,122.989455,Under Construction
 Bahía Blanca Argentina Temple,Construction,-38.69117,-62.235937,Under Construction
@@ -26,7 +26,7 @@ Beira Mozambique Temple,Announced,-19.84590986,34.8551898,Announced
 Belém Brazil Temple,Dedicated,-1.387242,-48.459894,#174: 20 November 2022
 Belo Horizonte Brazil Temple,Construction,-19.88029952,-43.978604,Under Construction
 Bengaluru India Temple,Construction,12.992096,77.704714,Under Construction
-Benin City Nigeria Temple,Announced,6.31456524,5.62516446,Announced
+Benin City Nigeria Temple,Construction,6.31456524,5.62516446,Under Construction
 Bentonville Arkansas Temple,Dedicated,36.38500576,-94.183255,#181: 17 September 2023
 Bern Switzerland Temple,Dedicated,47.002192,7.458244,#9: 11 September 1955
 Billings Montana Temple,Dedicated,45.800505,-108.63939,#66: 29 November 1999
@@ -38,12 +38,12 @@ Boise Idaho Temple,Dedicated,43.593523,-116.275034,#27: 25 May 1984
 Boston Massachusetts Temple,Dedicated,42.412002,-71.188091,#100: 1 October 2000
 Bountiful Utah Temple,Dedicated,40.882853,-111.846812,#47: 8 January 1995
 Brasília Brazil Temple,Dedicated,-15.747835,-47.880945,#180: 17 September 2023
-Brazzaville Republic of the Congo Temple,Unknown Location,-4.274732537,15.27674633,Announced - Location TBD
+Brazzaville Republic of the Congo Temple,Construction,-4.28276597,15.2584706,Under Construction
 Brigham City Utah Temple,Dedicated,41.505376,-112.016592,#139: 23 September 2012
 Brisbane Australia Temple,Dedicated,-27.480886,153.033841,#115: 15 June 2003
 Brisbane Australia South Temple,Unknown Location,-27.8548711,153.2743938,Announced - Location TBD
 Brussels Belgium Temple,Announced,50.84171761,4.36710126,Announced
-Budapest Hungary Temple,Announced,47.57024544,19.00634892,Announced
+Budapest Hungary Temple,Construction,47.57024544,19.00634892,Under Construction
 Buenos Aires Argentina Temple,Dedicated,-34.729286,-58.518225,#39: 17 January 1986
 Buenos Aires City Center Argentina Temple,Announced,-34.59917085,-58.37306,Announced
 Burley Idaho Temple,Construction,42.52659109,-113.764841,Under Construction
@@ -67,7 +67,7 @@ Charlotte North Carolina Temple,Announced,35.00752312,-80.76566731,Announced
 Chicago Illinois Temple,Dedicated,42.086829,-87.859501,#35: 9 August 1985
 Chiclayo Peru Temple,Unknown Location,-6.613733205,-79.85253256,Announced - Location TBD
 Chorrillos Peru Temple,Unknown Location,-12.185003362189153,-77.0078904912467,Announced - Location TBD
-Chuhuahua Mexico Temple,Unknown Location,28.6438,-106.063,Announced - Location TBD
+Chuhuahua Mexico Temple,Announced,28.64373023,-106.14986,Announced
 Cincinatti Ohio Temple,Announced,39.32725034,-84.3168764,Announced
 Ciudad Juárez Mexico Temple,Dedicated,31.736269,-106.463209,#71: 26 February 2000
 Cleveland Ohio Temple,Construction,41.39986912,-81.636826,Under Construction
@@ -99,12 +99,12 @@ Dublin Ireland Temple,Unknown Location,53.36665548,-6.248620118,Announced - Loca
 Durban South Africa Temple,Dedicated,-29.708455,31.073671,#168: 16 February 2020
 Edinburgh Scotland Temple,Unknown Location,55.95255557,-3.198201227,Announced - Location TBD
 Edmonton Alberta Temple,Dedicated,53.489593,-113.570538,#67: 11 December 1999
-Eket Nigeria Temple,Unknown Location,4.647051928,7.941908618,Announced - Location TBD
+Eket Nigeria Temple,Announced,4.65805213,7.96820663,Announced
 El Paso Texas Temple,Unknown Location,31.77263212,-106.4824223,Announced - Location TBD
 Elko Nevada Temple,Construction,40.85249525,-115.750084,Under Construction
 Ephraim Utah Temple,Construction,39.36353987,-111.576,Under Construction
 Fairbanks Alaska Temple,Announced,64.84835925,-147.85293,Announced
-Farmington New Mexico Temple,Construction,36.76909739,-108.1654604,Under Construction
+Farmington New Mexico Temple,Dedicated,36.76909739,-108.1654604,#208: 17 August 2025
 Feather River California Temple,Dedicated,39.146344,-121.639963,#184: 8 October 2023
 Flagstaff Arizona Temple,Unknown Location,35.18849488,-111.6739899,Announced - Location TBD
 Florianópolis Brazil Temple,Announced,-27.59219248,-48.61723,Announced
@@ -163,13 +163,13 @@ Kona Hawaii Temple,Dedicated,19.641614,-155.985524,#70: 23 January 2000
 Kumasi Ghana Temple,Announced,6.70235776,-1.64114052,Announced
 Kyiv Ukraine Temple,Dedicated,50.404517,30.395565,#134: 29 August 2010
 La Paz Bolivia Temple,Announced,-16.54418267,-68.08986,Announced
-Lagos Nigeria Temple,Announced,6.44490729,3.43138695,Announced
+Lagos Nigeria Temple,Construction,6.44490729,3.43138695,Under Construction
 Laie Hawaii Temple,Dedicated,21.647207,-157.930658,#5: 17 November 1919
 Laoag Philippines Temple,Unknown Location,18.21511834,120.5853743,Announced - Location TBD
 Las Vegas Nevada Temple,Dedicated,36.174597,-115.020052,#43: 16 December 1989
 Layton Utah Temple,Dedicated,41.061699,-111.938379,#195: 16 June 2024
 Lehi Utah Temple,Announced,40.43932614,-111.85131,Announced
-Lethbridge Alberta Temple,Announced,49.67041434,-112.91089,Announced
+Lethbridge Alberta Temple,Construction,49.67041434,-112.91089,Under Construction
 Lima Peru Los Olivos Temple,Dedicated,-12.019992,-77.054237,#187: 14 January 2024
 Lima Peru Temple,Dedicated,-12.069713,-76.948897,#38: 10 January 1986
 Lindon Utah Temple,Construction,40.33730438,-111.6953838,Under Construction
@@ -220,9 +220,9 @@ Montreal Quebec Temple,Dedicated,45.563335,-73.490616,#86: 4 June 2000
 Moses Lake Washington Temple,Dedicated,47.103441,-119.272362,#182: 17 September 2023
 Mount Timpanogos Utah Temple,Dedicated,40.393166,-111.770509,#49: 13 October 1996
 Naga Philippines Temple,Unknown Location,13.62256467,123.1958573,Announced - Location TBD
-Nairobi Kenya Temple,Construction,-1.26529552,36.739816,Under Construction
+Nairobi Kenya Temple,Dedicated,-1.26529552,36.739816,#204: 18 May 2025
 Nashville Tennessee Temple,Dedicated,35.948839,-86.860329,#84: 21 May 2000
-Natal Brazil Temple,Announced,-5.87785295,-35.222713,Announced
+Natal Brazil Temple,Construction,-5.87785295,-35.222713,Under Construction
 Nauvoo Illinois Temple,Dedicated,40.55048,-91.384378,#113: 27 June 2002
 Neiafu Tonga Temple,Construction,-18.64422855,-173.9776,Under Construction
 Newport Beach California Temple,Dedicated,33.629627,-117.848766,#122: 28 August 2005
@@ -317,7 +317,7 @@ Savai'i Samoa Temple,Announced,-13.75189602,-172.2318,Announced
 Seattle Washington Temple,Dedicated,47.58407,-122.140876,#19: 21 November 1980
 Seoul Korea Temple,Dedicated,37.558913,126.931286,#37: 14 December 1985
 Shanghai People's Republic of China Temple,Unknown Location,31.28296972,121.4306199,Announced - Location TBD
-Singapore Temple,Announced,1.27995248,103.784842,Announced
+Singapore Temple,Construction,1.27995248,103.784842,Under Construction
 Smithfield Utah Temple,Construction,41.84012916,-111.852673,Under Construction
 Snowflake Arizona Temple,Dedicated,34.502494,-110.111607,#108: 3 March 2002
 Spanish Fork Utah Temple,Unknown Location,40.115175902250776,-111.65494250734477,Announced - Location TBD
@@ -331,12 +331,12 @@ Stockholm Sweden Temple,Dedicated,59.124676,18.109177,#34: 2 July 1985
 Summit New Jersey Temple,Unknown Location,40.714524958796105,-74.36401957509673,Announced - Location TBD
 Suva Fiji Temple,Dedicated,-18.119705,178.438559,#91: 18 June 2000
 Sydney Australia Temple,Dedicated,-33.775617,151.050592,#28: 20 September 1984
-Syracuse Utah Temple,Construction,41.099938,-112.076542,Under Construction
+Syracuse Utah Temple,Dedicated,41.099938,-112.076542,#206: 8 June 2025
 Tacloban City Philippines Temple,Construction,11.22377084,124.984491,Under Construction
 Tacoma Washington Temple,Announced,47.27419368,-122.316361,Announced
 Taipei Taiwan Temple,Dedicated,25.031377,121.527794,#31: 17 November 1984
 Tallahassee Florida Temple,Dedicated,30.520117,-84.238222,#202: 8 December 2024
-Tampa Florida Temple,Announced,27.86733023,-82.266875,Announced
+Tampa Florida Temple,Construction,27.86733023,-82.266875,Under Construction
 Tampico Mexico Temple,Dedicated,22.254262,-97.855869,#83: 20 May 2000
 Tarawa Kiribati Temple,Construction,1.34948484,173.040061,Under Construction
 Taylorsville Utah Temple,Dedicated,40.66671159,-111.95411,#192: 2 June 2024
@@ -362,7 +362,7 @@ Urdaneta Philippines Temple,Dedicated,15.938567,120.581762,#190: 28 April 2024
 Uturoa French Polynesia Temple,Unknown Location,-16.72863133,-151.4446896,Announced - Location TBD
 Uyo Nigeria Temple,Unknown Location,5.038724864,7.911893553,Announced - Location TBD
 Vancouver British Columbia Temple,Dedicated,49.151212,-122.658009,#131: 2 May 2010
-Vancouver Washington Temple,Announced,45.60772261,-122.46934,Announced
+Vancouver Washington Temple,Construction,45.60772261,-122.46934,Under Construction
 Veracruz Mexico Temple,Dedicated,19.13441,-96.10626,#93: 9 July 2000
 Vernal Utah Temple,Dedicated,40.453205,-109.537413,#51: 2 November 1997
 Victoria British Columbia Temple,Unknown Location,48.4362471,-123.3651176,Announced - Location TBD
@@ -371,11 +371,11 @@ Villahermosa Mexico Temple,Dedicated,17.981276,-92.937375,#85: 21 May 2000
 Viña del Mar Chile Temple,Announced,-33.02085481,-71.5456912,Announced
 Vitória Brazil Temple,Announced,-20.29637999,-40.304767,Announced
 Washington D.C. Temple,Dedicated,39.014079,-77.065624,#16: 19 November 1974
-Wellington New Zealand Temple,Announced,-41.12326075,174.85459,Announced
+Wellington New Zealand Temple,Construction,-41.12326075,174.85459,Under Construction
 West Jordan Utah Temple,Announced,40.62037187,-112.06863,Announced
 Wichita Kansas Temple,Construction,37.77509379,-97.373413,Under Construction
 Willamette Valley Oregon Temple,Construction,44.08885894,-123.03278,Under Construction
-Winchester Virginia Temple,Announced,39.18827326,-78.1913495,Announced
+Winchester Virginia Temple,Construction,39.18827326,-78.1913495,Under Construction
 Winnipeg Manitoba Temple,Dedicated,49.800544,-97.195212,#169: 31 October 2021
 Winter Quarters Nebraska Temple,Dedicated,41.334075,-95.96619,#104: 22 April 2001
 Yigo Guam Temple,Dedicated,13.541741,144.890143,#172: 22 May 2022

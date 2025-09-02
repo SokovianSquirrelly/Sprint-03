@@ -13,12 +13,16 @@ Batangas Philippines,13.76164971,121.0579509,Low
 Bend Oregon,44.05851632,-121.3146477,Low
 Blackfoot Idaho,43.19238968,-112.3493034,Low
 Bremerton Washington,47.56567631,-122.6307746,Medium-Low
+Bulawayo Zimbabwe,-20.13978977811059,28.590687948013628,Medium-Low
 Cardiff Wales,51.48510701,-3.172422409,Low
 Carlsbad/Oceanside California,33.16549593,-117.3498593,Low
 Charleston West Virginia,38.34572804,-81.62966251,Medium-Low
+Chattanooga Tennessee,35.05046938750067,-85.2964494337982,Very Low
 Cheyenne Wyoming,41.14002233,-104.8327946,Medium-Low
 Chimbote Peru,-9.060844476,-78.59567479,Medium
+Christchurch New Zealand,-43.523504296799885,172.62244971678425,Low
 Ciudad Victoria Mexico,23.78404616,-99.1729901,Low
+Concord New Hampshire,43.205390071311115,-71.53676774599889,Medium-Low
 Corpus Christi Texas,27.80167905,-97.40135366,Low
 Cuiabá Brazil,-15.62527767,-56.0627967,Medium-Low
 Curitiba East Brazil,-25.44621345,-49.04232099,Medium-Low
@@ -31,8 +35,10 @@ Everett Washington,47.98525851,-122.193783,Medium
 Farmington Utah,40.97943152,-111.8847556,Medium
 Fayetteville North Carolina,35.05507907,-78.87490395,Low
 Fort Wayne Indiana,41.08382764108584,-85.15390045493702,Very Low
+Gaborone Botswana,-24.634784464069153,25.866067412445766,Low
 Gillette Wyoming,44.29450746,-105.4989104,Low
 Great Falls Montana,47.5130177064575,-111.3093006094927,Low
+Guayaquil Ecuador (Second Temple),-2.2686637584793345,-79.92454426370176,Medium-High
 Henderson Nevada,36.04595701,-114.9826913,Medium-High
 Herriman Utah,40.51489763,-112.0355307,Medium-High
 Holladay Utah,40.66861026,-111.823312,Medium-High
@@ -51,13 +57,16 @@ La Paz Mexico,24.14977587,-110.3103126,Low
 La Serena Chile,-29.89291855,-71.26069958,Low
 Lake Havasu Arizona,34.48457157,-114.3248853,Very Low
 Lancaster California,34.70189463,-118.1679513,Low
+Lilongwe Malawi,-13.975249185875292,33.77158580175173,Medium
 Little Rock Arkansas,34.75550083,-92.28463574,Medium-Low
 Lomé Togo,6.142339021,1.211280021,Medium-Low
 Longview/Tyler Texas,32.50152019,-94.74677801,Low
+Lusaka Zambia,-15.361907033760845,28.258767585807888,Low
 Machala Ecuador,-3.256184058,-79.94442081,Medium
 Mackay Idaho,43.91359237,-113.6100397,Very Low
 Magna Utah,40.7093452,-112.1016643,Medium
 Majuro Marshall Islands,7.145652239,171.0356131,Low
+Mapleton Utah,40.13008440383042,-111.57767983326497,Medium-Low
 Mesa East Arizona,33.41507233,-111.6239139,Low
 Mexicali Mexico,32.62555043,-115.4574173,Low
 Midland/Odessa Texas,31.9226405,-102.2331263,Low
@@ -69,7 +78,9 @@ Montgomery Alabama,32.37929231,-86.32146659,Very Low
 Morelia Mexico,19.71017566,-101.1982015,Low
 Morgan Utah,41.03591044,-111.6764792,Low
 Munich Germany,48.18706084,11.59532122,Low
+Murrieta/Temecula California,33.56103597324433,-117.21108949664234,Low
 Nephi Utah,39.7102434791016,-111.83628922521004,Low
+Neuquen Argentina,-38.95228181779362,-68.05882504719509,Medium
 New Delhi India,28.61746294,77.18556037,Very Low
 Olympia Washington,47.047299980603356,-122.89912539025339,Low
 Ottawa Ontario,45.42248008,-75.69319533,Low
@@ -81,16 +92,18 @@ Porto-Novo Benin,6.477464935,2.619364507,Low
 Poza Rica Mexico,20.52936332,-97.45127556,Medium-Low
 Prague Czechia,50.08218163127964,14.406727477227777,Very Low
 Prescott Arizona,34.55872605,-112.4416195,Medium-Low
+Pretoria South Africa,-25.75536502007422,28.192140847037358,Medium
 Puerto Princesa Philippines,9.852283984,118.7596461,Medium-Low
 Quevedo Ecuador,-1.010161004,-79.45672511,Low
 Rancho Cucamonga California,34.10661581,-117.5917831,Medium-Low
+Redding California,40.576712766715374,-122.39211794994095,Low
 Resistencia Argentina,-27.45633478,-58.98802478,Medium
 Richfield Utah,38.77665428,-112.0883089,Medium
 Riga Latvia,56.98557799,24.1240446,Very Low
-Rigby Idaho,43.67090826,-111.9122482,Low
+Rigby Idaho,43.67090826,-111.9122482,Medium-Low
 Riverton Utah,40.52145205,-111.9391967,Medium
 Rock Springs/Evanston Wyoming,41.44607657,-110.0669998,Medium-High
-Roseville California,38.75082888,-121.2976612,Low
+Roseville California,38.75082888,-121.2976612,Very Low
 Salem Oregon,44.94030571547752,-123.03984008789278,Low
 Saltilo Mexico,25.42887031,-101.0050513,Medium-Low
 San Francisco California,37.77687896,-122.4192731,Low
@@ -102,6 +115,7 @@ Shreveport Louisiana,32.52045112,-93.75447907,Low
 Sorocaba Brazil,-23.4709019,-47.48725479,Low
 Tacna Peru,-18.01055498,-70.25276321,Medium-High
 Taichung Taiwan,24.17227737,120.6728011,Medium-Low
+Takoradi Ghana,4.928754137396878,-1.7982306698162764,Medium-Low
 Tapachula Mexico,14.90538243,-92.26199801,Medium
 Tasmania Australia,-42.89428501,147.3102994,Low
 Temuco Chile,-38.76535709,-72.59596274,Medium-Low
@@ -118,3 +132,4 @@ Vilnius Lithuania,54.70203048,25.2897893,Low
 West Valley City Utah,40.69004173,-111.9992619,Low
 Windhoek Namibia,-22.56405229,17.07938785,Low
 Xalapa Mexico,19.56037079,-96.90014502,Low
+Yaoundé Cameroon,3.8631741688695103,11.508374053797805,Low
