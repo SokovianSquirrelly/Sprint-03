@@ -1,0 +1,1219 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Temple Locations</title>
+
+    <style>
+      html,
+      body,
+      #viewDiv {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/4.24/esri/themes/light/main.css"
+    />
+    <script src="https://js.arcgis.com/4.24/"></script>
+
+    <script>
+      require([
+        "esri/config",
+        "esri/Map",
+        "esri/views/MapView",
+        "esri/Graphic",
+        "esri/layers/GraphicsLayer",
+      ], function (config, Map, MapView, Graphic, GraphicsLayer) {
+        const map = new Map({
+          basemap: "gray-vector", // Basemap layer service
+        });
+
+        // This is the view that shows up when you first open the application.  It's zoomed in on Rexburg, Idaho.
+
+        const view = new MapView({
+          map: map,
+          center: [-111.792, 43.823], // Longitude, latitude
+          zoom: 12, // Zoom level
+          container: "viewDiv", // Div element
+        });
+
+        const graphicsLayer = new GraphicsLayer();
+        map.add(graphicsLayer);
+
+        function displayPoint(
+          graphicsLayer,
+          name,
+          latitude,
+          longitude,
+          status,
+          dedDate
+        ) {
+          const point = {
+            type: "point",
+            longitude: longitude,
+            latitude: latitude,
+          };
+
+          let color = [0, 0, 0];
+
+          switch (status) {
+            case "Dedicated":
+              color = [0, 255, 0]; // Green
+              break;
+            case "Construction":
+              color = [255, 255, 0]; // Yellow
+              break;
+            case "Announced":
+              color = [255, 165, 0]; // Orange
+              break;
+            case "Unknown Location":
+              color = [255, 0, 0]; // Red
+              break;
+            case "Prediction":
+              color = [128, 128, 128]; // Gray
+              break;
+          }
+
+          const simpleMarkerSymbol = {
+            type: "simple-marker",
+            color: color,
+            outline: {
+              color: [0, 0, 0],
+              width: 1,
+            },
+          };
+
+          const popupTemplate = {
+            title: "{Name}",
+            content: "{Dedication}",
+          };
+
+          const attributes = {
+            Name: name,
+            Dedication: dedDate,
+          };
+
+          const pointGraphic = new Graphic({
+            geometry: point,
+            symbol: simpleMarkerSymbol,
+            attributes: attributes,
+            popupTemplate: popupTemplate,
+          });
+          graphicsLayer.add(pointGraphic);
+        }
+
+        // Here is a list of every single temple and the relevant information for this map.
+
+        async function getTempleData() {
+          const response = await fetch("data/confirmedTemples.json");
+
+          if (response.ok) {
+            const data = await response.json();
+            displayTemples(data);
+          }
+        }
+
+        function displayTemples(data) {
+          data.forEach((temple) => {
+            displayPoint(
+              graphicsLayer,
+              temple.name,
+              temple.latitude,
+              temple.longitude,
+              temple.status,
+              temple.dedication_date
+            );
+          });
+        }
+
+        getTempleData();
+
+        // Predictions
+
+        displayPoint(
+          graphicsLayer,
+          "Acapulco Mexico",
+          16.8619186,
+          -99.88923666,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Aguascalientes Mexico",
+          21.92587267,
+          -102.3184713,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Albany New York",
+          42.65322083,
+          -73.76292648,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Alpine Utah",
+          40.45336705,
+          -111.7774411,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Amarillo Texas",
+          35.21928086,
+          -101.8419206,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Ammon Idaho",
+          43.46980391,
+          -111.9665612,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Angeles Philippines",
+          15.14262959,
+          120.5925716,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Augusta Maine",
+          44.34003404,
+          -69.79361849,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Baguio Philippines",
+          16.39920553,
+          120.5904212,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Baltimore Maryland",
+          39.29640352,
+          -76.61258241,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Batangas Philippines",
+          13.76164971,
+          121.0579509,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Bend Oregon",
+          44.05851632,
+          -121.3146477,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Blackfoot Idaho",
+          43.19238968,
+          -112.3493034,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Bremerton Washington",
+          47.56567631,
+          -122.6307746,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Bulawayo Zimbabwe",
+          -20.13978977811059,
+          28.590687948013628,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Cardiff Wales",
+          51.48510701,
+          -3.172422409,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Carlsbad/Oceanside California",
+          33.16549593,
+          -117.3498593,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Charleston West Virginia",
+          38.34572804,
+          -81.62966251,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Chattanooga Tennessee",
+          35.05046938750067,
+          -85.2964494337982,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Cheyenne Wyoming",
+          41.14002233,
+          -104.8327946,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Chimbote Peru",
+          -9.060844476,
+          -78.59567479,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Christchurch New Zealand",
+          -43.523504296799885,
+          172.62244971678425,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Ciudad Victoria Mexico",
+          23.78404616,
+          -99.1729901,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Concord New Hampshire",
+          43.205390071311115,
+          -71.53676774599889,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Corpus Christi Texas",
+          27.80167905,
+          -97.40135366,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Cuiabá Brazil",
+          -15.62527767,
+          -56.0627967,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Curitiba East Brazil",
+          -25.44621345,
+          -49.04232099,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Dayton Ohio",
+          39.764382809197556,
+          -84.19521495238827,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Dover Deleware",
+          39.15782401,
+          -75.52587075,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Durango Mexico",
+          24.05133309,
+          -104.6552452,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Düsseldorf Germany",
+          51.22807306,
+          6.768046653,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Eagle Mountain Utah",
+          40.31283104,
+          -112.0064845,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Everett Washington",
+          47.98525851,
+          -122.193783,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Farmington Utah",
+          40.97943152,
+          -111.8847556,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Fayetteville North Carolina",
+          35.05507907,
+          -78.87490395,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Fort Wayne Indiana",
+          41.08382764108584,
+          -85.15390045493702,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Gaborone Botswana",
+          -24.634784464069153,
+          25.866067412445766,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Gillette Wyoming",
+          44.29450746,
+          -105.4989104,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Great Falls Montana",
+          47.5130177064575,
+          -111.3093006094927,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Guayaquil Ecuador (Second Temple)",
+          -2.2686637584793345,
+          -79.92454426370176,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Henderson Nevada",
+          36.04595701,
+          -114.9826913,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Herriman Utah",
+          40.51489763,
+          -112.0355307,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Holladay Utah",
+          40.66861026,
+          -111.823312,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Hurricane Utah",
+          37.17601986,
+          -113.2808453,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Hyrum/Wellsville Utah",
+          41.63399986,
+          -111.8528125,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Ibadan Nigeria",
+          7.383957621,
+          3.941919311,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Ica Peru",
+          -14.075483469062217,
+          -75.73993858430981,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Jackson Mississippi",
+          32.31363097,
+          -90.18340027,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Kalispell Montanta",
+          48.192490969902195,
+          -114.31866231801474,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Kanab Utah",
+          37.04330517,
+          -112.5328085,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Kanesville Utah",
+          41.19029711258977,
+          -112.0864915131822,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Kearns Utah",
+          40.66085918,
+          -111.9961124,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Kingston Jamaica",
+          18.0311493,
+          -76.80482869,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "La Grande Oregon",
+          45.32427079,
+          -118.0868186,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "La Paz Mexico",
+          24.14977587,
+          -110.3103126,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "La Serena Chile",
+          -29.89291855,
+          -71.26069958,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Lake Havasu Arizona",
+          34.48457157,
+          -114.3248853,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Lancaster California",
+          34.70189463,
+          -118.1679513,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Lilongwe Malawi",
+          -13.975249185875292,
+          33.77158580175173,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Little Rock Arkansas",
+          34.75550083,
+          -92.28463574,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Lomé Togo",
+          6.142339021,
+          1.211280021,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Longview/Tyler Texas",
+          32.50152019,
+          -94.74677801,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Lusaka Zambia",
+          -15.361907033760845,
+          28.258767585807888,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Machala Ecuador",
+          -3.256184058,
+          -79.94442081,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Mackay Idaho",
+          43.91359237,
+          -113.6100397,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Magna Utah",
+          40.7093452,
+          -112.1016643,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Majuro Marshall Islands",
+          7.145652239,
+          171.0356131,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Mapleton Utah",
+          40.13008440383042,
+          -111.57767983326497,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Mesa East Arizona",
+          33.41507233,
+          -111.6239139,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Mexicali Mexico",
+          32.62555043,
+          -115.4574173,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Midland/Odessa Texas",
+          31.9226405,
+          -102.2331263,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Midvale Utah",
+          40.61057741,
+          -111.8998251,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Moapa Valley Nevada",
+          36.57325624,
+          -114.4637278,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Mobile Alabama",
+          30.71479015,
+          -88.03535618,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Monclova Mexico",
+          26.90327938,
+          -101.3779654,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Montgomery Alabama",
+          32.37929231,
+          -86.32146659,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Morelia Mexico",
+          19.71017566,
+          -101.1982015,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Morgan Utah",
+          41.03591044,
+          -111.6764792,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Munich Germany",
+          48.18706084,
+          11.59532122,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Murrieta/Temecula California",
+          33.56103597324433,
+          -117.21108949664234,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Nephi Utah",
+          39.7102434791016,
+          -111.83628922521004,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Neuquen Argentina",
+          -38.95228181779362,
+          -68.05882504719509,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "New Delhi India",
+          28.61746294,
+          77.18556037,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Olympia Washington",
+          47.047299980603356,
+          -122.89912539025339,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Ottawa Ontario",
+          45.42248008,
+          -75.69319533,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Pelotas Brazil",
+          -31.77793149,
+          -52.35013587,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Pleasant View Utah",
+          41.31961981,
+          -111.993703,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Port Harcourt Nigeria",
+          4.868272836,
+          6.987092658,
+          "Prediction",
+          "Confidence Level: High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Port of Spain Trinidad and Tobago",
+          10.67916767,
+          -61.52050692,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Porto-Novo Benin",
+          6.477464935,
+          2.619364507,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Poza Rica Mexico",
+          20.52936332,
+          -97.45127556,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Prague Czechia",
+          50.08218163127964,
+          14.406727477227777,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Prescott Arizona",
+          34.55872605,
+          -112.4416195,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Pretoria South Africa",
+          -25.75536502007422,
+          28.192140847037358,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Puerto Princesa Philippines",
+          9.852283984,
+          118.7596461,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Quevedo Ecuador",
+          -1.010161004,
+          -79.45672511,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Rancho Cucamonga California",
+          34.10661581,
+          -117.5917831,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Redding California",
+          40.576712766715374,
+          -122.39211794994095,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Resistencia Argentina",
+          -27.45633478,
+          -58.98802478,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Richfield Utah",
+          38.77665428,
+          -112.0883089,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Riga Latvia",
+          56.98557799,
+          24.1240446,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Rigby Idaho",
+          43.67090826,
+          -111.9122482,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Riverton Utah",
+          40.52145205,
+          -111.9391967,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Rock Springs/Evanston Wyoming",
+          41.44607657,
+          -110.0669998,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Roseville California",
+          38.75082888,
+          -121.2976612,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Salem Oregon",
+          44.94030571547752,
+          -123.03984008789278,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Saltilo Mexico",
+          25.42887031,
+          -101.0050513,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "San Francisco California",
+          37.77687896,
+          -122.4192731,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Sandy Utah",
+          40.56389136,
+          -111.8391255,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Santa Maria Brazil",
+          -29.68985128,
+          -53.80332405,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Savannah Georgia",
+          32.09705302,
+          -81.09896023,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Scottsdale Arizona",
+          33.49501166,
+          -111.9238432,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Shreveport Louisiana",
+          32.52045112,
+          -93.75447907,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Sorocaba Brazil",
+          -23.4709019,
+          -47.48725479,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Tacna Peru",
+          -18.01055498,
+          -70.25276321,
+          "Prediction",
+          "Confidence Level: Medium-High"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Taichung Taiwan",
+          24.17227737,
+          120.6728011,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Takoradi Ghana",
+          4.928754137396878,
+          -1.7982306698162764,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Tapachula Mexico",
+          14.90538243,
+          -92.26199801,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Tasmania Australia",
+          -42.89428501,
+          147.3102994,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Temuco Chile",
+          -38.76535709,
+          -72.59596274,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Thousand Oaks California",
+          34.17875748,
+          -118.8341267,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Tirana Albania",
+          41.32972471,
+          19.80804751,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Toulouse France",
+          43.6143895,
+          1.432435077,
+          "Prediction",
+          "Confidence Level: Very Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Trelew Argentina",
+          -43.23875957,
+          -65.32323948,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Tremonton Utah",
+          41.71161536,
+          -112.1642835,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Valencia Venezuela",
+          10.16680718,
+          -68.00222334,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Valvida Chile",
+          -39.82082362,
+          -73.24122222,
+          "Prediction",
+          "Confidence Level: Medium-Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Victorville California",
+          34.53556367,
+          -117.2925931,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Villa Nueva Guatemala",
+          14.53232641,
+          -90.60924793,
+          "Prediction",
+          "Confidence Level: Medium"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Vilnius Lithuania",
+          54.70203048,
+          25.2897893,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "West Valley City Utah",
+          40.69004173,
+          -111.9992619,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Windhoek Namibia",
+          -22.56405229,
+          17.07938785,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Xalapa Mexico",
+          19.56037079,
+          -96.90014502,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+        displayPoint(
+          graphicsLayer,
+          "Yaoundé Cameroon",
+          3.8631741688695103,
+          11.508374053797805,
+          "Prediction",
+          "Confidence Level: Low"
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="viewDiv"></div>
+  </body>
+</html>

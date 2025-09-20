@@ -1,0 +1,2676 @@
+[
+  {
+    "name": "Aba Nigeria Temple",
+    "status": "Dedicated",
+    "latitude": 5.147644,
+    "longitude": 7.356719,
+    "dedication_date": "#121: 7 August 2005"
+  },
+  {
+    "name": "Abidjan Ivory Coast Temple",
+    "status": "Dedicated",
+    "latitude": 5.362307,
+    "longitude": -3.976865,
+    "dedication_date": "#205: 25 May 2025"
+  },
+  {
+    "name": "Abuja Nigeria Temple",
+    "status": "Unknown Location",
+    "latitude": 9.068382757,
+    "longitude": 7.41209401,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Accra Ghana Temple",
+    "status": "Dedicated",
+    "latitude": 5.56749,
+    "longitude": -0.193706,
+    "dedication_date": "#117: 11 January 2004"
+  },
+  {
+    "name": "Adelaide Australia Temple",
+    "status": "Dedicated",
+    "latitude": -34.892473,
+    "longitude": 138.635002,
+    "dedication_date": "#89: 15 June 2000"
+  },
+  {
+    "name": "Alabang Philippines Temple",
+    "status": "Construction",
+    "latitude": 14.412913,
+    "longitude": 121.037838,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Albuquerque New Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 35.167684,
+    "longitude": -106.525301,
+    "dedication_date": "#73: 5 March 2000"
+  },
+  {
+    "name": "Anchorage Alaska Temple",
+    "status": "Dedicated",
+    "latitude": 61.101627,
+    "longitude": -149.840512,
+    "dedication_date": "#54: 9 January 1999"
+  },
+  {
+    "name": "Antananarivo Madagascar Temple",
+    "status": "Construction",
+    "latitude": -18.85393042,
+    "longitude": 47.478333,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Antofagasta Chile Temple",
+    "status": "Dedicated",
+    "latitude": -23.571891,
+    "longitude": -70.394525,
+    "dedication_date": "#207: 15 June 2025"
+  },
+  {
+    "name": "Apia Samoa Temple",
+    "status": "Dedicated",
+    "latitude": -13.838064,
+    "longitude": -171.783034,
+    "dedication_date": "#22: 5 August 1983"
+  },
+  {
+    "name": "Arequipa Peru Temple",
+    "status": "Dedicated",
+    "latitude": -16.375203,
+    "longitude": -71.538477,
+    "dedication_date": "#167: 15 December 2019"
+  },
+  {
+    "name": "Asunción Paraguay Temple",
+    "status": "Dedicated",
+    "latitude": -25.287916,
+    "longitude": -57.602869,
+    "dedication_date": "#112: 19 May 2002"
+  },
+  {
+    "name": "Atlanta Georgia Temple",
+    "status": "Dedicated",
+    "latitude": 33.931896,
+    "longitude": -84.362394,
+    "dedication_date": "#21: 1 June 1983"
+  },
+  {
+    "name": "Auckland New Zealand Temple",
+    "status": "Dedicated",
+    "latitude": -36.993227,
+    "longitude": 174.890191,
+    "dedication_date": "#203: 13 April 2025"
+  },
+  {
+    "name": "Austin Texas Temple",
+    "status": "Construction",
+    "latitude": 30.51681449,
+    "longitude": -97.79687,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bacolod Philippines Temple",
+    "status": "Construction",
+    "latitude": 10.696648,
+    "longitude": 122.989455,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bahía Blanca Argentina Temple",
+    "status": "Construction",
+    "latitude": -38.69117,
+    "longitude": -62.235937,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bakersfield California Temple",
+    "status": "Announced",
+    "latitude": 35.35502332,
+    "longitude": -119.138634,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Bangkok Thailand Temple",
+    "status": "Dedicated",
+    "latitude": 13.749491,
+    "longitude": 100.562527,
+    "dedication_date": "#185: 22 October 2023"
+  },
+  {
+    "name": "Barcelona Spain Temple",
+    "status": "Announced",
+    "latitude": 41.48746553,
+    "longitude": 2.06931235,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Barranquilla Colombia Temple",
+    "status": "Dedicated",
+    "latitude": 11.016798,
+    "longitude": -74.86261,
+    "dedication_date": "#161: 9 December 2018"
+  },
+  {
+    "name": "Baton Rouge Louisiana Temple",
+    "status": "Dedicated",
+    "latitude": 30.362664,
+    "longitude": -91.108385,
+    "dedication_date": "#94: 16 July 2000"
+  },
+  {
+    "name": "Beira Mozambique Temple",
+    "status": "Announced",
+    "latitude": -19.84590986,
+    "longitude": 34.8551898,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Belém Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -1.387242,
+    "longitude": -48.459894,
+    "dedication_date": "#174: 20 November 2022"
+  },
+  {
+    "name": "Belo Horizonte Brazil Temple",
+    "status": "Construction",
+    "latitude": -19.88029952,
+    "longitude": -43.978604,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bengaluru India Temple",
+    "status": "Construction",
+    "latitude": 12.992096,
+    "longitude": 77.704714,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Benin City Nigeria Temple",
+    "status": "Construction",
+    "latitude": 6.31456524,
+    "longitude": 5.62516446,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bentonville Arkansas Temple",
+    "status": "Dedicated",
+    "latitude": 36.38500576,
+    "longitude": -94.183255,
+    "dedication_date": "#181: 17 September 2023"
+  },
+  {
+    "name": "Bern Switzerland Temple",
+    "status": "Dedicated",
+    "latitude": 47.002192,
+    "longitude": 7.458244,
+    "dedication_date": "#9: 11 September 1955"
+  },
+  {
+    "name": "Billings Montana Temple",
+    "status": "Dedicated",
+    "latitude": 45.800505,
+    "longitude": -108.63939,
+    "dedication_date": "#66: 29 November 1999"
+  },
+  {
+    "name": "Birmingham Alabama Temple",
+    "status": "Dedicated",
+    "latitude": 33.674623,
+    "longitude": -86.821236,
+    "dedication_date": "#98: 3 September 2000"
+  },
+  {
+    "name": "Birmingham England Temple",
+    "status": "Construction",
+    "latitude": 52.53551078,
+    "longitude": -1.8123859,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Bismarck North Dakota Temple",
+    "status": "Dedicated",
+    "latitude": 46.838889,
+    "longitude": -100.813979,
+    "dedication_date": "#61: 19 September 1999"
+  },
+  {
+    "name": "Bogotá Colombia Temple",
+    "status": "Dedicated",
+    "latitude": 4.707801,
+    "longitude": -74.056247,
+    "dedication_date": "#57: 24 April 1999"
+  },
+  {
+    "name": "Boise Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 43.593523,
+    "longitude": -116.275034,
+    "dedication_date": "#27: 25 May 1984"
+  },
+  {
+    "name": "Boston Massachusetts Temple",
+    "status": "Dedicated",
+    "latitude": 42.412002,
+    "longitude": -71.188091,
+    "dedication_date": "#100: 1 October 2000"
+  },
+  {
+    "name": "Bountiful Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.882853,
+    "longitude": -111.846812,
+    "dedication_date": "#47: 8 January 1995"
+  },
+  {
+    "name": "Brasília Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -15.747835,
+    "longitude": -47.880945,
+    "dedication_date": "#180: 17 September 2023"
+  },
+  {
+    "name": "Brazzaville Republic of the Congo Temple",
+    "status": "Construction",
+    "latitude": -4.28276597,
+    "longitude": 15.2584706,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Brigham City Utah Temple",
+    "status": "Dedicated",
+    "latitude": 41.505376,
+    "longitude": -112.016592,
+    "dedication_date": "#139: 23 September 2012"
+  },
+  {
+    "name": "Brisbane Australia Temple",
+    "status": "Dedicated",
+    "latitude": -27.480886,
+    "longitude": 153.033841,
+    "dedication_date": "#115: 15 June 2003"
+  },
+  {
+    "name": "Brisbane Australia South Temple",
+    "status": "Unknown Location",
+    "latitude": -27.8548711,
+    "longitude": 153.2743938,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Brussels Belgium Temple",
+    "status": "Announced",
+    "latitude": 50.84171761,
+    "longitude": 4.36710126,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Budapest Hungary Temple",
+    "status": "Construction",
+    "latitude": 47.57024544,
+    "longitude": 19.00634892,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Buenos Aires Argentina Temple",
+    "status": "Dedicated",
+    "latitude": -34.729286,
+    "longitude": -58.518225,
+    "dedication_date": "#39: 17 January 1986"
+  },
+  {
+    "name": "Buenos Aires City Center Argentina Temple",
+    "status": "Announced",
+    "latitude": -34.59917085,
+    "longitude": -58.37306,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Burley Idaho Temple",
+    "status": "Construction",
+    "latitude": 42.52659109,
+    "longitude": -113.764841,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Busan Korea Temple",
+    "status": "Unknown Location",
+    "latitude": 35.15102966,
+    "longitude": 129.0378858,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Cagayan de Oro Philippines Temple",
+    "status": "Construction",
+    "latitude": 8.47908926,
+    "longitude": 124.6598511,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Calabar Nigeria Temple",
+    "status": "Unknown Location",
+    "latitude": 4.988644089,
+    "longitude": 8.347848653,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Caldwell Idaho Temple",
+    "status": "Unknown Location",
+    "latitude": 43.66474550729518,
+    "longitude": -116.68541029077255,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Calgary Alberta Temple",
+    "status": "Dedicated",
+    "latitude": 51.140861,
+    "longitude": -114.2333,
+    "dedication_date": "#140: 28 October 2012"
+  },
+  {
+    "name": "Cali Colombia Temple",
+    "status": "Construction",
+    "latitude": 3.48698324,
+    "longitude": -76.521499,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Campinas Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -22.896534,
+    "longitude": -47.001133,
+    "dedication_date": "#111: 17 May 2002"
+  },
+  {
+    "name": "Campo Grande Brazil Temple",
+    "status": "Unknown Location",
+    "latitude": -20.391495241162566,
+    "longitude": -54.6422517938049,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Cancún Mexico Temple",
+    "status": "Unknown Location",
+    "latitude": 21.1582722,
+    "longitude": -86.86011715,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Cape Coast Ghana Temple",
+    "status": "Unknown Location",
+    "latitude": 5.170981456,
+    "longitude": -1.295985372,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Cape Town South Africa Temple",
+    "status": "Announced",
+    "latitude": -33.94114387,
+    "longitude": 18.4797749,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Caracas Venezuela Temple",
+    "status": "Dedicated",
+    "latitude": 10.470849,
+    "longitude": -66.837293,
+    "dedication_date": "#96: 20 August 2000"
+  },
+  {
+    "name": "Cardston Alberta Temple",
+    "status": "Dedicated",
+    "latitude": 49.19835,
+    "longitude": -113.309394,
+    "dedication_date": "#6: 26 August 1923"
+  },
+  {
+    "name": "Casper Wyoming Temple",
+    "status": "Dedicated",
+    "latitude": 42.80908928,
+    "longitude": -106.361814,
+    "dedication_date": "#201: 24 November 2024"
+  },
+  {
+    "name": "Cebu City Philippines Temple",
+    "status": "Dedicated",
+    "latitude": 10.327659,
+    "longitude": 123.898299,
+    "dedication_date": "#133: 13 June 2010"
+  },
+  {
+    "name": "Cedar City Utah Temple",
+    "status": "Dedicated",
+    "latitude": 37.671734,
+    "longitude": -113.096271,
+    "dedication_date": "#159: 10 December 2017"
+  },
+  {
+    "name": "Charlotte North Carolina Temple",
+    "status": "Announced",
+    "latitude": 35.00752312,
+    "longitude": -80.76566731,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Chicago Illinois Temple",
+    "status": "Dedicated",
+    "latitude": 42.086829,
+    "longitude": -87.859501,
+    "dedication_date": ""
+  },
+  {
+    "name": "Chiclayo Peru Temple",
+    "status": "Unknown Location",
+    "latitude": -6.613733205,
+    "longitude": -79.85253256,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Chorrillos Peru Temple",
+    "status": "Unknown Location",
+    "latitude": -12.185003362189153,
+    "longitude": -77.0078904912467,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Chuhuahua Mexico Temple",
+    "status": "Announced",
+    "latitude": 28.64373023,
+    "longitude": -106.14986,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Cincinatti Ohio Temple",
+    "status": "Announced",
+    "latitude": 39.32725034,
+    "longitude": -84.3168764,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Ciudad Juárez Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 31.736269,
+    "longitude": -106.463209,
+    "dedication_date": "#71: 26 February 2000"
+  },
+  {
+    "name": "Cleveland Ohio Temple",
+    "status": "Construction",
+    "latitude": 41.39986912,
+    "longitude": -81.636826,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Cobán Guatemala Temple",
+    "status": "Dedicated",
+    "latitude": 15.459077,
+    "longitude": -90.365166,
+    "dedication_date": "#193: 9 June 2024"
+  },
+  {
+    "name": "Cochabamba Bolivia Temple",
+    "status": "Dedicated",
+    "latitude": -17.363644,
+    "longitude": -66.147644,
+    "dedication_date": "#82: 30 April 2000"
+  },
+  {
+    "name": "Cody Wyoming Temple",
+    "status": "Construction",
+    "latitude": 44.51148354,
+    "longitude": -109.081796,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Coeur d'Alene Idaho Temple",
+    "status": "Unknown Location",
+    "latitude": 47.67446277087945,
+    "longitude": -116.78496945600912,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Colonia Juárez Chihuahua Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 30.305251,
+    "longitude": -108.082038,
+    "dedication_date": "#55: 6 March 1999"
+  },
+  {
+    "name": "Colorado Springs Colorado Temple",
+    "status": "Announced",
+    "latitude": 39.01830571,
+    "longitude": -104.784452,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Columbia River Washington Temple",
+    "status": "Dedicated",
+    "latitude": 46.226733,
+    "longitude": -119.274893,
+    "dedication_date": "#107: 18 November 2001"
+  },
+  {
+    "name": "Columbia South Carolina Temple",
+    "status": "Dedicated",
+    "latitude": 33.959638,
+    "longitude": -80.893981,
+    "dedication_date": "#62: 16 October 1999"
+  },
+  {
+    "name": "Columbus Ohio Temple",
+    "status": "Dedicated",
+    "latitude": 39.994089,
+    "longitude": -83.113214,
+    "dedication_date": "#60: 4 September 1999"
+  },
+  {
+    "name": "Concepción Chile Temple",
+    "status": "Dedicated",
+    "latitude": -36.851499,
+    "longitude": -73.049966,
+    "dedication_date": "#160 28 October 2018"
+  },
+  {
+    "name": "Copenhagen Denmark Temple",
+    "status": "Dedicated",
+    "latitude": 55.692677,
+    "longitude": 12.53392,
+    "dedication_date": "#118: 23 May 2004"
+  },
+  {
+    "name": "Córdoba Argentina Temple",
+    "status": "Dedicated",
+    "latitude": -31.358873,
+    "longitude": -64.245809,
+    "dedication_date": "#145: 17 May 2015"
+  },
+  {
+    "name": "Cuernavaca Mexico Temple",
+    "status": "Announced",
+    "latitude": 18.93473808,
+    "longitude": -99.226499,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Culicán Mexico Temple",
+    "status": "Announced",
+    "latitude": 24.79184902,
+    "longitude": -107.44189,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Curitiba Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -25.441304,
+    "longitude": -49.342138,
+    "dedication_date": "#126: 1 June 2008"
+  },
+  {
+    "name": "Cusco Peru Temple",
+    "status": "Announced",
+    "latitude": -13.51593102,
+    "longitude": -71.984943,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Dallas Texas Temple",
+    "status": "Dedicated",
+    "latitude": 32.914288,
+    "longitude": -96.796525,
+    "dedication_date": "#30: 19 October 1984"
+  },
+  {
+    "name": "Davao Philippines Temple",
+    "status": "Construction",
+    "latitude": 7.088597,
+    "longitude": 125.579755,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Denver Colorado Temple",
+    "status": "Dedicated",
+    "latitude": 39.568698,
+    "longitude": -104.965782,
+    "dedication_date": "#40: 24 October 1986"
+  },
+  {
+    "name": "Des Moines Iowa Temple",
+    "status": "Announced",
+    "latitude": 41.67117719,
+    "longitude": -93.742485,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Deseret Peak Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.57266168,
+    "longitude": -112.31397,
+    "dedication_date": "#200: 10 November 2024"
+  },
+  {
+    "name": "Detroit Michigan Temple",
+    "status": "Dedicated",
+    "latitude": 42.566266,
+    "longitude": -83.229983,
+    "dedication_date": "#63: 23 October 1999"
+  },
+  {
+    "name": "Draper Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.495893,
+    "longitude": -111.840748,
+    "dedication_date": "#129: 20 March 2009"
+  },
+  {
+    "name": "Dubai United Arab Emirates Temple",
+    "status": "Unknown Location",
+    "latitude": 25.20791123,
+    "longitude": 55.28983938,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Dublin Ireland Temple",
+    "status": "Unknown Location",
+    "latitude": 53.36665548,
+    "longitude": -6.248620118,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Durban South Africa Temple",
+    "status": "Dedicated",
+    "latitude": -29.708455,
+    "longitude": 31.073671,
+    "dedication_date": "#168: 16 February 2020"
+  },
+  {
+    "name": "Edinburgh Scotland Temple",
+    "status": "Unknown Location",
+    "latitude": 55.95255557,
+    "longitude": -3.198201227,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Edmonton Alberta Temple",
+    "status": "Dedicated",
+    "latitude": 53.489593,
+    "longitude": -113.570538,
+    "dedication_date": "#67: 11 December 1999"
+  },
+  {
+    "name": "Eket Nigeria Temple",
+    "status": "Announced",
+    "latitude": 4.65805213,
+    "longitude": 7.96820663,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "El Paso Texas Temple",
+    "status": "Unknown Location",
+    "latitude": 31.77263212,
+    "longitude": -106.4824223,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Elko Nevada Temple",
+    "status": "Construction",
+    "latitude": 40.85249525,
+    "longitude": -115.750084,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Ephraim Utah Temple",
+    "status": "Construction",
+    "latitude": 39.36353987,
+    "longitude": -111.576,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Fairbanks Alaska Temple",
+    "status": "Announced",
+    "latitude": 64.84835925,
+    "longitude": -147.85293,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Farmington New Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 36.76909739,
+    "longitude": -108.1654604,
+    "dedication_date": "#208: 17 August 2025"
+  },
+  {
+    "name": "Feather River California Temple",
+    "status": "Dedicated",
+    "latitude": 39.146344,
+    "longitude": -121.639963,
+    "dedication_date": "#184: 8 October 2023"
+  },
+  {
+    "name": "Flagstaff Arizona Temple",
+    "status": "Unknown Location",
+    "latitude": 35.18849488,
+    "longitude": -111.6739899,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Florianópolis Brazil Temple",
+    "status": "Announced",
+    "latitude": -27.59219248,
+    "longitude": -48.61723,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Fort Collins Colorado Temple",
+    "status": "Dedicated",
+    "latitude": 40.494269,
+    "longitude": -105.038685,
+    "dedication_date": "#153: 16 October 2016"
+  },
+  {
+    "name": "Fort Lauderdale Florida Temple",
+    "status": "Dedicated",
+    "latitude": 26.070899,
+    "longitude": -80.355727,
+    "dedication_date": "#143: 4 May 2014"
+  },
+  {
+    "name": "Fort Worth Texas Temple",
+    "status": "Construction",
+    "latitude": 32.51684225,
+    "longitude": -97.3575068,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Fortaleza Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -3.747847,
+    "longitude": -38.46101,
+    "dedication_date": "#164: 2 June 2019"
+  },
+  {
+    "name": "Frankfurt Germany Temple",
+    "status": "Dedicated",
+    "latitude": 50.258246,
+    "longitude": 8.641316,
+    "dedication_date": "#41: 28 August 1987"
+  },
+  {
+    "name": "Freetown Sierra Leone Temple",
+    "status": "Construction",
+    "latitude": 8.38763235,
+    "longitude": -13.1387593,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Freiberg Germany Temple",
+    "status": "Dedicated",
+    "latitude": 50.922315,
+    "longitude": 13.322541,
+    "dedication_date": "#33: 29 June 1985"
+  },
+  {
+    "name": "Fresno California Temple",
+    "status": "Dedicated",
+    "latitude": 36.828257,
+    "longitude": -119.852911,
+    "dedication_date": "#78: 9 April 2000"
+  },
+  {
+    "name": "Fukuoka Japan Temple",
+    "status": "Dedicated",
+    "latitude": 33.572618,
+    "longitude": 130.391704,
+    "dedication_date": "#88: 11 June 2000"
+  },
+  {
+    "name": "Gilbert Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 33.291378,
+    "longitude": -111.737365,
+    "dedication_date": "#142: 2 March 2014"
+  },
+  {
+    "name": "Goiânia Brazil Temple",
+    "status": "Unknown Location",
+    "latitude": -16.71216571,
+    "longitude": -49.25247308,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Grand Junction Colorado Temple",
+    "status": "Construction",
+    "latitude": 39.10144203,
+    "longitude": -108.551144,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Grand Rapids Michigan Temple",
+    "status": "Construction",
+    "latitude": 42.91993061,
+    "longitude": -85.5583043,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Greenville South Carolina Temple",
+    "status": "Unknown Location",
+    "latitude": 34.85303392,
+    "longitude": -82.40036017,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Guadalajara Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 20.66155,
+    "longitude": -103.42307,
+    "dedication_date": "#105: 29 April 2001"
+  },
+  {
+    "name": "Guatemala City Guatemala Temple",
+    "status": "Dedicated",
+    "latitude": 14.583303,
+    "longitude": -90.485576,
+    "dedication_date": "#32: 14 December 1984"
+  },
+  {
+    "name": "Guayaquil Ecuador Temple",
+    "status": "Dedicated",
+    "latitude": -2.156246,
+    "longitude": -79.904877,
+    "dedication_date": "#58: 1 August 1999"
+  },
+  {
+    "name": "Halifax Nova Scotia Temple",
+    "status": "Dedicated",
+    "latitude": 44.66999,
+    "longitude": -63.489038,
+    "dedication_date": "#64: 14 November 1999"
+  },
+  {
+    "name": "Hamburg Germany Temple",
+    "status": "Unknown Location",
+    "latitude": 53.59204491,
+    "longitude": 9.959683221,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Hamilton New Zealand Temple",
+    "status": "Dedicated",
+    "latitude": -37.826397,
+    "longitude": 175.224885,
+    "dedication_date": "#11: 22 April 1958"
+  },
+  {
+    "name": "Harare Zimbabwe Temple",
+    "status": "Construction",
+    "latitude": -17.804085,
+    "longitude": 31.082426,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Harrisburg Pennsylvania Temple",
+    "status": "Announced",
+    "latitude": 40.28396312,
+    "longitude": -76.80293568,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Hartford Connecticut Temple",
+    "status": "Dedicated",
+    "latitude": 41.73780896,
+    "longitude": -72.844528,
+    "dedication_date": "#155: 20 November 2016"
+  },
+  {
+    "name": "Heber Valley Utah Temple",
+    "status": "Construction",
+    "latitude": 40.50665493,
+    "longitude": -111.389284,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Helena Montana Temple",
+    "status": "Dedicated",
+    "latitude": 46.63372488,
+    "longitude": -112.01924,
+    "dedication_date": "#178: 18 June 2023"
+  },
+  {
+    "name": "Helsinki Finland Temple",
+    "status": "Dedicated",
+    "latitude": 60.225193,
+    "longitude": 24.781785,
+    "dedication_date": "#124: 22 October 2006"
+  },
+  {
+    "name": "Hermosillo Sonora Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 29.102548,
+    "longitude": -110.94687,
+    "dedication_date": "#72: 27 Febrary 2000"
+  },
+  {
+    "name": "Hong Kong China Temple",
+    "status": "Dedicated",
+    "latitude": 22.34045,
+    "longitude": 114.177336,
+    "dedication_date": "#48: 26 May 1996"
+  },
+  {
+    "name": "Honolulu Hawaii Temple",
+    "status": "Unknown Location",
+    "latitude": 21.31358407,
+    "longitude": -157.8537959,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Houston Texas Temple",
+    "status": "Dedicated",
+    "latitude": 29.999729,
+    "longitude": -95.533038,
+    "dedication_date": "#97: 26 August 2000"
+  },
+  {
+    "name": "Houston Texas South Temple",
+    "status": "Unknown Location",
+    "latitude": 29.56634,
+    "longitude": -95.3853,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Huancayo Peru Temple",
+    "status": "Unknown Location",
+    "latitude": -12.02583548,
+    "longitude": -75.21450533,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Huehuetenango Guatemala Temple",
+    "status": "Announced",
+    "latitude": 15.32618492,
+    "longitude": -91.48993,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Huntsville Alabama Temple",
+    "status": "Announced",
+    "latitude": 34.72811015,
+    "longitude": -86.7828113,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Idaho Falls Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 43.499819,
+    "longitude": -112.0415,
+    "dedication_date": "#8: 25 September 1945"
+  },
+  {
+    "name": "Iloilo Philippines Temple",
+    "status": "Unknown Location",
+    "latitude": 10.80157138,
+    "longitude": 122.5330693,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Indianapolis Indiana Temple",
+    "status": "Dedicated",
+    "latitude": 39.955588,
+    "longitude": -86.165741,
+    "dedication_date": "#148: 23 August 2015"
+  },
+  {
+    "name": "Iquitos Peru Temple",
+    "status": "Announced",
+    "latitude": -3.76081711,
+    "longitude": -73.26756,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Jacksonville Florida Temple",
+    "status": "Announced",
+    "latitude": 30.16175005,
+    "longitude": -81.6235071,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Jakarta Indonesia Temple",
+    "status": "Announced",
+    "latitude": -6.24090219,
+    "longitude": 106.837533,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "João Pessoa Brazil Temple",
+    "status": "Announced",
+    "latitude": -7.1242103,
+    "longitude": -34.829102,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Johannesburg South Africa Temple",
+    "status": "Dedicated",
+    "latitude": -26.178051,
+    "longitude": 28.039195,
+    "dedication_date": "#36: 24 August 1985"
+  },
+  {
+    "name": "Jordan River Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.566354,
+    "longitude": -111.931417,
+    "dedication_date": "#20: 16 November 1981"
+  },
+  {
+    "name": "Juchitán de Zaragoza Mexico Temple",
+    "status": "Unknown Location",
+    "latitude": 16.44627191,
+    "longitude": -95.03563998,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Kahului Hawaii Temple",
+    "status": "Unknown Location",
+    "latitude": 20.88886777,
+    "longitude": -156.4731095,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Kampala Uganda Temple",
+    "status": "Unknown Location",
+    "latitude": 0.335300707,
+    "longitude": 32.59319024,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Kananga Democratic Republic of the Congo Temple",
+    "status": "Announced",
+    "latitude": -5.8951076,
+    "longitude": 22.42968712,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Kansas City Missouri Temple",
+    "status": "Dedicated",
+    "latitude": 39.220473,
+    "longitude": -94.501331,
+    "dedication_date": "#137: 6 May 2012"
+  },
+  {
+    "name": "Kaohsiung Taiwan Temple",
+    "status": "Construction",
+    "latitude": 22.6507433,
+    "longitude": 120.3455124,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Kinshasa Democratic Republic of the Congo Temple",
+    "status": "Dedicated",
+    "latitude": -4.327478,
+    "longitude": 15.27371,
+    "dedication_date": "#163: 14 April 2019"
+  },
+  {
+    "name": "Knoxville Tennessee Temple",
+    "status": "Construction",
+    "latitude": 35.86456549,
+    "longitude": -84.2182371,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Kona Hawaii Temple",
+    "status": "Dedicated",
+    "latitude": 19.641614,
+    "longitude": -155.985524,
+    "dedication_date": "#70: 23 January 2000"
+  },
+  {
+    "name": "Kumasi Ghana Temple",
+    "status": "Announced",
+    "latitude": 6.70235776,
+    "longitude": -1.64114052,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Kyiv Ukraine Temple",
+    "status": "Dedicated",
+    "latitude": 50.404517,
+    "longitude": 30.395565,
+    "dedication_date": "#134: 29 August 2010"
+  },
+  {
+    "name": "La Paz Bolivia Temple",
+    "status": "Announced",
+    "latitude": -16.54418267,
+    "longitude": -68.08986,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Lagos Nigeria Temple",
+    "status": "Construction",
+    "latitude": 6.44490729,
+    "longitude": 3.43138695,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Laie Hawaii Temple",
+    "status": "Dedicated",
+    "latitude": 21.647207,
+    "longitude": -157.930658,
+    "dedication_date": "#5: 17 November 1919"
+  },
+  {
+    "name": "Laoag Philippines Temple",
+    "status": "Unknown Location",
+    "latitude": 18.21511834,
+    "longitude": 120.5853743,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Las Vegas Nevada Temple",
+    "status": "Dedicated",
+    "latitude": 36.174597,
+    "longitude": -115.020052,
+    "dedication_date": "#43: 16 December 1989"
+  },
+  {
+    "name": "Layton Utah Temple",
+    "status": "Dedicated",
+    "latitude": 41.061699,
+    "longitude": -111.938379,
+    "dedication_date": "#195: 16 June 2024"
+  },
+  {
+    "name": "Lehi Utah Temple",
+    "status": "Announced",
+    "latitude": 40.43932614,
+    "longitude": -111.85131,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Lethbridge Alberta Temple",
+    "status": "Construction",
+    "latitude": 49.67041434,
+    "longitude": -112.91089,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Lima Peru Los Olivos Temple",
+    "status": "Dedicated",
+    "latitude": -12.019992,
+    "longitude": -77.054237,
+    "dedication_date": "#187: 14 January 2024"
+  },
+  {
+    "name": "Lima Peru Temple",
+    "status": "Dedicated",
+    "latitude": -12.069713,
+    "longitude": -76.948897,
+    "dedication_date": "#38: 10 January 1986"
+  },
+  {
+    "name": "Lindon Utah Temple",
+    "status": "Construction",
+    "latitude": 40.33730438,
+    "longitude": -111.6953838,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Lisbon Portugal Temple",
+    "status": "Dedicated",
+    "latitude": 38.779187,
+    "longitude": -9.098784,
+    "dedication_date": "#166: 15 September 2019"
+  },
+  {
+    "name": "Liverpool Australia Temple",
+    "status": "Unknown Location",
+    "latitude": -33.92871308019058,
+    "longitude": 150.91835144021164,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Logan Utah Temple",
+    "status": "Dedicated",
+    "latitude": 41.734161,
+    "longitude": -111.827943,
+    "dedication_date": "#2: 17 May 1884"
+  },
+  {
+    "name": "London England Temple",
+    "status": "Dedicated",
+    "latitude": 51.162566,
+    "longitude": -0.052181,
+    "dedication_date": "#12: 7 September 1958"
+  },
+  {
+    "name": "Londrina Brazil Temple",
+    "status": "Construction",
+    "latitude": -23.34460281,
+    "longitude": -51.160186,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Lone Mountain Nevada Temple",
+    "status": "Announced",
+    "latitude": 36.23619575,
+    "longitude": -115.304183,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Los Angeles California Temple",
+    "status": "Dedicated",
+    "latitude": 34.052801,
+    "longitude": -118.433909,
+    "dedication_date": "#10: 14 March 1956"
+  },
+  {
+    "name": "Louisville Kentucky Temple",
+    "status": "Dedicated",
+    "latitude": 38.32112,
+    "longitude": -85.488843,
+    "dedication_date": "#76: 19 March 2000"
+  },
+  {
+    "name": "Luanda Angola Temple",
+    "status": "Unknown Location",
+    "latitude": -8.840256677,
+    "longitude": 13.27302267,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Lubbock Texas Temple",
+    "status": "Dedicated",
+    "latitude": 33.528961,
+    "longitude": -101.941413,
+    "dedication_date": "#109: 21 April 2002"
+  },
+  {
+    "name": "Lubumbashi Democratic Republic of the Congo Temple",
+    "status": "Construction",
+    "latitude": -11.64889247,
+    "longitude": 27.468461,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Maceió Brazil Temple",
+    "status": "Announced",
+    "latitude": -9.60334597,
+    "longitude": -35.744046,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Madrid Spain Temple",
+    "status": "Dedicated",
+    "latitude": 40.40009,
+    "longitude": -3.63158,
+    "dedication_date": "#56: 19 March 1999"
+  },
+  {
+    "name": "Managua Nicaragua Temple",
+    "status": "Construction",
+    "latitude": 12.09094774,
+    "longitude": -86.234252,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Manaus Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -3.073907,
+    "longitude": -60.089331,
+    "dedication_date": "#138: 10 June 2012"
+  },
+  {
+    "name": "Manhattan New York Temple",
+    "status": "Dedicated",
+    "latitude": 40.773112,
+    "longitude": -73.981622,
+    "dedication_date": "#119: 13 June 2004"
+  },
+  {
+    "name": "Manila Philippines Temple",
+    "status": "Dedicated",
+    "latitude": 14.601356,
+    "longitude": 121.069818,
+    "dedication_date": "#29: 25 September 1984"
+  },
+  {
+    "name": "Manti Utah Temple",
+    "status": "Dedicated",
+    "latitude": 39.272906,
+    "longitude": -111.63376,
+    "dedication_date": "#3: 17 May 1888"
+  },
+  {
+    "name": "Maputo Mozambique Temple",
+    "status": "Unknown Location",
+    "latitude": -25.967836231894438,
+    "longitude": 32.57046796996023,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Maracaibo Venezuela Temple",
+    "status": "Announced",
+    "latitude": 10.6693532,
+    "longitude": -71.604347,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Mbuji-Mayi Democratic Republic of the Congo Temple",
+    "status": "Unknown Location",
+    "latitude": -6.069959479,
+    "longitude": 23.60931029,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "McAllen Texas Temple",
+    "status": "Dedicated",
+    "latitude": 26.268118,
+    "longitude": -98.211125,
+    "dedication_date": "#183: 8 October 2023"
+  },
+  {
+    "name": "McKinney Texas Temple",
+    "status": "Announced",
+    "latitude": 33.13031793,
+    "longitude": -96.6310637,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Medellín Colombia Temple",
+    "status": "Unknown Location",
+    "latitude": 6.303322996,
+    "longitude": -75.57818642,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Medford Oregon Temple",
+    "status": "Dedicated",
+    "latitude": 42.373324,
+    "longitude": -122.932746,
+    "dedication_date": "#79: 16 April 2000"
+  },
+  {
+    "name": "Melbourne Australia Temple",
+    "status": "Dedicated",
+    "latitude": -37.868774,
+    "longitude": 145.212622,
+    "dedication_date": "#90: 16 June 2000"
+  },
+  {
+    "name": "Memphis Tennessee Temple",
+    "status": "Dedicated",
+    "latitude": 35.240752,
+    "longitude": -89.839334,
+    "dedication_date": "#80: 23 April 2000"
+  },
+  {
+    "name": "Mendoza Argentina Temple",
+    "status": "Dedicated",
+    "latitude": -32.863757,
+    "longitude": -68.881592,
+    "dedication_date": "#197: 22 September 2024"
+  },
+  {
+    "name": "Mérida Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 20.965784,
+    "longitude": -89.631061,
+    "dedication_date": "#92: 8 July 2000"
+  },
+  {
+    "name": "Meridian Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 43.671022,
+    "longitude": -116.415115,
+    "dedication_date": "#158: 19 November 2017"
+  },
+  {
+    "name": "Mesa Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 33.412876,
+    "longitude": -111.819571,
+    "dedication_date": "#7: 23 October 1927"
+  },
+  {
+    "name": "Mexico City Benemérito Mexico Temple",
+    "status": "Announced",
+    "latitude": 19.5348353,
+    "longitude": -99.150919,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Mexico City Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 19.465905,
+    "longitude": -99.086754,
+    "dedication_date": "#26: 2 December 1983"
+  },
+  {
+    "name": "Milan Italy Temple",
+    "status": "Unknown Location",
+    "latitude": 45.51880106,
+    "longitude": 9.149061619,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Milwaukee Wisconsin Temple",
+    "status": "Unknown Location",
+    "latitude": 43.03925702030031,
+    "longitude": -87.92229831678192,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Miraflores Guatemala City Guatemala Temple",
+    "status": "Construction",
+    "latitude": 14.60723616,
+    "longitude": -90.544967,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Missoula Montana Temple",
+    "status": "Announced",
+    "latitude": 46.81900794,
+    "longitude": -114.067477,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Modesto California Temple",
+    "status": "Construction",
+    "latitude": 37.70279243,
+    "longitude": -121.04679,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Monrovia Liberia Temple",
+    "status": "Unknown Location",
+    "latitude": 6.368728504,
+    "longitude": -10.87218119,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Monterrey Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 25.589364,
+    "longitude": -100.259975,
+    "dedication_date": "#110: 28 April 2002"
+  },
+  {
+    "name": "Montevideo Uruguay Temple",
+    "status": "Dedicated",
+    "latitude": -34.888444,
+    "longitude": -56.074088,
+    "dedication_date": "#103: 18 March 2001"
+  },
+  {
+    "name": "Monticello Utah Temple",
+    "status": "Dedicated",
+    "latitude": 37.877917,
+    "longitude": -109.347066,
+    "dedication_date": "#53: 26 July 1998"
+  },
+  {
+    "name": "Montpelier Idaho Temple",
+    "status": "Construction",
+    "latitude": 42.31796632,
+    "longitude": -111.301722,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Montreal Quebec Temple",
+    "status": "Dedicated",
+    "latitude": 45.563335,
+    "longitude": -73.490616,
+    "dedication_date": "#86: 4 June 2000"
+  },
+  {
+    "name": "Moses Lake Washington Temple",
+    "status": "Dedicated",
+    "latitude": 47.103441,
+    "longitude": -119.272362,
+    "dedication_date": "#182: 17 September 2023"
+  },
+  {
+    "name": "Mount Timpanogos Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.393166,
+    "longitude": -111.770509,
+    "dedication_date": "#49: 13 October 1996"
+  },
+  {
+    "name": "Naga Philippines Temple",
+    "status": "Unknown Location",
+    "latitude": 13.62256467,
+    "longitude": 123.1958573,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Nairobi Kenya Temple",
+    "status": "Dedicated",
+    "latitude": -1.26529552,
+    "longitude": 36.739816,
+    "dedication_date": "#204: 18 May 2025"
+  },
+  {
+    "name": "Nashville Tennessee Temple",
+    "status": "Dedicated",
+    "latitude": 35.948839,
+    "longitude": -86.860329,
+    "dedication_date": "#84: 21 May 2000"
+  },
+  {
+    "name": "Natal Brazil Temple",
+    "status": "Construction",
+    "latitude": -5.87785295,
+    "longitude": -35.222713,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Nauvoo Illinois Temple",
+    "status": "Dedicated",
+    "latitude": 40.55048,
+    "longitude": -91.384378,
+    "dedication_date": "#113: 27 June 2002"
+  },
+  {
+    "name": "Neiafu Tonga Temple",
+    "status": "Construction",
+    "latitude": -18.64422855,
+    "longitude": -173.9776,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Newport Beach California Temple",
+    "status": "Dedicated",
+    "latitude": 33.629627,
+    "longitude": -117.848766,
+    "dedication_date": "#122: 28 August 2005"
+  },
+  {
+    "name": "Norfolk Virginia Temple",
+    "status": "Unknown Location",
+    "latitude": 36.849669788490104,
+    "longitude": -76.28355390579148,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Nouméa New Caledonia Temple",
+    "status": "Unknown Location",
+    "latitude": -22.28153028583601,
+    "longitude": 166.45104660249137,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Nuku'alofa Tonga Temple",
+    "status": "Dedicated",
+    "latitude": -21.162561,
+    "longitude": -175.27232,
+    "dedication_date": "#23: 9 August 1983"
+  },
+  {
+    "name": "Oakland California Temple",
+    "status": "Dedicated",
+    "latitude": 37.808027,
+    "longitude": -122.19912,
+    "dedication_date": "#13: 19 November 1964"
+  },
+  {
+    "name": "Oaxaca Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 17.041554,
+    "longitude": -96.713503,
+    "dedication_date": "#74: 11 March 2000"
+  },
+  {
+    "name": "Ogden Utah Temple",
+    "status": "Dedicated",
+    "latitude": 41.227786,
+    "longitude": -111.971506,
+    "dedication_date": "#14: 18 January 1972"
+  },
+  {
+    "name": "Okinawa Japan Temple",
+    "status": "Dedicated",
+    "latitude": 26.358285,
+    "longitude": 127.801718,
+    "dedication_date": "#186: 12 November 2023"
+  },
+  {
+    "name": "Oklahoma City Oklahoma Temple",
+    "status": "Dedicated",
+    "latitude": 35.591846,
+    "longitude": -97.7267,
+    "dedication_date": "#95: 30 July 2000"
+  },
+  {
+    "name": "Oquirrh Mountain Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.551145,
+    "longitude": -111.98751,
+    "dedication_date": "#130: 21 August 2009"
+  },
+  {
+    "name": "Orem Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.270755,
+    "longitude": -111.720916,
+    "dedication_date": "#188: 21 January 2024"
+  },
+  {
+    "name": "Orlando Florida Temple",
+    "status": "Dedicated",
+    "latitude": 28.507348,
+    "longitude": -81.509578,
+    "dedication_date": "#46: 9 October 1994"
+  },
+  {
+    "name": "Osaka Japan Temple",
+    "status": "Announced",
+    "latitude": 34.81677777,
+    "longitude": 135.715121,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Oslo Norway Temple",
+    "status": "Announced",
+    "latitude": 59.85795039,
+    "longitude": 10.48033456,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Pachuca Mexico Temple",
+    "status": "Announced",
+    "latitude": 20.10227408,
+    "longitude": -98.762569,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Pago Pago American Samoa Temple",
+    "status": "Construction",
+    "latitude": -14.333959,
+    "longitude": -170.73199,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Palmyra New York Temple",
+    "status": "Dedicated",
+    "latitude": 43.039148,
+    "longitude": -77.237063,
+    "dedication_date": "#77: 6 April 2000"
+  },
+  {
+    "name": "Panama City Panama Temple",
+    "status": "Dedicated",
+    "latitude": 8.99146,
+    "longitude": -79.57048,
+    "dedication_date": "#127: 10 August 2008"
+  },
+  {
+    "name": "Papeete Tahiti Temple",
+    "status": "Dedicated",
+    "latitude": -17.536618,
+    "longitude": -149.556019,
+    "dedication_date": "#25: 27 October 1983"
+  },
+  {
+    "name": "Paris France Temple",
+    "status": "Dedicated",
+    "latitude": 48.817892,
+    "longitude": 2.123171,
+    "dedication_date": "#156: 21 May 2017"
+  },
+  {
+    "name": "Payson Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.019258,
+    "longitude": -111.749175,
+    "dedication_date": "#146: 7 June 2015"
+  },
+  {
+    "name": "Perth Australia Temple",
+    "status": "Dedicated",
+    "latitude": -31.906905,
+    "longitude": 115.869834,
+    "dedication_date": "#106: 20 May 2001"
+  },
+  {
+    "name": "Philadelphia Pennsylvania Temple",
+    "status": "Dedicated",
+    "latitude": 39.959174,
+    "longitude": -75.168072,
+    "dedication_date": "#152: 18 September 2016"
+  },
+  {
+    "name": "Phnom Penh Cambodia Temple",
+    "status": "Construction",
+    "latitude": 11.569891,
+    "longitude": 104.895707,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Phoenix Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 33.698555,
+    "longitude": -112.172329,
+    "dedication_date": "#144: 16 November 2014"
+  },
+  {
+    "name": "Pittsburgh Pennsylvania Temple",
+    "status": "Dedicated",
+    "latitude": 40.69404827,
+    "longitude": -80.140918,
+    "dedication_date": "#196: 15 September 2024"
+  },
+  {
+    "name": "Piura Peru Temple",
+    "status": "Unknown Location",
+    "latitude": -5.17318868,
+    "longitude": -80.66382047,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Pocatello Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 42.915259,
+    "longitude": -112.406374,
+    "dedication_date": "#170: 7 November 2021"
+  },
+  {
+    "name": "Port Moresby Papua New Guinea Temple",
+    "status": "Construction",
+    "latitude": -9.477474,
+    "longitude": 147.176546,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Port Vila Vanuatu Temple",
+    "status": "Construction",
+    "latitude": -17.70379129,
+    "longitude": 168.30421,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Port-au-Prince Haiti Temple",
+    "status": "Dedicated",
+    "latitude": 18.529017,
+    "longitude": -72.268143,
+    "dedication_date": "#165: 1 September 2019"
+  },
+  {
+    "name": "Porto Portugal Temple",
+    "status": "Unknown Location",
+    "latitude": 41.159999603276525,
+    "longitude": -8.629571388232163,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Portland Oregon Temple",
+    "status": "Dedicated",
+    "latitude": 45.425345,
+    "longitude": -122.742224,
+    "dedication_date": "#42: 19 August 1989"
+  },
+  {
+    "name": "Porto Alegre Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -30.034047,
+    "longitude": -51.157868,
+    "dedication_date": "#102: 17 December 2000"
+  },
+  {
+    "name": "Praia Cape Verde Temple",
+    "status": "Dedicated",
+    "latitude": 14.918789,
+    "longitude": -23.511157,
+    "dedication_date": "#173: 19 June 2022"
+  },
+  {
+    "name": "Preston England Temple",
+    "status": "Dedicated",
+    "latitude": 53.672476,
+    "longitude": -2.631275,
+    "dedication_date": "#52: 7 June 1998"
+  },
+  {
+    "name": "Price Utah Temple",
+    "status": "Unknown Location",
+    "latitude": 39.58710915,
+    "longitude": -110.8228809,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Provo City Center Temple",
+    "status": "Dedicated",
+    "latitude": 40.232667,
+    "longitude": -111.659299,
+    "dedication_date": "#150: 20 March 2016"
+  },
+  {
+    "name": "Provo Utah Rock Canyon Temple",
+    "status": "Dedicated",
+    "latitude": 40.263666,
+    "longitude": -111.639779,
+    "dedication_date": "#15: 9 February 1972"
+  },
+  {
+    "name": "Puebla Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 19.085418,
+    "longitude": -98.235514,
+    "dedication_date": "#191: 19 May 2024"
+  },
+  {
+    "name": "Puerto Montt Chile Temple",
+    "status": "Unknown Location",
+    "latitude": -41.46889835505417,
+    "longitude": -72.94775962013546,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Queen Creek Arizona Temple",
+    "status": "Unknown Location",
+    "latitude": 33.24646809,
+    "longitude": -111.6387686,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Querétaro Mexico Temple",
+    "status": "Construction",
+    "latitude": 20.61335562,
+    "longitude": -100.410611,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Quetzaltenango Guatemala Temple",
+    "status": "Dedicated",
+    "latitude": 14.846493,
+    "longitude": -91.542517,
+    "dedication_date": "#136: 11 December 2011"
+  },
+  {
+    "name": "Quito Ecuador Temple",
+    "status": "Dedicated",
+    "latitude": -0.213711,
+    "longitude": -78.441018,
+    "dedication_date": "#175: 20 November 2022"
+  },
+  {
+    "name": "Raleigh North Carolina Temple",
+    "status": "Dedicated",
+    "latitude": 35.732111,
+    "longitude": -78.861542,
+    "dedication_date": "#68: 18 December 1999"
+  },
+  {
+    "name": "Rapid City South Dakota Temple",
+    "status": "Unknown Location",
+    "latitude": 44.07571509,
+    "longitude": -103.2232612,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Recife Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -8.03639,
+    "longitude": -34.911123,
+    "dedication_date": "#101: 15 December 2000"
+  },
+  {
+    "name": "Red Cliffs Utah Temple",
+    "status": "Dedicated",
+    "latitude": 37.082184,
+    "longitude": -113.519741,
+    "dedication_date": "#189: 24 March 2024"
+  },
+  {
+    "name": "Redlands California Temple",
+    "status": "Dedicated",
+    "latitude": 34.049037,
+    "longitude": -117.140579,
+    "dedication_date": "#116: 14 September 2003"
+  },
+  {
+    "name": "Regina Saskatchewan Temple",
+    "status": "Dedicated",
+    "latitude": 50.420981,
+    "longitude": -104.54168,
+    "dedication_date": "#65: 14 November 1999"
+  },
+  {
+    "name": "Reno Nevada Temple",
+    "status": "Dedicated",
+    "latitude": 39.534611,
+    "longitude": -119.898913,
+    "dedication_date": "#81: 23 April 2000"
+  },
+  {
+    "name": "Retalhuleu Guatemala Temple",
+    "status": "Announced",
+    "latitude": 14.55392838,
+    "longitude": -91.6551607,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Rexburg Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 43.810922,
+    "longitude": -111.778979,
+    "dedication_date": "#125: 10 February 2008"
+  },
+  {
+    "name": "Reynosa Mexico Temple",
+    "status": "Unknown Location",
+    "latitude": 26.05052376,
+    "longitude": -98.3069425,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Ribeirão Preto Brazil Temple",
+    "status": "Construction",
+    "latitude": -21.21599523,
+    "longitude": -47.808925,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Richmond Virginia Temple",
+    "status": "Dedicated",
+    "latitude": 37.672884,
+    "longitude": -77.535372,
+    "dedication_date": "#177: 7 May 2023"
+  },
+  {
+    "name": "Rio de Janeiro Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -23.000894,
+    "longitude": -43.399918,
+    "dedication_date": "#171: 8 May 2022"
+  },
+  {
+    "name": "Rivera Uruguay Temple",
+    "status": "Unknown Location",
+    "latitude": -30.9032485712175,
+    "longitude": -55.54176273411275,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Roanoke Virginia Temple",
+    "status": "Unknown Location",
+    "latitude": 37.2992185,
+    "longitude": -79.97957389,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Rome Italy Temple",
+    "status": "Dedicated",
+    "latitude": 41.970437,
+    "longitude": 12.544764,
+    "dedication_date": "#162: 10 March 2019"
+  },
+  {
+    "name": "Rosario Argentina Temple",
+    "status": "Unknown Location",
+    "latitude": -32.9707,
+    "longitude": -60.7284,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Russia Temple",
+    "status": "Unknown Location",
+    "latitude": 55.81126634,
+    "longitude": 37.60917161,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Sacramento California Temple",
+    "status": "Dedicated",
+    "latitude": 38.635116,
+    "longitude": -121.193925,
+    "dedication_date": "#123: 3 September 2006"
+  },
+  {
+    "name": "Salt Lake Temple",
+    "status": "Dedicated",
+    "latitude": 40.770468,
+    "longitude": -111.891958,
+    "dedication_date": "#4: 6 April 1893"
+  },
+  {
+    "name": "Salta Argentina Temple",
+    "status": "Dedicated",
+    "latitude": -24.837197,
+    "longitude": -65.470001,
+    "dedication_date": "#194: 16 June 2024"
+  },
+  {
+    "name": "Salvador Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -12.929251,
+    "longitude": -38.386386,
+    "dedication_date": "#199: 20 October 2024"
+  },
+  {
+    "name": "San Antonio Texas Temple",
+    "status": "Dedicated",
+    "latitude": 29.641481,
+    "longitude": -98.488789,
+    "dedication_date": "#120: 22 May 2005"
+  },
+  {
+    "name": "San Diego California Temple",
+    "status": "Dedicated",
+    "latitude": 32.866389,
+    "longitude": -117.228769,
+    "dedication_date": "#45: 25 April 1993"
+  },
+  {
+    "name": "San Jose California Temple",
+    "status": "Announced",
+    "latitude": 37.35297371,
+    "longitude": -122.04434,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "San José Costa Rica Temple",
+    "status": "Dedicated",
+    "latitude": 9.986418,
+    "longitude": -84.184831,
+    "dedication_date": "#87: 4 June 2000"
+  },
+  {
+    "name": "San Jose del Monte Philippines Temple",
+    "status": "Unknown Location",
+    "latitude": 14.813196939159008,
+    "longitude": 121.07491398477354,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "San Juan Puerto Rico Temple",
+    "status": "Dedicated",
+    "latitude": 18.385623,
+    "longitude": -66.029896,
+    "dedication_date": "#176: 15 January 2023"
+  },
+  {
+    "name": "San Luis Potosí Mexico Temple",
+    "status": "Construction",
+    "latitude": 22.15320582,
+    "longitude": -101.01515,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "San Pedro Sula Honduras Temple",
+    "status": "Dedicated",
+    "latitude": 15.522544,
+    "longitude": -88.036856,
+    "dedication_date": "#198: 13 October 2024"
+  },
+  {
+    "name": "San Salvador El Salvador Temple",
+    "status": "Dedicated",
+    "latitude": 13.683347,
+    "longitude": -89.246822,
+    "dedication_date": "#135: 21 August 2011"
+  },
+  {
+    "name": "Santa Ana El Salvador Temple",
+    "status": "Unknown Location",
+    "latitude": 13.97593492,
+    "longitude": -89.56971694,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Santa Cruz Bolivia Temple",
+    "status": "Construction",
+    "latitude": -17.73855162,
+    "longitude": -63.17467,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Santiago Chile Temple",
+    "status": "Dedicated",
+    "latitude": -33.436174,
+    "longitude": -70.609521,
+    "dedication_date": "#24: 15 September 1983"
+  },
+  {
+    "name": "Santiago Dominican Republic Temple",
+    "status": "Unknown Location",
+    "latitude": 19.50610326,
+    "longitude": -70.7062734,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Santiago Philippines Temple",
+    "status": "Unknown Location",
+    "latitude": 16.69222082,
+    "longitude": 121.5564245,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Santiago West Chile Temple",
+    "status": "Construction",
+    "latitude": -33.49296743,
+    "longitude": -70.73638,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Santo Domingo Dominican Republic Temple",
+    "status": "Dedicated",
+    "latitude": 18.466567,
+    "longitude": -69.917144,
+    "dedication_date": "#99: 17 September 2000"
+  },
+  {
+    "name": "Santos Brazil Temple",
+    "status": "Announced",
+    "latitude": -23.94286335,
+    "longitude": -46.334198,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "São Paulo Brazil Temple",
+    "status": "Dedicated",
+    "latitude": -23.585174,
+    "longitude": -46.722764,
+    "dedication_date": "#17: 30 October 1978"
+  },
+  {
+    "name": "São Paulo East Brazil Temple",
+    "status": "Announced",
+    "latitude": -23.55518816,
+    "longitude": -46.54444,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Sapporo Japan Temple",
+    "status": "Dedicated",
+    "latitude": 43.0249,
+    "longitude": 141.4457,
+    "dedication_date": "#151: 21 August 2016"
+  },
+  {
+    "name": "Saratoga Springs Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.34422619,
+    "longitude": -111.932607,
+    "dedication_date": "#179: 13 August 2023"
+  },
+  {
+    "name": "Savai'i Samoa Temple",
+    "status": "Announced",
+    "latitude": -13.75189602,
+    "longitude": -172.2318,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Seattle Washington Temple",
+    "status": "Dedicated",
+    "latitude": 47.58407,
+    "longitude": -122.140876,
+    "dedication_date": "#19: 21 November 1980"
+  },
+  {
+    "name": "Seoul Korea Temple",
+    "status": "Dedicated",
+    "latitude": 37.558913,
+    "longitude": 126.931286,
+    "dedication_date": "#37: 14 December 1985"
+  },
+  {
+    "name": "Shanghai People's Republic of China Temple",
+    "status": "Unknown Location",
+    "latitude": 31.28296972,
+    "longitude": 121.4306199,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Singapore Temple",
+    "status": "Construction",
+    "latitude": 1.27995248,
+    "longitude": 103.784842,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Smithfield Utah Temple",
+    "status": "Construction",
+    "latitude": 41.84012916,
+    "longitude": -111.852673,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Snowflake Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 34.502494,
+    "longitude": -110.111607,
+    "dedication_date": "#108: 3 March 2002"
+  },
+  {
+    "name": "Spanish Fork Utah Temple",
+    "status": "Unknown Location",
+    "latitude": 40.115175902250776,
+    "longitude": -111.65494250734477,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Spokane Washington Temple",
+    "status": "Dedicated",
+    "latitude": 47.620163,
+    "longitude": -117.22069,
+    "dedication_date": "#59: 21 August 1999"
+  },
+  {
+    "name": "Springfield Missouri Temple",
+    "status": "Announced",
+    "latitude": 37.10238963,
+    "longitude": -93.243289,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "St. George Utah Temple",
+    "status": "Dedicated",
+    "latitude": 37.100535,
+    "longitude": -113.578041,
+    "dedication_date": "#1: 6 April 1877"
+  },
+  {
+    "name": "St. Louis Missouri Temple",
+    "status": "Dedicated",
+    "latitude": 38.639651,
+    "longitude": -90.464685,
+    "dedication_date": "#50: 1 June 1997"
+  },
+  {
+    "name": "St. Paul Minnesota Temple",
+    "status": "Dedicated",
+    "latitude": 44.980261,
+    "longitude": -92.965199,
+    "dedication_date": "#69: 9 January 2000"
+  },
+  {
+    "name": "Star Valley Wyoming Temple",
+    "status": "Dedicated",
+    "latitude": 42.712073,
+    "longitude": -110.932532,
+    "dedication_date": "#154: 30 October 2016"
+  },
+  {
+    "name": "Stockholm Sweden Temple",
+    "status": "Dedicated",
+    "latitude": 59.124676,
+    "longitude": 18.109177,
+    "dedication_date": "#34: 2 July 1985"
+  },
+  {
+    "name": "Summit New Jersey Temple",
+    "status": "Unknown Location",
+    "latitude": 40.714524958796105,
+    "longitude": -74.36401957509673,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Suva Fiji Temple",
+    "status": "Dedicated",
+    "latitude": -18.119705,
+    "longitude": 178.438559,
+    "dedication_date": "#91: 18 June 2000"
+  },
+  {
+    "name": "Sydney Australia Temple",
+    "status": "Dedicated",
+    "latitude": -33.775617,
+    "longitude": 151.050592,
+    "dedication_date": "#28: 20 September 1984"
+  },
+  {
+    "name": "Syracuse Utah Temple",
+    "status": "Dedicated",
+    "latitude": 41.099938,
+    "longitude": -112.076542,
+    "dedication_date": "#206: 8 June 2025"
+  },
+  {
+    "name": "Tacloban City Philippines",
+    "status": "Construction",
+    "latitude": 11.22377084,
+    "longitude": 124.984491,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Tacoma Washington Temple",
+    "status": "Announced",
+    "latitude": 47.27419368,
+    "longitude": -122.316361,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Taipei Taiwan Temple",
+    "status": "Dedicated",
+    "latitude": 25.031377,
+    "longitude": 121.527794,
+    "dedication_date": "#31: 17 November 1984"
+  },
+  {
+    "name": "Tallahassee Florida Temple",
+    "status": "Dedicated",
+    "latitude": 30.520117,
+    "longitude": -84.238222,
+    "dedication_date": "#202: 8 December 2024"
+  },
+  {
+    "name": "Tampa Florida Temple",
+    "status": "Construction",
+    "latitude": 27.86733023,
+    "longitude": -82.266875,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Tampico Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 22.254262,
+    "longitude": -97.855869,
+    "dedication_date": "#83: 20 May 2000"
+  },
+  {
+    "name": "Tarawa Kiribati Temple",
+    "status": "Construction",
+    "latitude": 1.34948484,
+    "longitude": 173.040061,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Taylorsville Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.66671159,
+    "longitude": -111.95411,
+    "dedication_date": "#192: 2 June 2024"
+  },
+  {
+    "name": "Tegucigalpa Honduras Temple",
+    "status": "Dedicated",
+    "latitude": 14.052174,
+    "longitude": -87.238019,
+    "dedication_date": "#141: 17 March 2013"
+  },
+  {
+    "name": "Teresina Brazil Temple",
+    "status": "Announced",
+    "latitude": -5.08842094,
+    "longitude": -42.779871,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Teton River Idaho Temple",
+    "status": "Construction",
+    "latitude": 43.8611138,
+    "longitude": -111.779946,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "The Gila Valley Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 32.862971,
+    "longitude": -109.789974,
+    "dedication_date": "#132: 23 May 2010"
+  },
+  {
+    "name": "The Hague Netherlands Temple",
+    "status": "Dedicated",
+    "latitude": 52.054487,
+    "longitude": 4.502979,
+    "dedication_date": "#114: 8 September 2002"
+  },
+  {
+    "name": "Tijuana Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 32.488713,
+    "longitude": -116.929441,
+    "dedication_date": "#149: 13 December 2015"
+  },
+  {
+    "name": "Tokyo Japan Temple",
+    "status": "Dedicated",
+    "latitude": 35.652838,
+    "longitude": 139.724539,
+    "dedication_date": "#18: 27 October 1980"
+  },
+  {
+    "name": "Toluca Mexico Temple",
+    "status": "Announced",
+    "latitude": 19.25230253,
+    "longitude": -99.626874,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Toronto Ontario Temple",
+    "status": "Dedicated",
+    "latitude": 43.744338,
+    "longitude": -79.746059,
+    "dedication_date": "#44: 25 August 1990"
+  },
+  {
+    "name": "Torreón Mexico Temple",
+    "status": "Construction",
+    "latitude": 25.55331849,
+    "longitude": -103.499227,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Trujillo Peru Temple",
+    "status": "Dedicated",
+    "latitude": -8.100149,
+    "longitude": -79.058515,
+    "dedication_date": "#147: 21 June 2015"
+  },
+  {
+    "name": "Tucson Arizona Temple",
+    "status": "Dedicated",
+    "latitude": 32.338454,
+    "longitude": -110.949174,
+    "dedication_date": "#157: 13 August 2017"
+  },
+  {
+    "name": "Tuguegarao City Philippines Temple",
+    "status": "Announced",
+    "latitude": 17.65013413,
+    "longitude": 121.751638,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Tula Mexico Temple",
+    "status": "Unknown Location",
+    "latitude": 20.05636262,
+    "longitude": -99.3351742,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Tulsa Oklahoma Temple",
+    "status": "Announced",
+    "latitude": 36.09186775,
+    "longitude": -95.826161,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Tuxtla Gutiérrez Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 16.764164,
+    "longitude": -93.159155,
+    "dedication_date": "#75: 12 March 2000"
+  },
+  {
+    "name": "Twin Falls Idaho Temple",
+    "status": "Dedicated",
+    "latitude": 42.586827,
+    "longitude": -114.441509,
+    "dedication_date": "#128: 24 August 2008"
+  },
+  {
+    "name": "Ulaanbaatar Mongolia Temple",
+    "status": "Unknown Location",
+    "latitude": 47.94701928,
+    "longitude": 106.9609528,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Urdaneta Philippines Temple",
+    "status": "Dedicated",
+    "latitude": 15.938567,
+    "longitude": 120.581762,
+    "dedication_date": "#190: 28 April 2024"
+  },
+  {
+    "name": "Uturoa French Polynesia Temple",
+    "status": "Unknown Location",
+    "latitude": -16.72863133,
+    "longitude": -151.4446896,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Uyo Nigeria Temple",
+    "status": "Unknown Location",
+    "latitude": 5.038724864,
+    "longitude": 7.911893553,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Vancouver British Columbia Temple",
+    "status": "Dedicated",
+    "latitude": 49.151212,
+    "longitude": -122.658009,
+    "dedication_date": "#131: 2 May 2010"
+  },
+  {
+    "name": "Vancouver Washington Temple",
+    "status": "Construction",
+    "latitude": 45.60772261,
+    "longitude": -122.46934,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Veracruz Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 19.13441,
+    "longitude": -96.10626,
+    "dedication_date": "#93: 9 July 2000"
+  },
+  {
+    "name": "Vernal Utah Temple",
+    "status": "Dedicated",
+    "latitude": 40.453205,
+    "longitude": -109.537413,
+    "dedication_date": "#51: 2 November 1997"
+  },
+  {
+    "name": "Victoria British Columbia Temple",
+    "status": "Unknown Location",
+    "latitude": 48.4362471,
+    "longitude": -123.3651176,
+    "dedication_date": "Announced - Location TBA"
+  },
+  {
+    "name": "Vienna Austria Temple",
+    "status": "Announced",
+    "latitude": 48.24312657,
+    "longitude": 16.3493719,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Villahermosa Mexico Temple",
+    "status": "Dedicated",
+    "latitude": 17.981276,
+    "longitude": -92.937375,
+    "dedication_date": "#85: 21 May 2000"
+  },
+  {
+    "name": "Viña del Mar Chile Temple",
+    "status": "Announced",
+    "latitude": -33.02085481,
+    "longitude": -71.5456912,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Vitória Brazil Temple",
+    "status": "Announced",
+    "latitude": -20.29637999,
+    "longitude": -40.304767,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Washington D.C. Temple",
+    "status": "Dedicated",
+    "latitude": 39.014079,
+    "longitude": -77.065624,
+    "dedication_date": "#16: 19 November 1974"
+  },
+  {
+    "name": "Wellington New Zealand Temple",
+    "status": "Construction",
+    "latitude": -41.12326075,
+    "longitude": 174.85459,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "West Jordan Utah Temple",
+    "status": "Announced",
+    "latitude": 40.62037187,
+    "longitude": -112.06863,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Wichita Kansas Temple",
+    "status": "Construction",
+    "latitude": 37.77509379,
+    "longitude": -97.373413,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Willamette Valley Oregon Temple",
+    "status": "Construction",
+    "latitude": 44.08885894,
+    "longitude": -123.03278,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Winchester Virginia Temple",
+    "status": "Construction",
+    "latitude": 39.18827326,
+    "longitude": -78.1913495,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Winnipeg Manitoba Temple",
+    "status": "Dedicated",
+    "latitude": 49.800544,
+    "longitude": -97.195212,
+    "dedication_date": "#169: 31 October 2021"
+  },
+  {
+    "name": "Winter Quarters Nebraska Temple",
+    "status": "Dedicated",
+    "latitude": 41.334075,
+    "longitude": -95.96619,
+    "dedication_date": "#104: 22 April 2001"
+  },
+  {
+    "name": "Yigo Guam Temple",
+    "status": "Dedicated",
+    "latitude": 13.541741,
+    "longitude": 144.890143,
+    "dedication_date": "#172: 22 May 2022"
+  },
+  {
+    "name": "Yorba Linda California Temple",
+    "status": "Construction",
+    "latitude": 33.8983749,
+    "longitude": -117.834721,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Yuma Arizona Temple",
+    "status": "Unknown Location",
+    "latitude": 32.69041549,
+    "longitude": -114.6242903,
+    "dedication_date": "Announced - Location TBA"
+  }
+]
