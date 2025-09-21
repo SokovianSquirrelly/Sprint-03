@@ -1,0 +1,806 @@
+[
+  {
+    "city": "Acapulco, Mexico",
+    "latitude": 16.8619186,
+    "longitude": -99.88923666,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Aguascalientes, Mexico",
+    "latitude": 21.92587267,
+    "longitude": -102.3184713,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Albany, New York",
+    "latitude": 42.65322083,
+    "longitude": -73.76292648,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Alpine, Utah",
+    "latitude": 40.45336705,
+    "longitude": -111.7774411,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Amarillo, Texas",
+    "latitude": 35.21928086,
+    "longitude": -101.8419206,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Ammon, Idaho",
+    "latitude": 43.46980391,
+    "longitude": -111.9665612,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Angeles, Philippines",
+    "latitude": 15.14262959,
+    "longitude": 120.5925716,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Augusta, Maine",
+    "latitude": 44.34003404,
+    "longitude": -69.79361849,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Baguio, Philippines",
+    "latitude": 16.39920553,
+    "longitude": 120.5904212,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Baltimore, Maryland",
+    "latitude": 39.29640352,
+    "longitude": -76.61258241,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Batangas, Philippines",
+    "latitude": 13.76164971,
+    "longitude": 121.0579509,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Bend, Oregon",
+    "latitude": 44.05851632,
+    "longitude": -121.3146477,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Blackfoot, Idaho",
+    "latitude": 43.19238968,
+    "longitude": -112.3493034,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Bremerton, Washington",
+    "latitude": 47.56567631,
+    "longitude": -122.6307746,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Bulawayo, Zimbabwe",
+    "latitude": -20.13978977811059,
+    "longitude": 28.590687948013628,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Cardiff, Wales",
+    "latitude": 51.48510701,
+    "longitude": -3.172422409,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Carlsbad/Oceanside, California",
+    "latitude": 33.16549593,
+    "longitude": -117.3498593,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Charleston, West Virginia",
+    "latitude": 38.34572804,
+    "longitude": -81.62966251,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Chattanooga, Tennessee",
+    "latitude": 35.05046938750067,
+    "longitude": -85.2964494337982,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Cheyenne, Wyoming",
+    "latitude": 41.14002233,
+    "longitude": -104.8327946,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Chimbote, Peru",
+    "latitude": -9.060844476,
+    "longitude": -78.59567479,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Christchurch, New Zealand",
+    "latitude": -43.523504296799885,
+    "longitude": 172.62244971678425,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Ciudad Victoria, Mexico",
+    "latitude": 23.78404616,
+    "longitude": -99.1729901,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Concord, New Hampshire",
+    "latitude": 43.205390071311115,
+    "longitude": -71.53676774599889,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Corpus Christi, Texas",
+    "latitude": 27.80167905,
+    "longitude": -97.40135366,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Cuiabá, Brazil",
+    "latitude": -15.62527767,
+    "longitude": -56.0627967,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Curitiba East, Brazil",
+    "latitude": -25.44621345,
+    "longitude": -49.04232099,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Dayton, Ohio",
+    "latitude": 39.764382809197556,
+    "longitude": -84.19521495238827,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Dover, Delaware",
+    "latitude": 39.15782401,
+    "longitude": -75.52587075,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Durango, Mexico",
+    "latitude": 24.05133309,
+    "longitude": -104.6552452,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Düsseldorf, Germany",
+    "latitude": 51.22807306,
+    "longitude": 6.768046653,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Eagle Mountain, Utah",
+    "latitude": 40.31283104,
+    "longitude": -112.0064845,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Everett, Washington",
+    "latitude": 47.98525851,
+    "longitude": -122.193783,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Farmington, Utah",
+    "latitude": 40.97943152,
+    "longitude": -111.8847556,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Fayetteville, North Carolina",
+    "latitude": 35.05507907,
+    "longitude": -78.87490395,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Fort Wayne, Indiana",
+    "latitude": 41.08382764108584,
+    "longitude": -85.15390045493702,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Gaborone, Botswana",
+    "latitude": -24.634784464069153,
+    "longitude": 25.866067412445766,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Gillette, Wyoming",
+    "latitude": 44.29450746,
+    "longitude": -105.4989104,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Great Falls, Montana",
+    "latitude": 47.5130177064575,
+    "longitude": -111.3093006094927,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Guayaquil, Ecuador (Second Temple)",
+    "latitude": -2.2686637584793345,
+    "longitude": -79.92454426370176,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Henderson, Nevada",
+    "latitude": 36.04595701,
+    "longitude": -114.9826913,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Herriman, Utah",
+    "latitude": 40.51489763,
+    "longitude": -112.0355307,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Holladay, Utah",
+    "latitude": 40.66861026,
+    "longitude": -111.823312,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Hurricane, Utah",
+    "latitude": 37.17601986,
+    "longitude": -113.2808453,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Hyrum/Wellsville, Utah",
+    "latitude": 41.63399986,
+    "longitude": -111.8528125,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Ibadan, Nigeria",
+    "latitude": 7.383957621,
+    "longitude": 3.941919311,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Ica, Peru",
+    "latitude": -14.075483469062217,
+    "longitude": -75.73993858430981,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Jackson, Mississippi",
+    "latitude": 32.31363097,
+    "longitude": -90.18340027,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Kalispel, Montana",
+    "latitude": 48.192490969902195,
+    "longitude": -114.31866231801474,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Kanab, Utah",
+    "latitude": 37.04330517,
+    "longitude": -112.5328085,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Kanesville, Utah",
+    "latitude": 41.19029711258977,
+    "longitude": -112.0864915131822,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Kearns, Utah",
+    "latitude": 40.66085918,
+    "longitude": -111.9961124,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Kingston, Jamaica",
+    "latitude": 18.0311493,
+    "longitude": -76.80482869,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "La Grande, Oregon",
+    "latitude": 45.32427079,
+    "longitude": -118.0868186,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "La Paz, Mexico",
+    "latitude": 24.14977587,
+    "longitude": -110.3103126,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "La Serena, Chile",
+    "latitude": -29.89291855,
+    "longitude": -71.26069958,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Lake Havasu, Arizona",
+    "latitude": 34.48457157,
+    "longitude": -114.3248853,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Lancaster, California",
+    "latitude": 34.70189463,
+    "longitude": -118.1679513,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Lilongwe, Malawi",
+    "latitude": -13.975249185875292,
+    "longitude": 33.77158580175173,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Little Rock, Arkansas",
+    "latitude": 34.75550083,
+    "longitude": -92.28463574,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Lomé, Togo",
+    "latitude": 6.142339021,
+    "longitude": 1.211280021,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Longview/Tyler, Texas",
+    "latitude": 32.50152019,
+    "longitude": -94.74677801,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Lusaka, Zambia",
+    "latitude": -15.361907033760845,
+    "longitude": 28.258767585807888,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Machala, Ecuador",
+    "latitude": -3.256184058,
+    "longitude": -79.94442081,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Mackay, Idaho",
+    "latitude": 43.91359237,
+    "longitude": -113.6100397,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Magna, Utah",
+    "latitude": 40.7093452,
+    "longitude": -112.1016643,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Majuro, Marshall Islands",
+    "latitude": 7.145652239,
+    "longitude": 171.0356131,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Mapleton, Utah",
+    "latitude": 40.13008440383042,
+    "longitude": -111.57767983326497,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Mesa East, Arizona",
+    "latitude": 33.41507233,
+    "longitude": -111.6239139,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Mexicali, Mexico",
+    "latitude": 32.62555043,
+    "longitude": -115.4574173,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Midland/Odessa, Texas",
+    "latitude": 31.9226405,
+    "longitude": -102.2331263,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Midvale, Utah",
+    "latitude": 40.61057741,
+    "longitude": -111.8998251,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Moapa Valley, Nevada",
+    "latitude": 36.57325624,
+    "longitude": -114.4637278,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Mobile, Alabama",
+    "latitude": 30.71479015,
+    "longitude": -88.03535618,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Monclova, Mexico",
+    "latitude": 26.90327938,
+    "longitude": -101.3779654,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Montgomery, Alabama",
+    "latitude": 32.37929231,
+    "longitude": -86.32146659,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Morelia, Mexico",
+    "latitude": 19.71017566,
+    "longitude": -101.1982015,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Morgan, Utah",
+    "latitude": 41.03591044,
+    "longitude": -111.6764792,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Munich, Germany",
+    "latitude": 48.18706084,
+    "longitude": 11.59532122,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Murrieta/Temecula, California",
+    "latitude": 33.56103597324433,
+    "longitude": -117.21108949664234,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Nephi, Utah",
+    "latitude": 39.7102434791016,
+    "longitude": -111.83628922521004,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Neuquen, Argentina",
+    "latitude": -38.95228181779362,
+    "longitude": -68.05882504719509,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "New Delhi, India",
+    "latitude": 28.61746294,
+    "longitude": 77.18556037,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Olympia, Washington",
+    "latitude": 47.047299980603356,
+    "longitude": -122.89912539025339,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Ottawa, Ontario",
+    "latitude": 45.42248008,
+    "longitude": -75.69319533,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Pelotas, Brazil",
+    "latitude": -31.77793149,
+    "longitude": -52.35013587,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Pleasant View, Utah",
+    "latitude": 41.31961981,
+    "longitude": -111.993703,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Port Harcourt, Nigeria",
+    "latitude": 4.868272836,
+    "longitude": 6.987092658,
+    "confidence_level": "High"
+  },
+  {
+    "city": "Port of Spain, Trinidad and Tobago",
+    "latitude": 10.67916767,
+    "longitude": -61.52050692,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Porto-Novo, Benin",
+    "latitude": 6.477464935,
+    "longitude": 2.619364507,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Poza Rica, Mexico",
+    "latitude": 20.52936332,
+    "longitude": -97.45127556,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Prague, Czechia",
+    "latitude": 50.08218163127964,
+    "longitude": 14.406727477227777,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Prescott, Arizona",
+    "latitude": 34.55872605,
+    "longitude": -112.4416195,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Pretoria, South Africa",
+    "latitude": -25.75536502007422,
+    "longitude": 28.192140847037358,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Puerto Princesa, Philippines",
+    "latitude": 9.852283984,
+    "longitude": 118.7596461,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Quevedo, Ecuador",
+    "latitude": -1.010161004,
+    "longitude": -79.45672511,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Rancho Cucamonga, California",
+    "latitude": 34.10661581,
+    "longitude": -117.5917831,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Redding, California",
+    "latitude": 40.576712766715374,
+    "longitude": -122.39211794994095,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Resistencia, Argentina",
+    "latitude": -27.45633478,
+    "longitude": -58.98802478,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Richfield, Utah",
+    "latitude": 38.77665428,
+    "longitude": -112.0883089,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Riga, Latvia",
+    "latitude": 56.98557799,
+    "longitude": 24.1240446,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Rigby, Idaho",
+    "latitude": 43.67090826,
+    "longitude": -111.9122482,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Riverton, Utah",
+    "latitude": 40.52145205,
+    "longitude": -111.9391967,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Rock Springs/Evanston, Wyoming",
+    "latitude": 41.44607657,
+    "longitude": -110.0669998,
+    "confidence_level": ""
+  },
+  {
+    "city": "Roseville, California",
+    "latitude": 38.75082888,
+    "longitude": -121.2976612,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Salem, Oregon",
+    "latitude": 44.94030571547752,
+    "longitude": -123.03984008789278,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Saltilo, Mexico",
+    "latitude": 25.42887031,
+    "longitude": -101.0050513,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "San Francisco, California",
+    "latitude": 37.77687896,
+    "longitude": -122.4192731,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Sandy, Utah",
+    "latitude": 40.56389136,
+    "longitude": -111.8391255,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Santa Maria, Brazil",
+    "latitude": -29.68985128,
+    "longitude": -53.80332405,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Savannah, Georgia",
+    "latitude": 32.09705302,
+    "longitude": -81.09896023,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Scottsdale, Arizona",
+    "latitude": 33.49501166,
+    "longitude": -111.9238432,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Shreveport, Louisiana",
+    "latitude": 32.52045112,
+    "longitude": -93.75447907,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Sorocaba, Brazil",
+    "latitude": -23.4709019,
+    "longitude": -47.48725479,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Tacna, Peru",
+    "latitude": -18.01055498,
+    "longitude": -70.25276321,
+    "confidence_level": "Medium-High"
+  },
+  {
+    "city": "Taichung, Taiwan",
+    "latitude": 24.17227737,
+    "longitude": 120.6728011,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Takoradi, Ghana",
+    "latitude": 4.928754137396878,
+    "longitude": -1.7982306698162764,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Tapachula, Mexico",
+    "latitude": 14.90538243,
+    "longitude": -92.26199801,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Tasmania, Australia",
+    "latitude": -42.89428501,
+    "longitude": 147.3102994,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Temuco, Chile",
+    "latitude": -38.76535709,
+    "longitude": -72.59596274,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Thousand Oaks, California",
+    "latitude": 34.17875748,
+    "longitude": -118.8341267,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Tirana, Albania",
+    "latitude": 41.32972471,
+    "longitude": 19.80804751,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Toulouse, France",
+    "latitude": 43.6143895,
+    "longitude": 1.432435077,
+    "confidence_level": "Very Low"
+  },
+  {
+    "city": "Trelew, Argentina",
+    "latitude": -43.23875957,
+    "longitude": -65.32323948,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Tremonton, Utah",
+    "latitude": 41.71161536,
+    "longitude": -112.1642835,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Valencia, Venezuela",
+    "latitude": 10.16680718,
+    "longitude": -68.00222334,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Valvida, Chile",
+    "latitude": -39.82082362,
+    "longitude": -73.24122222,
+    "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Victorville, California",
+    "latitude": 34.53556367,
+    "longitude": -117.2925931,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Villa Nueva, Guatemala",
+    "latitude": 14.53232641,
+    "longitude": -90.60924793,
+    "confidence_level": "Medium"
+  },
+  {
+    "city": "Vilnius, Lithuania",
+    "latitude": 54.70203048,
+    "longitude": 25.2897893,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "West Valley City, Utah",
+    "latitude": 40.69004173,
+    "longitude": -111.9992619,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Windhoek, Namibia",
+    "latitude": -22.56405229,
+    "longitude": 17.07938785,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Xalapa, Mexico",
+    "latitude": 19.56037079,
+    "longitude": -96.90014502,
+    "confidence_level": "Low"
+  },
+  {
+    "city": "Yaoundé, Cameroon",
+    "latitude": 3.8631741688695103,
+    "longitude": 11.508374053797805,
+    "confidence_level": "Low"
+  }
+]
