@@ -20,6 +20,7 @@ Other Tools: ArcGIS, CSV Library in Python, JSON
 
 * [Tutorials for ArcGIS Developers](https://developers.arcgis.com/documentation/mapping-apis-and-services/tutorials/)
 * [Church of Jesus Christ Temples](https://churchofjesuschristtemples.org/maps/downloads/) - This is actually where I got the starter CSV file to plot out all the points on my map.
+* [Temple List on Official Church Website](https://www.churchofjesuschrist.org/temples/list?lang=eng) - All photos were retrieved from here.
 
 # Updates
 
@@ -37,8 +38,12 @@ I should note that techically, I do update this program depening on changes to t
 
 * I decided to do away with CSV files and instead use JSON files to populate all the points.  Beforehand, what I did is use a python program to list out a displayPoint() function for each temple and prediction and then copy and paste them into the main file.  This made the HTML file absolutely massive and pretty clunky to navigate.  So I put all the data from the CSV files into two JSON files and changed the main file to read the JSON files and populate the points automatically as if it was fetching from an API.  The program now functions the same way on the UI while reducing the HTML file down to a fraction of the size.  As for the python script and the CSV files, I couldn't bring myself to fully delete them, even though technically, they're still saved on previous versions on GitHub anyway.  So I decided, at least for the time being, to put them in a folder called "legacy".
 
+## October 2025 Update
+
+* Dedicated temples (and those very close to dedication) will now have a displayed photo with them when they pop up.  These photos are linked directly to the church's website.  I am linking actual photographs ONLY, so there won't be any artistic renderings of temples that are under construction.
+* There are two temples that were completely torn down and, as of the time of writing this, are being completely reconstructed.  Those are the Stockholm Sweden Temple and the Provo Utah Temple.  The one in Stockholm (from what info I could find) is going to look incredibly similar on the exterior once it is completed.  As for the one in Provo, it will look completely different.  So for now, both temples will have photos from before demolition being displayed.  More than likely, I'll just update the photo to the new temple in Stockholm once construction is complete unless it ends up looking substantially different, in which case I'll include photos of both versions of the temple.  As for the Provo Utah Rock Canyon Temple, I'll include both versions of the temple once construction is complete.
+
 # Future Goals
 
-* Learn how to impliment photos into the map pop-ups.
 * Learn how to impliment a filter to only display certain points at a time.
 * Add a key to display on the map explaining what the different colored dots mean.

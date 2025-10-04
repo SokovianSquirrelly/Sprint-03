@@ -54,7 +54,8 @@
           latitude,
           longitude,
           status,
-          dedDate
+          dedDate,
+          photoUrl
         ) {
           const point = {
             type: "point",
@@ -93,12 +94,19 @@
 
           const popupTemplate = {
             title: "{Name}",
-            content: "{Dedication}",
+            content: `<div>
+              <p>{Dedication}</p>
+            ${
+              photoUrl
+                ? `<img src="${photoUrl}" alt="${name}" style="max-width: 100%; height: auto; margin-top: 10px;">`
+                : ""
+            }`,
           };
 
           const attributes = {
             Name: name,
             Dedication: dedDate,
+            Photo: photoUrl
           };
 
           const pointGraphic = new Graphic({
@@ -138,7 +146,8 @@
               temple.latitude,
               temple.longitude,
               temple.status,
-              temple.dedication_date
+              temple.dedication_date,
+              temple.photoLink
             );
           });
         }
@@ -153,7 +162,7 @@
               "Prediction",
               `Confidence Level: ${prediction.confidence_level}`
             );
-          })
+          });
         }
 
         getTempleData();
