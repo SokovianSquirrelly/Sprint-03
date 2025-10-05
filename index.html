@@ -98,7 +98,7 @@
               <p>{Dedication}</p>
             ${
               photoUrl
-                ? `<img src="${photoUrl}" alt="${name}" style="max-width: 100%; height: auto; margin-top: 10px;">`
+                ? `<img src="${photoUrl}" alt="${name}" style="max-width: 100%; height: auto; margin-top: 10px; loading="lazy">`
                 : ""
             }`,
           };
@@ -147,7 +147,7 @@
               temple.longitude,
               temple.status,
               temple.dedication_date,
-              temple.photoLink
+              temple.photo_link
             );
           });
         }

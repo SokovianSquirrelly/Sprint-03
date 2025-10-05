@@ -5,7 +5,7 @@
     "latitude": 5.147644,
     "longitude": 7.356719,
     "dedication_date": "#121: 7 August 2005",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/800x500/aba-nigeria-temple-lds-1636397-wallpaper.jpg"
   },
   {
     "name": "Abidjan Ivory Coast Temple",
@@ -13,7 +13,7 @@
     "latitude": 5.362307,
     "longitude": -3.976865,
     "dedication_date": "#205: 25 May 2025",
-    "photoLink": "https://presse-afrique.eglisedejesus-christ.org/media/960x540/abj01.jpeg"
+    "photo_link": "https://presse-afrique.eglisedejesus-christ.org/media/960x540/abj01.jpeg"
   },
   {
     "name": "Abuja Nigeria Temple",
@@ -28,7 +28,7 @@
     "latitude": 5.56749,
     "longitude": -0.193706,
     "dedication_date": "#117: 11 January 2004",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/400x225/accra-ghana-temple-detail-249022-2400x1200.jpg"
   },
   {
     "name": "Adelaide Australia Temple",
@@ -36,7 +36,7 @@
     "latitude": -34.892473,
     "longitude": 138.635002,
     "dedication_date": "#89: 15 June 2000",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/800x500/adelaide-australia-temple-lds-856093-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/800x500/adelaide-australia-temple-lds-856093-wallpaper.jpg"
   },
   {
     "name": "Alabang Philippines Temple",
@@ -51,7 +51,7 @@
     "latitude": 35.167684,
     "longitude": -106.525301,
     "dedication_date": "#73: 5 March 2000",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/albuquerque-new-mexico/800x500/albuquerque-temple-lds-137883-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/albuquerque-new-mexico/800x500/albuquerque-temple-lds-137883-wallpaper.jpg"
   },
   {
     "name": "Anchorage Alaska Temple",
@@ -59,7 +59,7 @@
     "latitude": 61.101627,
     "longitude": -149.840512,
     "dedication_date": "#54: 9 January 1999",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/400x225/anchorage-temple-lds-253274-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/anchorage-alaska/400x225/anchorage-temple-lds-253274-wallpaper.jpg"
   },
   {
     "name": "Antananarivo Madagascar Temple",
@@ -74,7 +74,7 @@
     "latitude": -23.571891,
     "longitude": -70.394525,
     "dedication_date": "#207: 15 June 2025",
-    "photoLink": "https://www.churchofjesuschrist.org/imgs/jhgbjva5ozxl3popae5ym2wg9oacczz0mrojtamq/pct:0,15.1,100,84.9/!2688%2C1600/0/default"
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/jhgbjva5ozxl3popae5ym2wg9oacczz0mrojtamq/pct:0,15.1,100,84.9/!2688%2C1600/0/default"
   },
   {
     "name": "Apia Samoa Temple",
@@ -82,7 +82,7 @@
     "latitude": -13.838064,
     "longitude": -171.783034,
     "dedication_date": "#22: 5 August 1983",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/apia-samoa/800x500/apia-samoa-temple-lds-460475-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/apia-samoa/800x500/apia-samoa-temple-lds-460475-wallpaper.jpg"
   },
   {
     "name": "Arequipa Peru Temple",
@@ -90,7 +90,7 @@
     "latitude": -16.375203,
     "longitude": -71.538477,
     "dedication_date": "#167: 15 December 2019",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/800x500/1-55f6c59ce8f9c093a9c689067f8674335de544e2.jpeg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/800x500/1-55f6c59ce8f9c093a9c689067f8674335de544e2.jpeg"
   },
   {
     "name": "Asunción Paraguay Temple",
@@ -98,7 +98,7 @@
     "latitude": -25.287916,
     "longitude": -57.602869,
     "dedication_date": "#112: 19 May 2002",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/asuncion-paraguay/800x500/1-68dfd881f93cb86e99828aa547eac056189c55ff.jpeg"
   },
   {
     "name": "Atlanta Georgia Temple",
@@ -106,7 +106,7 @@
     "latitude": 33.931896,
     "longitude": -84.362394,
     "dedication_date": "#21: 1 June 1983",
-    "photoLink": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/atlanta-georgia/800x500/atlanta-georgia-mormon-temple-900182-wallpaper.jpg"
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/atlanta-georgia/800x500/atlanta-georgia-mormon-temple-900182-wallpaper.jpg"
   },
   {
     "name": "Auckland New Zealand Temple",
@@ -114,7 +114,7 @@
     "latitude": -36.993227,
     "longitude": 174.890191,
     "dedication_date": "#203: 13 April 2025",
-    "photoLink": "https://www.churchofjesuschrist.org/imgs/stf2cvl7ssqhkj3h0a8ldp1fo9nxy9vtw8au4ze2/full/640%2C/0/default"
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/stf2cvl7ssqhkj3h0a8ldp1fo9nxy9vtw8au4ze2/full/640%2C/0/default"
   },
   {
     "name": "Austin Texas Temple",
@@ -136,7 +136,7 @@
     "latitude": -38.69117,
     "longitude": -62.235937,
     "dedication_date": "Under Construction",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/eyafcdinietc2piwwuclmjgus8kq6af3w0h3xz7a/full/640%2C/0/default"
   },
   {
     "name": "Bakersfield California Temple",
@@ -151,7 +151,7 @@
     "latitude": 13.749491,
     "longitude": 100.562527,
     "dedication_date": "#185: 22 October 2023",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/4052d9f8ff0e11edb9dbeeeeac1e97aea1b93079/full/640%2C/0/default"
   },
   {
     "name": "Barcelona Spain Temple",
@@ -166,7 +166,7 @@
     "latitude": 11.016798,
     "longitude": -74.86261,
     "dedication_date": "#161: 9 December 2018",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/barranquilla-colombia/800x500/2-Barranquilla-Columblia-Temple-2135201.jpg"
   },
   {
     "name": "Baton Rouge Louisiana Temple",
@@ -174,7 +174,7 @@
     "latitude": 30.362664,
     "longitude": -91.108385,
     "dedication_date": "#94: 16 July 2000",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/baton-rouge-louisiana/800x500/3-a75beca22300a3263bd47fba03b5b0d1b5ca0753.jpeg"
   },
   {
     "name": "Beira Mozambique Temple",
@@ -189,7 +189,7 @@
     "latitude": -1.387242,
     "longitude": -48.459894,
     "dedication_date": "#174: 20 November 2022",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/belem-brazil/800x500/belem_brazil_temple_exterior2.jpg"
   },
   {
     "name": "Belo Horizonte Brazil Temple",
@@ -218,7 +218,7 @@
     "latitude": 36.38500576,
     "longitude": -94.183255,
     "dedication_date": "#181: 17 September 2023",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bentonville-arkansas/800x800/34410870d7d011ed8402eeeeac1ec672bdc0ce45.jpeg"
   },
   {
     "name": "Bern Switzerland Temple",
@@ -226,7 +226,7 @@
     "latitude": 47.002192,
     "longitude": 7.458244,
     "dedication_date": "#9: 11 September 1955",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/800x500/ber-switzerland-temple-lds-903376-wallpaper.jpg"
   },
   {
     "name": "Billings Montana Temple",
@@ -234,7 +234,7 @@
     "latitude": 45.800505,
     "longitude": -108.63939,
     "dedication_date": "#66: 29 November 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/billings-montana/800x500/02-Billings-Montana-Temple-1572044.jpg"
   },
   {
     "name": "Birmingham Alabama Temple",
@@ -242,7 +242,7 @@
     "latitude": 33.674623,
     "longitude": -86.821236,
     "dedication_date": "#98: 3 September 2000",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/26997a0eac228b51de04df861686ccc0cb3bbf92/full/640%2C/0/default"
   },
   {
     "name": "Birmingham England Temple",
@@ -257,7 +257,7 @@
     "latitude": 46.838889,
     "longitude": -100.813979,
     "dedication_date": "#61: 19 September 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bismarck-north-dakota/800x500/bismark-north-dakota-temple-83526-wallpaper.jpg"
   },
   {
     "name": "Bogotá Colombia Temple",
@@ -265,7 +265,7 @@
     "latitude": 4.707801,
     "longitude": -74.056247,
     "dedication_date": "#57: 24 April 1999",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/89b209718a7ed41649a497893e240972b7cfd036/full/640%2C/0/default"
   },
   {
     "name": "Boise Idaho Temple",
@@ -273,7 +273,7 @@
     "latitude": 43.593523,
     "longitude": -116.275034,
     "dedication_date": "#27: 25 May 1984",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/800x500/boise-idaho-temple-exterior-2012-1029111-wallpaper.jpg"
   },
   {
     "name": "Boston Massachusetts Temple",
@@ -281,7 +281,7 @@
     "latitude": 42.412002,
     "longitude": -71.188091,
     "dedication_date": "#100: 1 October 2000",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/9e700b82104b6e93ba8d0095d3458564082a781a/full/640%2C/0/default"
   },
   {
     "name": "Bountiful Utah Temple",
@@ -289,7 +289,7 @@
     "latitude": 40.882853,
     "longitude": -111.846812,
     "dedication_date": "#47: 8 January 1995",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/0ef41c19f3cd8113dba38d4dfdca16a5d06cdcd5/full/640%2C/0/default"
   },
   {
     "name": "Brasília Brazil Temple",
@@ -297,7 +297,7 @@
     "latitude": -15.747835,
     "longitude": -47.880945,
     "dedication_date": "#180: 17 September 2023",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/95f3f3abdd4811ed920ceeeeac1e15db91037802/full/640%2C/0/default"
   },
   {
     "name": "Brazzaville Republic of the Congo Temple",
@@ -312,7 +312,7 @@
     "latitude": 41.505376,
     "longitude": -112.016592,
     "dedication_date": "#139: 23 September 2012",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/800x500/brigham-city-temple-lds-1027480-wallpaper.jpg"
   },
   {
     "name": "Brisbane Australia Temple",
@@ -320,7 +320,7 @@
     "latitude": -27.480886,
     "longitude": 153.033841,
     "dedication_date": "#115: 15 June 2003",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brisbane-australia/800x500/brisbane-australia-temple-lds-745088-wallpaper.jpg"
   },
   {
     "name": "Brisbane Australia South Temple",
@@ -349,7 +349,7 @@
     "latitude": -34.729286,
     "longitude": -58.518225,
     "dedication_date": "#39: 17 January 1986",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/buenos-aires-argentina/800x500/buenos-airies-argentina-temple-1009069-wallpaper.jpg"
   },
   {
     "name": "Buenos Aires City Center Argentina Temple",
@@ -399,7 +399,7 @@
     "latitude": 51.140861,
     "longitude": -114.2333,
     "dedication_date": "#140: 28 October 2012",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/calgary-alberta/800x500/calgary-alberta-temple-lds-1025065-wallpaper.jpg"
   },
   {
     "name": "Cali Colombia Temple",
@@ -414,7 +414,7 @@
     "latitude": -22.896534,
     "longitude": -47.001133,
     "dedication_date": "#111: 17 May 2002",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/campinas-brazil/800x500/campinas-brazil-temple-morning-1029896-wallpaper.jpg"
   },
   {
     "name": "Campo Grande Brazil Temple",
@@ -450,7 +450,7 @@
     "latitude": 10.470849,
     "longitude": -66.837293,
     "dedication_date": "#96: 20 August 2000",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/caracas-venezuela/400x225/caracas_venezuela_temple_detail_1691066_2400x1200.jpg"
   },
   {
     "name": "Cardston Alberta Temple",
@@ -458,7 +458,7 @@
     "latitude": 49.19835,
     "longitude": -113.309394,
     "dedication_date": "#6: 26 August 1923",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cardston-alberta/800x500/cardston-alberta-temple-lds-333631-wallpaper.jpg"
   },
   {
     "name": "Casper Wyoming Temple",
@@ -466,7 +466,7 @@
     "latitude": 42.80908928,
     "longitude": -106.361814,
     "dedication_date": "#201: 24 November 2024",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/bb74748cc5e811eeaea1eeeeac1e060ff4c1e350/full/640%2C/0/default"
   },
   {
     "name": "Cebu City Philippines Temple",
@@ -474,7 +474,7 @@
     "latitude": 10.327659,
     "longitude": 123.898299,
     "dedication_date": "#133: 13 June 2010",
-    "photoLink": ""
+    "photo_link": "https://churchofjesuschrist.org/imgs/3b515c363a8c71994bd6e110cf021fc84d9c90f6/full/640%2C/0/default"
   },
   {
     "name": "Cedar City Utah Temple",
@@ -482,7 +482,7 @@
     "latitude": 37.671734,
     "longitude": -113.096271,
     "dedication_date": "#159: 10 December 2017",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cedar-city-utah/400x225/Cedar-City-1978603.jpg"
   },
   {
     "name": "Charlotte North Carolina Temple",
@@ -496,7 +496,8 @@
     "status": "Dedicated",
     "latitude": 42.086829,
     "longitude": -87.859501,
-    "dedication_date": "#35: 9 August 1985"
+    "dedication_date": "#35: 9 August 1985",
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/chicago-illinois/800x500/Chicago-Temple_0784.jpg"
   },
   {
     "name": "Chiclayo Peru Temple",
@@ -532,7 +533,7 @@
     "latitude": 31.736269,
     "longitude": -106.463209,
     "dedication_date": "#71: 26 February 2000",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/ciudad-juarez-mexico/800x500/ciudad-juarez-mexico-temple-lds-126122-wallpaper.jpg"
   },
   {
     "name": "Cleveland Ohio Temple",
@@ -547,7 +548,7 @@
     "latitude": 15.459077,
     "longitude": -90.365166,
     "dedication_date": "#193: 9 June 2024",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/4b129a33b4b311ee9c99eeeeac1e820ae5a7a3bb/full/640%2C/0/default"
   },
   {
     "name": "Cochabamba Bolivia Temple",
@@ -555,7 +556,7 @@
     "latitude": -17.363644,
     "longitude": -66.147644,
     "dedication_date": "#82: 30 April 2000",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/e012ebb4075dc7976a314471fc0a3b3058e37c1a/full/640%2C/0/default"
   },
   {
     "name": "Cody Wyoming Temple",
@@ -577,7 +578,7 @@
     "latitude": 30.305251,
     "longitude": -108.082038,
     "dedication_date": "#55: 6 March 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/colonia-juarez-chihuahua-mexico/800x500/colonia-juarez-mexico-temple-lds-1039762-wallpaper.jpg"
   },
   {
     "name": "Colorado Springs Colorado Temple",
@@ -592,7 +593,7 @@
     "latitude": 46.226733,
     "longitude": -119.274893,
     "dedication_date": "#107: 18 November 2001",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/800x500/columbia-river-temple-lds-761262-wallpaper.jpg"
   },
   {
     "name": "Columbia South Carolina Temple",
@@ -600,7 +601,7 @@
     "latitude": 33.959638,
     "longitude": -80.893981,
     "dedication_date": "#62: 16 October 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-south-carolina/800x500/columbia-temple-lds-83400-wallpaper.jpg"
   },
   {
     "name": "Columbus Ohio Temple",
@@ -608,7 +609,7 @@
     "latitude": 39.994089,
     "longitude": -83.113214,
     "dedication_date": "#60: 4 September 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbus-ohio/800x500/columbus_ohio_temple_detail_275636_2400x1200.jpg"
   },
   {
     "name": "Concepción Chile Temple",
@@ -616,7 +617,7 @@
     "latitude": -36.851499,
     "longitude": -73.049966,
     "dedication_date": "#160 28 October 2018",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/concepcion-chile/2018/800x500/01-Concepcion-Chile-Temple-2113673.jpg"
   },
   {
     "name": "Copenhagen Denmark Temple",
@@ -624,7 +625,7 @@
     "latitude": 55.692677,
     "longitude": 12.53392,
     "dedication_date": "#118: 23 May 2004",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/copenhagen-denmark/800x500/copenhagen-denmark-temple-lds-278232-wallpaper.jpg"
   },
   {
     "name": "Córdoba Argentina Temple",
@@ -632,7 +633,7 @@
     "latitude": -31.358873,
     "longitude": -64.245809,
     "dedication_date": "#145: 17 May 2015",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/cordoba-argentina/2018/800x500/Cordoba-Argentina-Temple01.jpg"
   },
   {
     "name": "Cuernavaca Mexico Temple",
@@ -654,7 +655,7 @@
     "latitude": -25.441304,
     "longitude": -49.342138,
     "dedication_date": "#126: 1 June 2008",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/ea7e0f39c8e26d163a4dfedfcb1ce5c41d650b5b/full/640%2C/0/default"
   },
   {
     "name": "Cusco Peru Temple",
@@ -669,7 +670,7 @@
     "latitude": 32.914288,
     "longitude": -96.796525,
     "dedication_date": "#30: 19 October 1984",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/dallas-texas/2018/800x500/Dallas-Texas-Temple14.jpg"
   },
   {
     "name": "Davao Philippines Temple",
@@ -684,7 +685,7 @@
     "latitude": 39.568698,
     "longitude": -104.965782,
     "dedication_date": "#40: 24 October 1986",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/denver-colorado/800x500/denver-temple-lds-766966-wallpaper.jpg"
   },
   {
     "name": "Des Moines Iowa Temple",
@@ -699,7 +700,7 @@
     "latitude": 40.57266168,
     "longitude": -112.31397,
     "dedication_date": "#200: 10 November 2024",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/tlt3bx603mu8w1gzxwx5eyw8f5yt3qk47spco3yd/full/640%2C/0/default"
   },
   {
     "name": "Detroit Michigan Temple",
@@ -707,7 +708,7 @@
     "latitude": 42.566266,
     "longitude": -83.229983,
     "dedication_date": "#63: 23 October 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/detroit-michigan/800x500/detroit-temple-766397-wallpaper.jpg"
   },
   {
     "name": "Draper Utah Temple",
@@ -715,7 +716,7 @@
     "latitude": 40.495893,
     "longitude": -111.840748,
     "dedication_date": "#129: 20 March 2009",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/draper-utah/800x500/draper-temple-759310-wallpaper.jpg"
   },
   {
     "name": "Dubai United Arab Emirates Temple",
@@ -737,7 +738,7 @@
     "latitude": -29.708455,
     "longitude": 31.073671,
     "dedication_date": "#168: 16 February 2020",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/durban-south-africa/800x500/2-914cee5cca305ca7676437f2f34e7bed29357005.jpg"
   },
   {
     "name": "Edinburgh Scotland Temple",
@@ -752,7 +753,7 @@
     "latitude": 53.489593,
     "longitude": -113.570538,
     "dedication_date": "#67: 11 December 1999",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/edmonton-alberta/800x500/edmonton-alberta-temple-lds-854741-wallpaper.jpg"
   },
   {
     "name": "Eket Nigeria Temple",
@@ -773,7 +774,8 @@
     "status": "Construction",
     "latitude": 40.85249525,
     "longitude": -115.750084,
-    "dedication_date": "Under Construction"
+    "dedication_date": "Under Construction",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/jgi73fw8hvn8p7x5g43iahh9nb3vwcj3agi33i7r/full/640%2C/0/default"
   },
   {
     "name": "Ephraim Utah Temple",
@@ -784,9 +786,16 @@
   },
   {
     "name": "Fairbanks Alaska Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 64.84835925,
     "longitude": -147.85293,
+    "dedication_date": "Under Construction"
+  },
+  {
+    "name": "Fairview Texas Temple",
+    "status": "Announced",
+    "latitude": 33.13031793,
+    "longitude": -96.6310637,
     "dedication_date": "Announced"
   },
   {
@@ -795,7 +804,7 @@
     "latitude": 36.76909739,
     "longitude": -108.1654604,
     "dedication_date": "#208: 17 August 2025",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/5iz30fn5yrwi4ek01afs09wzqqcdw7cwcyi4e7ps/full/640%2C/0/default"
   },
   {
     "name": "Feather River California Temple",
@@ -803,7 +812,7 @@
     "latitude": 39.146344,
     "longitude": -121.639963,
     "dedication_date": "#184: 8 October 2023",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/69a19c66094011ee9df4eeeeac1ef38bc47a5aec/full/640%2C/0/default"
   },
   {
     "name": "Flagstaff Arizona Temple",
@@ -825,7 +834,7 @@
     "latitude": 40.494269,
     "longitude": -105.038685,
     "dedication_date": "#153: 16 October 2016",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-collins-colorado/800x500/fort-collins-colorado-temple-morning-exterior-1776055-wallpaper.jpg"
   },
   {
     "name": "Fort Lauderdale Florida Temple",
@@ -833,7 +842,7 @@
     "latitude": 26.070899,
     "longitude": -80.355727,
     "dedication_date": "#143: 4 May 2014",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fort-lauderdale-florida/2018/800x500/02-Fort-Lauderdale-Temple-1499446.jpg"
   },
   {
     "name": "Fort Worth Texas Temple",
@@ -848,7 +857,7 @@
     "latitude": -3.747847,
     "longitude": -38.46101,
     "dedication_date": "#164: 2 June 2019",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fortaleza-brazil/800x500/1-Fortaleza-Temple-Photo-2233938.jpg"
   },
   {
     "name": "Frankfurt Germany Temple",
@@ -856,7 +865,7 @@
     "latitude": 50.258246,
     "longitude": 8.641316,
     "dedication_date": "#41: 28 August 1987",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/frankfurt-germany/800x500/frankfurt-temple-1-2278179.jpg"
   },
   {
     "name": "Freetown Sierra Leone Temple",
@@ -871,7 +880,7 @@
     "latitude": 50.922315,
     "longitude": 13.322541,
     "dedication_date": "#33: 29 June 1985",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/freiberg-germany/800x500/freiberg-germany-temple-lds-664670-wallpaper.jpg"
   },
   {
     "name": "Fresno California Temple",
@@ -879,7 +888,7 @@
     "latitude": 36.828257,
     "longitude": -119.852911,
     "dedication_date": "#78: 9 April 2000",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fresno-california/800x500/fresno-temple-lds-125810-wallpaper.jpg"
   },
   {
     "name": "Fukuoka Japan Temple",
@@ -887,7 +896,7 @@
     "latitude": 33.572618,
     "longitude": 130.391704,
     "dedication_date": "#88: 11 June 2000",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fukuoka-japan/800x500/fukuoka-japan-temple-lds-306863-wallpaper.jpg"
   },
   {
     "name": "Gilbert Arizona Temple",
@@ -895,7 +904,7 @@
     "latitude": 33.291378,
     "longitude": -111.737365,
     "dedication_date": "#142: 2 March 2014",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/gilbert-arizona/800x500/gilbert-arizona-temple-evening-1172169-wallpaper.jpg"
   },
   {
     "name": "Goiânia Brazil Temple",
@@ -909,7 +918,8 @@
     "status": "Construction",
     "latitude": 39.10144203,
     "longitude": -108.551144,
-    "dedication_date": "Under Construction"
+    "dedication_date": "Under Construction",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/n234f2c89ig7tt8uqokudt1wg5pb9dbbm8gxpjvt/full/640%2C/0/default"
   },
   {
     "name": "Grand Rapids Michigan Temple",
@@ -931,7 +941,7 @@
     "latitude": 20.66155,
     "longitude": -103.42307,
     "dedication_date": "#105: 29 April 2001",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/guadalajara-mexico/800x500/guadalajara-mexico-temple-1368114-wallpaper.jpg"
   },
   {
     "name": "Guatemala City Guatemala Temple",
@@ -939,7 +949,7 @@
     "latitude": 14.583303,
     "longitude": -90.485576,
     "dedication_date": "#32: 14 December 1984",
-    "photoLink": ""
+    "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/guatemala-city-guatemala/800x500/lds-temple-guatemala-city-1021144-wallpaper.jpg"
   },
   {
     "name": "Guayaquil Ecuador Temple",
@@ -947,7 +957,7 @@
     "latitude": -2.156246,
     "longitude": -79.904877,
     "dedication_date": "#58: 1 August 1999",
-    "photoLink": ""
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/b6e397f7a6c219442a9987bcd8c92ff78c5d50a6/full/640%2C/0/default"
   },
   {
     "name": "Halifax Nova Scotia Temple",
@@ -955,7 +965,7 @@
     "latitude": 44.66999,
     "longitude": -63.489038,
     "dedication_date": "#64: 14 November 1999",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Hamburg Germany Temple",
@@ -970,7 +980,7 @@
     "latitude": -37.826397,
     "longitude": 175.224885,
     "dedication_date": "#11: 22 April 1958",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Harare Zimbabwe Temple",
@@ -992,7 +1002,7 @@
     "latitude": 41.73780896,
     "longitude": -72.844528,
     "dedication_date": "#155: 20 November 2016",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Heber Valley Utah Temple",
@@ -1007,7 +1017,7 @@
     "latitude": 46.63372488,
     "longitude": -112.01924,
     "dedication_date": "#178: 18 June 2023",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Helsinki Finland Temple",
@@ -1015,7 +1025,7 @@
     "latitude": 60.225193,
     "longitude": 24.781785,
     "dedication_date": "#124: 22 October 2006",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Hermosillo Sonora Mexico Temple",
@@ -1023,7 +1033,7 @@
     "latitude": 29.102548,
     "longitude": -110.94687,
     "dedication_date": "#72: 27 Febrary 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Hong Kong China Temple",
@@ -1031,7 +1041,7 @@
     "latitude": 22.34045,
     "longitude": 114.177336,
     "dedication_date": "#48: 26 May 1996",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Honolulu Hawaii Temple",
@@ -1046,7 +1056,7 @@
     "latitude": 29.999729,
     "longitude": -95.533038,
     "dedication_date": "#97: 26 August 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Houston Texas South Temple",
@@ -1082,7 +1092,7 @@
     "latitude": 43.499819,
     "longitude": -112.0415,
     "dedication_date": "#8: 25 September 1945",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Iloilo Philippines Temple",
@@ -1097,7 +1107,7 @@
     "latitude": 39.955588,
     "longitude": -86.165741,
     "dedication_date": "#148: 23 August 2015",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Iquitos Peru Temple",
@@ -1133,7 +1143,7 @@
     "latitude": -26.178051,
     "longitude": 28.039195,
     "dedication_date": "#36: 24 August 1985",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Jordan River Utah Temple",
@@ -1141,7 +1151,7 @@
     "latitude": 40.566354,
     "longitude": -111.931417,
     "dedication_date": "#20: 16 November 1981",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Juchitán de Zaragoza Mexico Temple",
@@ -1177,7 +1187,7 @@
     "latitude": 39.220473,
     "longitude": -94.501331,
     "dedication_date": "#137: 6 May 2012",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Kaohsiung Taiwan Temple",
@@ -1192,7 +1202,7 @@
     "latitude": -4.327478,
     "longitude": 15.27371,
     "dedication_date": "#163: 14 April 2019",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Knoxville Tennessee Temple",
@@ -1207,7 +1217,7 @@
     "latitude": 19.641614,
     "longitude": -155.985524,
     "dedication_date": "#70: 23 January 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Kumasi Ghana Temple",
@@ -1222,7 +1232,7 @@
     "latitude": 50.404517,
     "longitude": 30.395565,
     "dedication_date": "#134: 29 August 2010",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "La Paz Bolivia Temple",
@@ -1244,7 +1254,7 @@
     "latitude": 21.647207,
     "longitude": -157.930658,
     "dedication_date": "#5: 17 November 1919",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Laoag Philippines Temple",
@@ -1259,7 +1269,7 @@
     "latitude": 36.174597,
     "longitude": -115.020052,
     "dedication_date": "#43: 16 December 1989",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Layton Utah Temple",
@@ -1267,7 +1277,7 @@
     "latitude": 41.061699,
     "longitude": -111.938379,
     "dedication_date": "#195: 16 June 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Lehi Utah Temple",
@@ -1289,7 +1299,7 @@
     "latitude": -12.019992,
     "longitude": -77.054237,
     "dedication_date": "#187: 14 January 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Lima Peru Temple",
@@ -1297,7 +1307,7 @@
     "latitude": -12.069713,
     "longitude": -76.948897,
     "dedication_date": "#38: 10 January 1986",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Lindon Utah Temple",
@@ -1312,7 +1322,7 @@
     "latitude": 38.779187,
     "longitude": -9.098784,
     "dedication_date": "#166: 15 September 2019",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Liverpool Australia Temple",
@@ -1327,7 +1337,7 @@
     "latitude": 41.734161,
     "longitude": -111.827943,
     "dedication_date": "#2: 17 May 1884",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "London England Temple",
@@ -1335,7 +1345,7 @@
     "latitude": 51.162566,
     "longitude": -0.052181,
     "dedication_date": "#12: 7 September 1958",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Londrina Brazil Temple",
@@ -1346,10 +1356,10 @@
   },
   {
     "name": "Lone Mountain Nevada Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 36.23619575,
     "longitude": -115.304183,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Los Angeles California Temple",
@@ -1357,7 +1367,7 @@
     "latitude": 34.052801,
     "longitude": -118.433909,
     "dedication_date": "#10: 14 March 1956",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Louisville Kentucky Temple",
@@ -1365,7 +1375,7 @@
     "latitude": 38.32112,
     "longitude": -85.488843,
     "dedication_date": "#76: 19 March 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Luanda Angola Temple",
@@ -1380,7 +1390,7 @@
     "latitude": 33.528961,
     "longitude": -101.941413,
     "dedication_date": "#109: 21 April 2002",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Lubumbashi Democratic Republic of the Congo Temple",
@@ -1402,7 +1412,7 @@
     "latitude": 40.40009,
     "longitude": -3.63158,
     "dedication_date": "#56: 19 March 1999",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Managua Nicaragua Temple",
@@ -1417,7 +1427,7 @@
     "latitude": -3.073907,
     "longitude": -60.089331,
     "dedication_date": "#138: 10 June 2012",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Manhattan New York Temple",
@@ -1425,7 +1435,7 @@
     "latitude": 40.773112,
     "longitude": -73.981622,
     "dedication_date": "#119: 13 June 2004",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Manila Philippines Temple",
@@ -1433,7 +1443,7 @@
     "latitude": 14.601356,
     "longitude": 121.069818,
     "dedication_date": "#29: 25 September 1984",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Manti Utah Temple",
@@ -1441,7 +1451,7 @@
     "latitude": 39.272906,
     "longitude": -111.63376,
     "dedication_date": "#3: 17 May 1888",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Maputo Mozambique Temple",
@@ -1470,14 +1480,7 @@
     "latitude": 26.268118,
     "longitude": -98.211125,
     "dedication_date": "#183: 8 October 2023",
-    "photoLink": ""
-  },
-  {
-    "name": "McKinney Texas Temple",
-    "status": "Announced",
-    "latitude": 33.13031793,
-    "longitude": -96.6310637,
-    "dedication_date": "Announced"
+    "photo_link": ""
   },
   {
     "name": "Medellín Colombia Temple",
@@ -1492,7 +1495,7 @@
     "latitude": 42.373324,
     "longitude": -122.932746,
     "dedication_date": "#79: 16 April 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Melbourne Australia Temple",
@@ -1500,7 +1503,7 @@
     "latitude": -37.868774,
     "longitude": 145.212622,
     "dedication_date": "#90: 16 June 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Memphis Tennessee Temple",
@@ -1508,7 +1511,7 @@
     "latitude": 35.240752,
     "longitude": -89.839334,
     "dedication_date": "#80: 23 April 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Mendoza Argentina Temple",
@@ -1516,7 +1519,7 @@
     "latitude": -32.863757,
     "longitude": -68.881592,
     "dedication_date": "#197: 22 September 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Mérida Mexico Temple",
@@ -1524,7 +1527,7 @@
     "latitude": 20.965784,
     "longitude": -89.631061,
     "dedication_date": "#92: 8 July 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Meridian Idaho Temple",
@@ -1532,7 +1535,7 @@
     "latitude": 43.671022,
     "longitude": -116.415115,
     "dedication_date": "#158: 19 November 2017",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Mesa Arizona Temple",
@@ -1540,7 +1543,7 @@
     "latitude": 33.412876,
     "longitude": -111.819571,
     "dedication_date": "#7: 23 October 1927",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Mexico City Benemérito Mexico Temple",
@@ -1555,7 +1558,7 @@
     "latitude": 19.465905,
     "longitude": -99.086754,
     "dedication_date": "#26: 2 December 1983",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Milan Italy Temple",
@@ -1605,7 +1608,7 @@
     "latitude": 25.589364,
     "longitude": -100.259975,
     "dedication_date": "#110: 28 April 2002",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Montevideo Uruguay Temple",
@@ -1613,7 +1616,7 @@
     "latitude": -34.888444,
     "longitude": -56.074088,
     "dedication_date": "#103: 18 March 2001",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Monticello Utah Temple",
@@ -1621,7 +1624,7 @@
     "latitude": 37.877917,
     "longitude": -109.347066,
     "dedication_date": "#53: 26 July 1998",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Montpelier Idaho Temple",
@@ -1636,7 +1639,7 @@
     "latitude": 45.563335,
     "longitude": -73.490616,
     "dedication_date": "#86: 4 June 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Moses Lake Washington Temple",
@@ -1644,7 +1647,7 @@
     "latitude": 47.103441,
     "longitude": -119.272362,
     "dedication_date": "#182: 17 September 2023",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Mount Timpanogos Utah Temple",
@@ -1652,7 +1655,7 @@
     "latitude": 40.393166,
     "longitude": -111.770509,
     "dedication_date": "#49: 13 October 1996",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Naga Philippines Temple",
@@ -1667,7 +1670,7 @@
     "latitude": -1.26529552,
     "longitude": 36.739816,
     "dedication_date": "#204: 18 May 2025",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Nashville Tennessee Temple",
@@ -1675,7 +1678,7 @@
     "latitude": 35.948839,
     "longitude": -86.860329,
     "dedication_date": "#84: 21 May 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Natal Brazil Temple",
@@ -1690,7 +1693,7 @@
     "latitude": 40.55048,
     "longitude": -91.384378,
     "dedication_date": "#113: 27 June 2002",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Neiafu Tonga Temple",
@@ -1705,7 +1708,7 @@
     "latitude": 33.629627,
     "longitude": -117.848766,
     "dedication_date": "#122: 28 August 2005",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Norfolk Virginia Temple",
@@ -1727,7 +1730,7 @@
     "latitude": -21.162561,
     "longitude": -175.27232,
     "dedication_date": "#23: 9 August 1983",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Oakland California Temple",
@@ -1735,7 +1738,7 @@
     "latitude": 37.808027,
     "longitude": -122.19912,
     "dedication_date": "#13: 19 November 1964",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Oaxaca Mexico Temple",
@@ -1743,7 +1746,7 @@
     "latitude": 17.041554,
     "longitude": -96.713503,
     "dedication_date": "#74: 11 March 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Ogden Utah Temple",
@@ -1751,7 +1754,7 @@
     "latitude": 41.227786,
     "longitude": -111.971506,
     "dedication_date": "#14: 18 January 1972",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Okinawa Japan Temple",
@@ -1759,14 +1762,15 @@
     "latitude": 26.358285,
     "longitude": 127.801718,
     "dedication_date": "#186: 12 November 2023",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Oklahoma City Oklahoma Temple",
     "status": "Dedicated",
     "latitude": 35.591846,
     "longitude": -97.7267,
-    "dedication_date": "#95: 30 July 2000"
+    "dedication_date": "#95: 30 July 2000",
+    "photo_link": ""
   },
   {
     "name": "Oquirrh Mountain Utah Temple",
@@ -1774,7 +1778,7 @@
     "latitude": 40.551145,
     "longitude": -111.98751,
     "dedication_date": "#130: 21 August 2009",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Orem Utah Temple",
@@ -1782,7 +1786,7 @@
     "latitude": 40.270755,
     "longitude": -111.720916,
     "dedication_date": "#188: 21 January 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Orlando Florida Temple",
@@ -1790,7 +1794,7 @@
     "latitude": 28.507348,
     "longitude": -81.509578,
     "dedication_date": "#46: 9 October 1994",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Osaka Japan Temple",
@@ -1825,49 +1829,56 @@
     "status": "Dedicated",
     "latitude": 43.039148,
     "longitude": -77.237063,
-    "dedication_date": "#77: 6 April 2000"
+    "dedication_date": "#77: 6 April 2000",
+    "photo_link": ""
   },
   {
     "name": "Panama City Panama Temple",
     "status": "Dedicated",
     "latitude": 8.99146,
     "longitude": -79.57048,
-    "dedication_date": "#127: 10 August 2008"
+    "dedication_date": "#127: 10 August 2008",
+    "photo_link": ""
   },
   {
     "name": "Papeete Tahiti Temple",
     "status": "Dedicated",
     "latitude": -17.536618,
     "longitude": -149.556019,
-    "dedication_date": "#25: 27 October 1983"
+    "dedication_date": "#25: 27 October 1983",
+    "photo_link": ""
   },
   {
     "name": "Paris France Temple",
     "status": "Dedicated",
     "latitude": 48.817892,
     "longitude": 2.123171,
-    "dedication_date": "#156: 21 May 2017"
+    "dedication_date": "#156: 21 May 2017",
+    "photo_link": ""
   },
   {
     "name": "Payson Utah Temple",
     "status": "Dedicated",
     "latitude": 40.019258,
     "longitude": -111.749175,
-    "dedication_date": "#146: 7 June 2015"
+    "dedication_date": "#146: 7 June 2015",
+    "photo_link": ""
   },
   {
     "name": "Perth Australia Temple",
     "status": "Dedicated",
     "latitude": -31.906905,
     "longitude": 115.869834,
-    "dedication_date": "#106: 20 May 2001"
+    "dedication_date": "#106: 20 May 2001",
+    "photo_link": ""
   },
   {
     "name": "Philadelphia Pennsylvania Temple",
     "status": "Dedicated",
     "latitude": 39.959174,
     "longitude": -75.168072,
-    "dedication_date": "#152: 18 September 2016"
+    "dedication_date": "#152: 18 September 2016",
+    "photo_link": ""
   },
   {
     "name": "Phnom Penh Cambodia Temple",
@@ -1881,14 +1892,16 @@
     "status": "Dedicated",
     "latitude": 33.698555,
     "longitude": -112.172329,
-    "dedication_date": "#144: 16 November 2014"
+    "dedication_date": "#144: 16 November 2014",
+    "photo_link": ""
   },
   {
     "name": "Pittsburgh Pennsylvania Temple",
     "status": "Dedicated",
     "latitude": 40.69404827,
     "longitude": -80.140918,
-    "dedication_date": "#196: 15 September 2024"
+    "dedication_date": "#196: 15 September 2024",
+    "photo_link": ""
   },
   {
     "name": "Piura Peru Temple",
@@ -1902,7 +1915,8 @@
     "status": "Dedicated",
     "latitude": 42.915259,
     "longitude": -112.406374,
-    "dedication_date": "#170: 7 November 2021"
+    "dedication_date": "#170: 7 November 2021",
+    "photo_link": ""
   },
   {
     "name": "Port Moresby Papua New Guinea Temple",
@@ -1923,7 +1937,8 @@
     "status": "Dedicated",
     "latitude": 18.529017,
     "longitude": -72.268143,
-    "dedication_date": "#165: 1 September 2019"
+    "dedication_date": "#165: 1 September 2019",
+    "photo_link": ""
   },
   {
     "name": "Porto Portugal Temple",
@@ -1937,28 +1952,32 @@
     "status": "Dedicated",
     "latitude": 45.425345,
     "longitude": -122.742224,
-    "dedication_date": "#42: 19 August 1989"
+    "dedication_date": "#42: 19 August 1989",
+    "photo_link": ""
   },
   {
     "name": "Porto Alegre Brazil Temple",
     "status": "Dedicated",
     "latitude": -30.034047,
     "longitude": -51.157868,
-    "dedication_date": "#102: 17 December 2000"
+    "dedication_date": "#102: 17 December 2000",
+    "photo_link": ""
   },
   {
     "name": "Praia Cape Verde Temple",
     "status": "Dedicated",
     "latitude": 14.918789,
     "longitude": -23.511157,
-    "dedication_date": "#173: 19 June 2022"
+    "dedication_date": "#173: 19 June 2022",
+    "photo_link": ""
   },
   {
     "name": "Preston England Temple",
     "status": "Dedicated",
     "latitude": 53.672476,
     "longitude": -2.631275,
-    "dedication_date": "#52: 7 June 1998"
+    "dedication_date": "#52: 7 June 1998",
+    "photo_link": ""
   },
   {
     "name": "Price Utah Temple",
@@ -1972,21 +1991,24 @@
     "status": "Dedicated",
     "latitude": 40.232667,
     "longitude": -111.659299,
-    "dedication_date": "#150: 20 March 2016"
+    "dedication_date": "#150: 20 March 2016",
+    "photo_link": ""
   },
   {
     "name": "Provo Utah Rock Canyon Temple",
     "status": "Dedicated",
     "latitude": 40.263666,
     "longitude": -111.639779,
-    "dedication_date": "#15: 9 February 1972"
+    "dedication_date": "#15: 9 February 1972",
+    "photo_link": ""
   },
   {
     "name": "Puebla Mexico Temple",
     "status": "Dedicated",
     "latitude": 19.085418,
     "longitude": -98.235514,
-    "dedication_date": "#191: 19 May 2024"
+    "dedication_date": "#191: 19 May 2024",
+    "photo_link": ""
   },
   {
     "name": "Puerto Montt Chile Temple",
@@ -2014,21 +2036,24 @@
     "status": "Dedicated",
     "latitude": 14.846493,
     "longitude": -91.542517,
-    "dedication_date": "#136: 11 December 2011"
+    "dedication_date": "#136: 11 December 2011",
+    "photo_link": ""
   },
   {
     "name": "Quito Ecuador Temple",
     "status": "Dedicated",
     "latitude": -0.213711,
     "longitude": -78.441018,
-    "dedication_date": "#175: 20 November 2022"
+    "dedication_date": "#175: 20 November 2022",
+    "photo_link": ""
   },
   {
     "name": "Raleigh North Carolina Temple",
     "status": "Dedicated",
     "latitude": 35.732111,
     "longitude": -78.861542,
-    "dedication_date": "#68: 18 December 1999"
+    "dedication_date": "#68: 18 December 1999",
+    "photo_link": ""
   },
   {
     "name": "Rapid City South Dakota Temple",
@@ -2042,35 +2067,40 @@
     "status": "Dedicated",
     "latitude": -8.03639,
     "longitude": -34.911123,
-    "dedication_date": "#101: 15 December 2000"
+    "dedication_date": "#101: 15 December 2000",
+    "photo_link": ""
   },
   {
     "name": "Red Cliffs Utah Temple",
     "status": "Dedicated",
     "latitude": 37.082184,
     "longitude": -113.519741,
-    "dedication_date": "#189: 24 March 2024"
+    "dedication_date": "#189: 24 March 2024",
+    "photo_link": ""
   },
   {
     "name": "Redlands California Temple",
     "status": "Dedicated",
     "latitude": 34.049037,
     "longitude": -117.140579,
-    "dedication_date": "#116: 14 September 2003"
+    "dedication_date": "#116: 14 September 2003",
+    "photo_link": ""
   },
   {
     "name": "Regina Saskatchewan Temple",
     "status": "Dedicated",
     "latitude": 50.420981,
     "longitude": -104.54168,
-    "dedication_date": "#65: 14 November 1999"
+    "dedication_date": "#65: 14 November 1999",
+    "photo_link": ""
   },
   {
     "name": "Reno Nevada Temple",
     "status": "Dedicated",
     "latitude": 39.534611,
     "longitude": -119.898913,
-    "dedication_date": "#81: 23 April 2000"
+    "dedication_date": "#81: 23 April 2000",
+    "photo_link": ""
   },
   {
     "name": "Retalhuleu Guatemala Temple",
@@ -2084,7 +2114,8 @@
     "status": "Dedicated",
     "latitude": 43.810922,
     "longitude": -111.778979,
-    "dedication_date": "#125: 10 February 2008"
+    "dedication_date": "#125: 10 February 2008",
+    "photo_link": ""
   },
   {
     "name": "Reynosa Mexico Temple",
@@ -2105,14 +2136,16 @@
     "status": "Dedicated",
     "latitude": 37.672884,
     "longitude": -77.535372,
-    "dedication_date": "#177: 7 May 2023"
+    "dedication_date": "#177: 7 May 2023",
+    "photo_link": ""
   },
   {
     "name": "Rio de Janeiro Brazil Temple",
     "status": "Dedicated",
     "latitude": -23.000894,
     "longitude": -43.399918,
-    "dedication_date": "#171: 8 May 2022"
+    "dedication_date": "#171: 8 May 2022",
+    "photo_link": ""
   },
   {
     "name": "Rivera Uruguay Temple",
@@ -2133,7 +2166,8 @@
     "status": "Dedicated",
     "latitude": 41.970437,
     "longitude": 12.544764,
-    "dedication_date": "#162: 10 March 2019"
+    "dedication_date": "#162: 10 March 2019",
+    "photo_link": ""
   },
   {
     "name": "Rosario Argentina Temple",
@@ -2154,42 +2188,48 @@
     "status": "Dedicated",
     "latitude": 38.635116,
     "longitude": -121.193925,
-    "dedication_date": "#123: 3 September 2006"
+    "dedication_date": "#123: 3 September 2006",
+    "photo_link": ""
   },
   {
     "name": "Salt Lake Temple",
     "status": "Dedicated",
     "latitude": 40.770468,
     "longitude": -111.891958,
-    "dedication_date": "#4: 6 April 1893"
+    "dedication_date": "#4: 6 April 1893",
+    "photo_link": ""
   },
   {
     "name": "Salta Argentina Temple",
     "status": "Dedicated",
     "latitude": -24.837197,
     "longitude": -65.470001,
-    "dedication_date": "#194: 16 June 2024"
+    "dedication_date": "#194: 16 June 2024",
+    "photo_link": ""
   },
   {
     "name": "Salvador Brazil Temple",
     "status": "Dedicated",
     "latitude": -12.929251,
     "longitude": -38.386386,
-    "dedication_date": "#199: 20 October 2024"
+    "dedication_date": "#199: 20 October 2024",
+    "photo_link": ""
   },
   {
     "name": "San Antonio Texas Temple",
     "status": "Dedicated",
     "latitude": 29.641481,
     "longitude": -98.488789,
-    "dedication_date": "#120: 22 May 2005"
+    "dedication_date": "#120: 22 May 2005",
+    "photo_link": ""
   },
   {
     "name": "San Diego California Temple",
     "status": "Dedicated",
     "latitude": 32.866389,
     "longitude": -117.228769,
-    "dedication_date": "#45: 25 April 1993"
+    "dedication_date": "#45: 25 April 1993",
+    "photo_link": ""
   },
   {
     "name": "San Jose California Temple",
@@ -2203,7 +2243,8 @@
     "status": "Dedicated",
     "latitude": 9.986418,
     "longitude": -84.184831,
-    "dedication_date": "#87: 4 June 2000"
+    "dedication_date": "#87: 4 June 2000",
+    "photo_link": ""
   },
   {
     "name": "San Jose del Monte Philippines Temple",
@@ -2217,7 +2258,8 @@
     "status": "Dedicated",
     "latitude": 18.385623,
     "longitude": -66.029896,
-    "dedication_date": "#176: 15 January 2023"
+    "dedication_date": "#176: 15 January 2023",
+    "photo_link": ""
   },
   {
     "name": "San Luis Potosí Mexico Temple",
@@ -2231,14 +2273,16 @@
     "status": "Dedicated",
     "latitude": 15.522544,
     "longitude": -88.036856,
-    "dedication_date": "#198: 13 October 2024"
+    "dedication_date": "#198: 13 October 2024",
+    "photo_link": ""
   },
   {
     "name": "San Salvador El Salvador Temple",
     "status": "Dedicated",
     "latitude": 13.683347,
     "longitude": -89.246822,
-    "dedication_date": "#135: 21 August 2011"
+    "dedication_date": "#135: 21 August 2011",
+    "photo_link": ""
   },
   {
     "name": "Santa Ana El Salvador Temple",
@@ -2259,7 +2303,8 @@
     "status": "Dedicated",
     "latitude": -33.436174,
     "longitude": -70.609521,
-    "dedication_date": "#24: 15 September 1983"
+    "dedication_date": "#24: 15 September 1983",
+    "photo_link": ""
   },
   {
     "name": "Santiago Dominican Republic Temple",
@@ -2287,7 +2332,8 @@
     "status": "Dedicated",
     "latitude": 18.466567,
     "longitude": -69.917144,
-    "dedication_date": "#99: 17 September 2000"
+    "dedication_date": "#99: 17 September 2000",
+    "photo_link": ""
   },
   {
     "name": "Santos Brazil Temple",
@@ -2301,7 +2347,8 @@
     "status": "Dedicated",
     "latitude": -23.585174,
     "longitude": -46.722764,
-    "dedication_date": "#17: 30 October 1978"
+    "dedication_date": "#17: 30 October 1978",
+    "photo_link": ""
   },
   {
     "name": "São Paulo East Brazil Temple",
@@ -2315,14 +2362,16 @@
     "status": "Dedicated",
     "latitude": 43.0249,
     "longitude": 141.4457,
-    "dedication_date": "#151: 21 August 2016"
+    "dedication_date": "#151: 21 August 2016",
+    "photo_link": ""
   },
   {
     "name": "Saratoga Springs Utah Temple",
     "status": "Dedicated",
     "latitude": 40.34422619,
     "longitude": -111.932607,
-    "dedication_date": "#179: 13 August 2023"
+    "dedication_date": "#179: 13 August 2023",
+    "photo_link": ""
   },
   {
     "name": "Savai'i Samoa Temple",
@@ -2336,14 +2385,16 @@
     "status": "Dedicated",
     "latitude": 47.58407,
     "longitude": -122.140876,
-    "dedication_date": "#19: 21 November 1980"
+    "dedication_date": "#19: 21 November 1980",
+    "photo_link": ""
   },
   {
     "name": "Seoul Korea Temple",
     "status": "Dedicated",
     "latitude": 37.558913,
     "longitude": 126.931286,
-    "dedication_date": "#37: 14 December 1985"
+    "dedication_date": "#37: 14 December 1985",
+    "photo_link": ""
   },
   {
     "name": "Shanghai People's Republic of China Temple",
@@ -2372,7 +2423,7 @@
     "latitude": 34.502494,
     "longitude": -110.111607,
     "dedication_date": "#108: 3 March 2002",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Spanish Fork Utah Temple",
@@ -2387,7 +2438,7 @@
     "latitude": 47.620163,
     "longitude": -117.22069,
     "dedication_date": "#59: 21 August 1999",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Springfield Missouri Temple",
@@ -2402,7 +2453,7 @@
     "latitude": 37.100535,
     "longitude": -113.578041,
     "dedication_date": "#1: 6 April 1877",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "St. Louis Missouri Temple",
@@ -2410,7 +2461,7 @@
     "latitude": 38.639651,
     "longitude": -90.464685,
     "dedication_date": "#50: 1 June 1997",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "St. Paul Minnesota Temple",
@@ -2418,7 +2469,7 @@
     "latitude": 44.980261,
     "longitude": -92.965199,
     "dedication_date": "#69: 9 January 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Star Valley Wyoming Temple",
@@ -2426,7 +2477,7 @@
     "latitude": 42.712073,
     "longitude": -110.932532,
     "dedication_date": "#154: 30 October 2016",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Stockholm Sweden Temple",
@@ -2434,7 +2485,7 @@
     "latitude": 59.124676,
     "longitude": 18.109177,
     "dedication_date": "#34: 2 July 1985",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Summit New Jersey Temple",
@@ -2449,7 +2500,7 @@
     "latitude": -18.119705,
     "longitude": 178.438559,
     "dedication_date": "#91: 18 June 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Sydney Australia Temple",
@@ -2457,7 +2508,7 @@
     "latitude": -33.775617,
     "longitude": 151.050592,
     "dedication_date": "#28: 20 September 1984",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Syracuse Utah Temple",
@@ -2465,7 +2516,7 @@
     "latitude": 41.099938,
     "longitude": -112.076542,
     "dedication_date": "#206: 8 June 2025",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tacloban City Philippines",
@@ -2487,7 +2538,7 @@
     "latitude": 25.031377,
     "longitude": 121.527794,
     "dedication_date": "#31: 17 November 1984",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tallahassee Florida Temple",
@@ -2495,7 +2546,7 @@
     "latitude": 30.520117,
     "longitude": -84.238222,
     "dedication_date": "#202: 8 December 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tampa Florida Temple",
@@ -2510,7 +2561,7 @@
     "latitude": 22.254262,
     "longitude": -97.855869,
     "dedication_date": "#83: 20 May 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tarawa Kiribati Temple",
@@ -2525,7 +2576,7 @@
     "latitude": 40.66671159,
     "longitude": -111.95411,
     "dedication_date": "#192: 2 June 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tegucigalpa Honduras Temple",
@@ -2533,7 +2584,7 @@
     "latitude": 14.052174,
     "longitude": -87.238019,
     "dedication_date": "#141: 17 March 2013",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Teresina Brazil Temple",
@@ -2555,7 +2606,7 @@
     "latitude": 32.862971,
     "longitude": -109.789974,
     "dedication_date": "#132: 23 May 2010",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "The Hague Netherlands Temple",
@@ -2563,7 +2614,7 @@
     "latitude": 52.054487,
     "longitude": 4.502979,
     "dedication_date": "#114: 8 September 2002",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tijuana Mexico Temple",
@@ -2571,7 +2622,7 @@
     "latitude": 32.488713,
     "longitude": -116.929441,
     "dedication_date": "#149: 13 December 2015",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tokyo Japan Temple",
@@ -2579,7 +2630,7 @@
     "latitude": 35.652838,
     "longitude": 139.724539,
     "dedication_date": "#18: 27 October 1980",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Toluca Mexico Temple",
@@ -2594,7 +2645,7 @@
     "latitude": 43.744338,
     "longitude": -79.746059,
     "dedication_date": "#44: 25 August 1990",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Torreón Mexico Temple",
@@ -2609,7 +2660,7 @@
     "latitude": -8.100149,
     "longitude": -79.058515,
     "dedication_date": "#147: 21 June 2015",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tucson Arizona Temple",
@@ -2617,7 +2668,7 @@
     "latitude": 32.338454,
     "longitude": -110.949174,
     "dedication_date": "#157: 13 August 2017",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Tuguegarao City Philippines Temple",
@@ -2646,7 +2697,7 @@
     "latitude": 16.764164,
     "longitude": -93.159155,
     "dedication_date": "#75: 12 March 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Twin Falls Idaho Temple",
@@ -2654,14 +2705,14 @@
     "latitude": 42.586827,
     "longitude": -114.441509,
     "dedication_date": "#128: 24 August 2008",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Ulaanbaatar Mongolia Temple",
-    "status": "Unknown Location",
-    "latitude": 47.94701928,
-    "longitude": 106.9609528,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 47.86457353,
+    "longitude": 106.8146598,
+    "dedication_date": "Announced"
   },
   {
     "name": "Urdaneta Philippines Temple",
@@ -2669,7 +2720,7 @@
     "latitude": 15.938567,
     "longitude": 120.581762,
     "dedication_date": "#190: 28 April 2024",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Uturoa French Polynesia Temple",
@@ -2691,7 +2742,7 @@
     "latitude": 49.151212,
     "longitude": -122.658009,
     "dedication_date": "#131: 2 May 2010",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Vancouver Washington Temple",
@@ -2706,7 +2757,7 @@
     "latitude": 19.13441,
     "longitude": -96.10626,
     "dedication_date": "#93: 9 July 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Vernal Utah Temple",
@@ -2714,7 +2765,7 @@
     "latitude": 40.453205,
     "longitude": -109.537413,
     "dedication_date": "#51: 2 November 1997",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Victoria British Columbia Temple",
@@ -2736,7 +2787,7 @@
     "latitude": 17.981276,
     "longitude": -92.937375,
     "dedication_date": "#85: 21 May 2000",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Viña del Mar Chile Temple",
@@ -2758,7 +2809,7 @@
     "latitude": 39.014079,
     "longitude": -77.065624,
     "dedication_date": "#16: 19 November 1974",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Wellington New Zealand Temple",
@@ -2801,7 +2852,7 @@
     "latitude": 49.800544,
     "longitude": -97.195212,
     "dedication_date": "#169: 31 October 2021",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Winter Quarters Nebraska Temple",
@@ -2809,7 +2860,7 @@
     "latitude": 41.334075,
     "longitude": -95.96619,
     "dedication_date": "#104: 22 April 2001",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Yigo Guam Temple",
@@ -2817,7 +2868,7 @@
     "latitude": 13.541741,
     "longitude": 144.890143,
     "dedication_date": "#172: 22 May 2022",
-    "photoLink": ""
+    "photo_link": ""
   },
   {
     "name": "Yorba Linda California Temple",
