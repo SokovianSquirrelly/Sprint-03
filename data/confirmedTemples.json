@@ -132,10 +132,10 @@
   },
   {
     "name": "Bahía Blanca Argentina Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": -38.69117,
     "longitude": -62.235937,
-    "dedication_date": "Under Construction",
+    "dedication_date": "#211: 23 November 2025",
     "photo_link": "https://www.churchofjesuschrist.org/imgs/eyafcdinietc2piwwuclmjgus8kq6af3w0h3xz7a/full/640%2C/0/default"
   },
   {
@@ -331,10 +331,10 @@
   },
   {
     "name": "Brussels Belgium Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 50.84171761,
     "longitude": 4.36710126,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Budapest Hungary Temple",
@@ -381,10 +381,10 @@
   },
   {
     "name": "Calabar Nigeria Temple",
-    "status": "Unknown Location",
-    "latitude": 4.988644089,
-    "longitude": 8.347848653,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 4.97994039,
+    "longitude": 8.33969308,
+    "dedication_date": "Announced"
   },
   {
     "name": "Caldwell Idaho Temple",
@@ -439,10 +439,10 @@
   },
   {
     "name": "Cape Town South Africa Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": -33.94114387,
     "longitude": 18.4797749,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Caracas Venezuela Temple",
@@ -567,10 +567,10 @@
   },
   {
     "name": "Coeur d'Alene Idaho Temple",
-    "status": "Unknown Location",
-    "latitude": 47.67446277087945,
-    "longitude": -116.78496945600912,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 47.72871813,
+    "longitude": -116.846255,
+    "dedication_date": "Announced"
   },
   {
     "name": "Colonia Juárez Chihuahua Mexico Temple",
@@ -771,10 +771,10 @@
   },
   {
     "name": "Elko Nevada Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 40.85249525,
     "longitude": -115.750084,
-    "dedication_date": "Under Construction",
+    "dedication_date": "#209: 12 October 2025",
     "photo_link": "https://www.churchofjesuschrist.org/imgs/jgi73fw8hvn8p7x5g43iahh9nb3vwcj3agi33i7r/full/640%2C/0/default"
   },
   {
@@ -915,10 +915,10 @@
   },
   {
     "name": "Grand Junction Colorado Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 39.10144203,
     "longitude": -108.551144,
-    "dedication_date": "Under Construction",
+    "dedication_date": "#210: 19 October 2025",
     "photo_link": "https://www.churchofjesuschrist.org/imgs/n234f2c89ig7tt8uqokudt1wg5pb9dbbm8gxpjvt/full/640%2C/0/default"
   },
   {
@@ -1052,10 +1052,10 @@
   },
   {
     "name": "Houston Texas South Temple",
-    "status": "Unknown Location",
-    "latitude": 29.56634,
-    "longitude": -95.3853,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 29.52890803,
+    "longitude": -95.540308,
+    "dedication_date": "Announced"
   },
   {
     "name": "Houston Texas Temple",
@@ -1221,10 +1221,10 @@
   },
   {
     "name": "Kumasi Ghana Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 6.70235776,
     "longitude": -1.64114052,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Kyiv Ukraine Temple",
@@ -1905,10 +1905,10 @@
   },
   {
     "name": "Piura Peru Temple",
-    "status": "Unknown Location",
-    "latitude": -5.17318868,
-    "longitude": -80.66382047,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": -5.16809371,
+    "longitude": -80.626906,
+    "dedication_date": "Announced"
   },
   {
     "name": "Pocatello Idaho Temple",
@@ -1939,6 +1939,13 @@
     "longitude": -72.268143,
     "dedication_date": "#165: 1 September 2019",
     "photo_link": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/port-au-prince-haiti/800x500/01-Port-au-Prince-Haiti-Temple-2264538.jpg"
+  },
+  {
+    "name": "Portland Maine Temple",
+    "status":"Unknown Location",
+    "latitude": 43.674338432675775,
+    "longitude": -70.28792512663024,
+    "dedication_date": "Announced - Location TBA"
   },
   {
     "name": "Portland Oregon Temple",
@@ -2879,9 +2886,9 @@
   },
   {
     "name": "Yuma Arizona Temple",
-    "status": "Unknown Location",
-    "latitude": 32.69041549,
-    "longitude": -114.6242903,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 32.66205482,
+    "longitude": -114.494434,
+    "dedication_date": "Announced"
   }
 ]

@@ -42,12 +42,6 @@
     "confidence_level": "Medium-Low"
   },
   {
-    "city": "Augusta, Maine",
-    "latitude": 44.34003404,
-    "longitude": -69.79361849,
-    "confidence_level": "Low"
-  },
-  {
     "city": "Baguio, Philippines",
     "latitude": 16.39920553,
     "longitude": 120.5904212,
@@ -141,7 +135,7 @@
     "city": "Concord, New Hampshire",
     "latitude": 43.205390071311115,
     "longitude": -71.53676774599889,
-    "confidence_level": "Medium-Low"
+    "confidence_level": "Very Low"
   },
   {
     "city": "Corpus Christi, Texas",
