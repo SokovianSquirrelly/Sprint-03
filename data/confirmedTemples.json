@@ -40,10 +40,11 @@
   },
   {
     "name": "Alabang Philippines Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 14.412913,
     "longitude": 121.037838,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#213: 18 January 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/2cr3d0ah18yg08jyhl9vxg8cte1ge96z7q4h8c98/full/640%2C/0/default"
   },
   {
     "name": "Albuquerque New Mexico Temple",
@@ -360,10 +361,11 @@
   },
   {
     "name": "Burley Idaho Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 42.52659109,
     "longitude": -113.764841,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#212: 11 January 2026",
+    "photo_link": "https://churchofjesuschrist.org/imgs/9c4531bb1adc11ecbd09eeeeac1ec23d4f6a8a8a/full/640%2C/0/default"
   },
   {
     "name": "Busan Korea Temple",
@@ -793,10 +795,10 @@
   },
   {
     "name": "Fairview Texas Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 33.13031793,
     "longitude": -96.6310637,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Farmington New Mexico Temple",
@@ -816,16 +818,23 @@
   },
   {
     "name": "Flagstaff Arizona Temple",
-    "status": "Unknown Location",
-    "latitude": 35.18849488,
-    "longitude": -111.6739899,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 35.19413129,
+    "longitude": -111.608339,
+    "dedication_date": "Announced"
   },
   {
     "name": "Florianópolis Brazil Temple",
     "status": "Announced",
     "latitude": -27.59219248,
     "longitude": -48.61723,
+    "dedication_date": "Announced"
+  },
+  {
+    "name": "Fort Bend Texas Temple",
+    "status": "Announced",
+    "latitude": 29.52890803,
+    "longitude": -95.540308,
     "dedication_date": "Announced"
   },
   {
@@ -984,10 +993,11 @@
   },
   {
     "name": "Harare Zimbabwe Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": -17.804085,
     "longitude": 31.082426,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#214: 1 March 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/13d2f6cf147a36f20e52890a7d46c054541a5357/full/640%2C/0/default"
   },
   {
     "name": "Harrisburg Pennsylvania Temple",
@@ -1051,13 +1061,6 @@
     "dedication_date": "Announced - Location TBA"
   },
   {
-    "name": "Houston Texas South Temple",
-    "status": "Announced",
-    "latitude": 29.52890803,
-    "longitude": -95.540308,
-    "dedication_date": "Announced"
-  },
-  {
     "name": "Houston Texas Temple",
     "status": "Dedicated",
     "latitude": 29.999729,
@@ -1096,10 +1099,10 @@
   },
   {
     "name": "Iloilo Philippines Temple",
-    "status": "Unknown Location",
-    "latitude": 10.80157138,
-    "longitude": 122.5330693,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 10.75314494,
+    "longitude": 122.548406,
+    "dedication_date": "Announced"
   },
   {
     "name": "Indianapolis Indiana Temple",
@@ -1118,10 +1121,10 @@
   },
   {
     "name": "Jacksonville Florida Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 30.16175005,
     "longitude": -81.6235071,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Jakarta Indonesia Temple",
@@ -1132,10 +1135,10 @@
   },
   {
     "name": "João Pessoa Brazil Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": -7.1242103,
     "longitude": -34.829102,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Johannesburg South Africa Temple",
@@ -1162,10 +1165,10 @@
   },
   {
     "name": "Kahului Hawaii Temple",
-    "status": "Unknown Location",
-    "latitude": 20.88886777,
-    "longitude": -156.4731095,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 20.86735421,
+    "longitude": -156.49336,
+    "dedication_date": "Announced"
   },
   {
     "name": "Kampala Uganda Temple",
@@ -1659,10 +1662,10 @@
   },
   {
     "name": "Naga Philippines Temple",
-    "status": "Unknown Location",
-    "latitude": 13.62256467,
-    "longitude": 123.1958573,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 13.6122913,
+    "longitude": 123.213323,
+    "dedication_date": "Announced"
   },
   {
     "name": "Nairobi Kenya Temple",
@@ -1712,10 +1715,10 @@
   },
   {
     "name": "Norfolk Virginia Temple",
-    "status": "Unknown Location",
-    "latitude": 36.849669788490104,
-    "longitude": -76.28355390579148,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 36.86423076,
+    "longitude": -76.4452079,
+    "dedication_date": "Announced"
   },
   {
     "name": "Nouméa New Caledonia Temple",
@@ -1942,7 +1945,7 @@
   },
   {
     "name": "Portland Maine Temple",
-    "status":"Unknown Location",
+    "status": "Unknown Location",
     "latitude": 43.674338432675775,
     "longitude": -70.28792512663024,
     "dedication_date": "Announced - Location TBA"
@@ -2019,10 +2022,10 @@
   },
   {
     "name": "Puerto Montt Chile Temple",
-    "status": "Unknown Location",
-    "latitude": -41.46889835505417,
-    "longitude": -72.94775962013546,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": -41.48942742,
+    "longitude": -72.8884762,
+    "dedication_date": "Announced"
   },
   {
     "name": "Queen Creek Arizona Temple",
@@ -2064,10 +2067,10 @@
   },
   {
     "name": "Rapid City South Dakota Temple",
-    "status": "Unknown Location",
-    "latitude": 44.07571509,
-    "longitude": -103.2232612,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 44.0052445,
+    "longitude": -103.251149,
+    "dedication_date": "Announced"
   },
   {
     "name": "Recife Brazil Temple",
@@ -2322,10 +2325,10 @@
   },
   {
     "name": "Santiago Philippines Temple",
-    "status": "Unknown Location",
-    "latitude": 16.69222082,
-    "longitude": 121.5564245,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 16.68566252,
+    "longitude": 121.561326,
+    "dedication_date": "Announced"
   },
   {
     "name": "Santiago West Chile Temple",
@@ -2434,10 +2437,10 @@
   },
   {
     "name": "Spanish Fork Utah Temple",
-    "status": "Unknown Location",
-    "latitude": 40.115175902250776,
-    "longitude": -111.65494250734477,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 40.10697598,
+    "longitude": -111.61407,
+    "dedication_date": "Announced"
   },
   {
     "name": "Spokane Washington Temple",
