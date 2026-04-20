@@ -26,7 +26,7 @@ Other Tools: ArcGIS, CSV Library in Python, JSON
 
 Frankly I wish I would have done more update notes as I continued working on this throughout the years, but I figured I might as well start now.
 
-I should note that techically, I do update this program depening on changes to temples throughout the world.  However, I feel like not every single update like that warrants a whole section about new temples or temples that started construction or whatever.  Instead, this section will only be dedicated to software or UI changes.
+I should note that techically, I do update this program depening on changes to temples throughout the world.  However, I feel like not every single update like that warrants a whole section about new temples or temples that started construction or whatever.  Instead, this section will primarily be dedicated to software or UI changes.  This will also include updates on the church's policy regarding how announcing temples is handled.
 
 ## 2022-2025
 
@@ -50,6 +50,10 @@ I should note that techically, I do update this program depening on changes to t
 * All this being said, we got a bit of a surprise this Christmas: a temple in Portland, Maine.  I figured I'd better update this map anyway with temples that have had a site announced, have started construction, or have been dedicated.  I almost wonder if the church is going to spread out these temple announcements and not do them during General Conference exclusively, which will keep me on my toes for sure.
 * I ran into a little bit of a funny blunder when updating my JSON files to reflect the new changes.  Under my predictions file, I removed Augusta Maine from my list since Portland is fairly close by, especially in terms of temples in New England.  Well, when trying to remove that, I noticed that it didn't work.  The prediction for Augusta was still up on my map, even after shutting down the live server and starting again.  It confused me for a minute until I realized I removed it from the CSV file, which was no longer being used, and not the JSON file.  Because of this, I finally decided to delete all the legacy files since they're not being used anymore anyway.
 * This made me realize how much easier the new system using JSON is compared to the old one where I was using CSV files and a Python script to read them.  With the old system, I had to delete the entirety of both lists, update the CSV files, run the Python script, copy and paste everything, and go through and fix various errors due to things like punctuation.  It was pretty tedious to do all that, especially since that punctuation issue would often happen with cities on the Polynesian islands that would use apostraphes in their name, such as Nuku'alofa.  Another issue that I had from time to time is when for some reason, formatting on the CSV file would get a bit screwed up and accent marks for certain cities or temple names would turn into a string of unreadable characters that I had to go through and fix, and there were a lot of them.  In JSON, the characters would always stay the same, and if I needed to make a change, I only had to do it in the JSON file itself without ever touching the main HTML file.
+
+## April 2026 Update
+
+* Once again, no temples were announced in General Conference.  Shortly after, it was announced that, at least for the time being, the church was no longer going to announce new temples in General Conference and instead announce them in places where said temples will be built in a local devotional or something like that.  The announcement of the Portland Maine Temple back in December was the starting point of that, and we just got another one: Marysville, Washington.  I got this information from the official Church Newsroom Facebook page so this is confirmed.  Sounds like I'll need to scour that page or other official church social media pages frequently to stay on top of it.
 
 # Future Goals
 

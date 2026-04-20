@@ -1077,10 +1077,10 @@
   },
   {
     "name": "Huehuetenango Guatemala Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 15.32618492,
     "longitude": -91.48993,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Huntsville Alabama Temple",
@@ -1469,6 +1469,13 @@
     "latitude": 10.6693532,
     "longitude": -71.604347,
     "dedication_date": "Announced"
+  },
+  {
+    "city": "Marysville Washington Temple",
+    "status": "Unknown Location",
+    "latitude": 48.05212586106831,
+    "longitude": -122.17583908689099,
+    "Dedication_Date": "Announced - Location TBA"
   },
   {
     "name": "Mbuji-Mayi Democratic Republic of the Congo Temple",
@@ -2598,10 +2605,10 @@
   },
   {
     "name": "Teresina Brazil Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": -5.08842094,
     "longitude": -42.779871,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Teton River Idaho Temple",

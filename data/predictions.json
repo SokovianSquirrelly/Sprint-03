@@ -186,12 +186,6 @@
     "confidence_level": "Medium"
   },
   {
-    "city": "Everett, Washington",
-    "latitude": 47.98525851,
-    "longitude": -122.193783,
-    "confidence_level": "Medium"
-  },
-  {
     "city": "Farmington, Utah",
     "latitude": 40.97943152,
     "longitude": -111.8847556,
@@ -408,6 +402,12 @@
     "confidence_level": "Medium-Low"
   },
   {
+    "city": "Mar del Plata, Argentina",
+    "latitude": -38.00482154940873,
+    "longitude": -57.5458659480768,
+    "confidence_level": "Low"
+  },
+  {
     "city": "Mesa East, Arizona",
     "latitude": 33.41507233,
     "longitude": -111.6239139,
@@ -516,6 +516,12 @@
     "confidence_level": "Medium-Low"
   },
   {
+    "city": "Pleasant Grove, Utah",
+    "latitude": 40.364297354926165,
+    "longitude": -111.73867326931098,
+    "confidence_level": "Medium-Low"
+  },
+  {
     "city": "Pleasant View, Utah",
     "latitude": 41.31961981,
     "longitude": -111.993703,
@@ -562,6 +568,12 @@
     "latitude": -25.75536502007422,
     "longitude": 28.192140847037358,
     "confidence_level": "Medium"
+  },
+  {
+    "city": "Pucallpa, Peru",
+    "latitude": -8.393037135538725,
+    "longitude": -74.58311622759092,
+    "confidence_level": "Low"
   },
   {
     "city": "Puerto Princesa, Philippines",
@@ -660,6 +672,12 @@
     "confidence_level": "Medium-Low"
   },
   {
+    "city": "São Luís, Brazil",
+    "latitude": -2.5397612431198224,
+    "longitude": -44.27929201954215,
+    "confidence_level": "Low"
+  },
+  {
     "city": "Savannah, Georgia",
     "latitude": 32.09705302,
     "longitude": -81.09896023,
@@ -670,6 +688,12 @@
     "latitude": 33.49501166,
     "longitude": -111.9238432,
     "confidence_level": "Medium"
+  },
+  {
+    "city": "Seville, Spain",
+    "latitude": 37.399548432360284,
+    "longitude": -5.9878352109999184,
+    "confidence_level": "Very Low"
   },
   {
     "city": "Shreveport, Louisiana",
