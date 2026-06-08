@@ -2,7 +2,7 @@
 
 I'm a sucker for maps and data, so I decided to learn how to write this program to teach me how I can use GIS mapping.  What I wrote is a map application that displays the location of every temple of The Church of Jesus Christ of Latter-day Saints, including the ones that are under construction or have been announced.  Each point on the map shows the temple name and its dedication date when you click on it.
 
-There were 300 points I put on this map, so I used a CSV file that showed the temples' names, latitudes and longitudes, their status (dedicated, under construction, or announced), and the dedication date (if applicable).  The CSV file was found online, but I did make sure to add some data and remove some data I didn't need for this program.
+There were 300 points I put on this map when I first started this project, so I used a CSV file that showed the temples' names, latitudes and longitudes, their status (dedicated, under construction, or announced), and the dedication date (if applicable).  The CSV file was found online, but I did make sure to add some data and remove some data I didn't need for this program.
 
 [Software Demo Video](https://youtu.be/40qOv5qBgOs)
 
@@ -28,7 +28,7 @@ Other Tools: ArcGIS, CSV Library in Python, JSON
 
 Frankly I wish I would have done more update notes as I continued working on this throughout the years, but I figured I might as well start now.
 
-I should note that techically, I do update this program depening on changes to temples throughout the world.  However, I feel like not every single update like that warrants a whole section about new temples or temples that started construction or whatever.  Instead, this section will primarily be dedicated to software or UI changes.  This will also include updates on the church's policy regarding how announcing temples is handled.
+I should note that techically, I do update this program depening on changes to temples throughout the world.  However, I feel like not every single update like that warrants a whole section about new temples or temples that started construction or whatever.  Instead, this section will primarily be dedicated to software or UI changes, though I will give mention to church policy changes regarding how temples are announced or built.
 
 ## 2022-2025
 
@@ -55,7 +55,7 @@ I should note that techically, I do update this program depening on changes to t
 
 ## April 2026 Update
 
-* Once again, no temples were announced in General Conference.  Shortly after, it was announced that, at least for the time being, the church was no longer going to announce new temples in General Conference and instead announce them in places where said temples will be built in a local devotional or something like that.  The announcement of the Portland Maine Temple back in December was the starting point of that, and we just got another one: Marysville, Washington.  I got this information from the official Church Newsroom Facebook page so this is confirmed.  Sounds like I'll need to scour that page or other official church social media pages frequently to stay on top of it.
+* Once again, no temples were announced in General Conference.  Shortly after, it was announced that for the forseeable future, the church was no longer going to announce new temples in General Conference and instead announce them in places where said temples will be built in a local devotional or something like that.  The announcement of the Portland Maine Temple back in December was the starting point of that, and we just got another one: Marysville, Washington.  I got this information from the official Church Newsroom Facebook page so this is confirmed.  Sounds like I'll need to scour that page or other official church social media pages frequently to stay on top of it.
 
 # Future Goals
 
