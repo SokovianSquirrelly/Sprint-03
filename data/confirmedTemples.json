@@ -126,10 +126,11 @@
   },
   {
     "name": "Bacolod Philippines Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 10.696648,
     "longitude": 122.989455,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#217: 31 May 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/35152aa82a8f11ec8410eeeeac1e04a24c1edfef/full/640%2C/0/default"
   },
   {
     "name": "Bahía Blanca Argentina Temple",
@@ -390,10 +391,10 @@
   },
   {
     "name": "Caldwell Idaho Temple",
-    "status": "Unknown Location",
-    "latitude": 43.66474550729518,
-    "longitude": -116.68541029077255,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 43.58884057,
+    "longitude": -116.665328,
+    "dedication_date": "Announced"
   },
   {
     "name": "Calgary Alberta Temple",
@@ -676,10 +677,11 @@
   },
   {
     "name": "Davao Philippines Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 7.088597,
     "longitude": 125.579755,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#215: 3 May 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/773e752367cb5f90dd2d203fd6d390708ce0286a/full/640%2C/0/default"
   },
   {
     "name": "Denver Colorado Temple",
@@ -939,10 +941,10 @@
   },
   {
     "name": "Greenville South Carolina Temple",
-    "status": "Unknown Location",
-    "latitude": 34.85303392,
-    "longitude": -82.40036017,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 34.83859579,
+    "longitude": -82.2912066,
+    "dedication_date": "Announced"
   },
   {
     "name": "Guadalajara Mexico Temple",
@@ -1314,10 +1316,11 @@
   },
   {
     "name": "Lindon Utah Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 40.33730438,
     "longitude": -111.6953838,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#216: 3 May 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/a541357d82b811eca9f8eeeeac1e3637d46e53d8/full/640%2C/0/default"
   },
   {
     "name": "Lisbon Portugal Temple",
@@ -1593,10 +1596,10 @@
   },
   {
     "name": "Missoula Montana Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 46.81900794,
     "longitude": -114.067477,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "Modesto California Temple",
@@ -1819,6 +1822,13 @@
     "latitude": 59.85795039,
     "longitude": 10.48033456,
     "dedication_date": "Announced"
+  },
+  {
+    "name": "Otavalo Ecuador Temple",
+    "status": "Unknown Location",
+    "latitude": 0.2342550631184678,
+    "longitude": -78.26121634716186,
+    "dedication_date": "Announced - Location TBA"
   },
   {
     "name": "Pachuca Mexico Temple",
@@ -2188,10 +2198,10 @@
   },
   {
     "name": "Rosario Argentina Temple",
-    "status": "Unknown Location",
-    "latitude": -32.9707,
-    "longitude": -60.7284,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": -32.93238111,
+    "longitude": -60.65268,
+    "dedication_date": "Announced"
   },
   {
     "name": "Russia Temple",
@@ -2459,10 +2469,10 @@
   },
   {
     "name": "Springfield Missouri Temple",
-    "status": "Announced",
+    "status": "Construction",
     "latitude": 37.10238963,
     "longitude": -93.243289,
-    "dedication_date": "Announced"
+    "dedication_date": "Under Construction"
   },
   {
     "name": "St. George Utah Temple",
@@ -2851,10 +2861,11 @@
   },
   {
     "name": "Willamette Valley Oregon Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 44.08885894,
     "longitude": -123.03278,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#218: 7 June 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/77c562e90cfe11ec99c6eeeeac1e03b2f4a942a7/full/640%2C/0/default"
   },
   {
     "name": "Winchester Virginia Temple",
@@ -2889,10 +2900,11 @@
   },
   {
     "name": "Yorba Linda California Temple",
-    "status": "Construction",
+    "status": "Dedicated",
     "latitude": 33.8983749,
     "longitude": -117.834721,
-    "dedication_date": "Under Construction"
+    "dedication_date": "#219: 7 June 2026",
+    "photo_link": "https://www.churchofjesuschrist.org/imgs/x447w89am2b8ics024824l3bpwfa6h4e88pfv12a/full/640%2C/0/default"
   },
   {
     "name": "Yuma Arizona Temple",

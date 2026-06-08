@@ -6,6 +6,8 @@ There were 300 points I put on this map, so I used a CSV file that showed the te
 
 [Software Demo Video](https://youtu.be/40qOv5qBgOs)
 
+**DISCLAIMER:** This is not an official church website!  While I am an active member of The Church of Jesus Christ of Latter-day Saints, this project is not affiliated with the church itself and is more of a personal hobby more than anything.  This means that any predictions marked on this map for potential temple sites is based on personal opinion rather than hard facts.  Also note that all the information in this project may not be fully up to date.  This was last updated on June 8, 2026, and any announcements made by official church sources in regards to temples made since then have not yet been reflected in this project.
+
 # Development Environment
 
 Text Editor: VS Code
