@@ -421,10 +421,10 @@
   },
   {
     "name": "Campo Grande Brazil Temple",
-    "status": "Unknown Location",
-    "latitude": -20.391495241162566,
-    "longitude": -54.6422517938049,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": -20.43196943,
+    "longitude": -54.57638,
+    "dedication_date": "Announced"
   },
   {
     "name": "Cancún Mexico Temple",
@@ -919,10 +919,10 @@
   },
   {
     "name": "Goiânia Brazil Temple",
-    "status": "Unknown Location",
-    "latitude": -16.71216571,
-    "longitude": -49.25247308,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Dedicated",
+    "latitude": -16.74652673,
+    "longitude": -49.30454,
+    "dedication_date": "Announced"
   },
   {
     "name": "Grand Junction Colorado Temple",
@@ -980,10 +980,10 @@
   },
   {
     "name": "Hamburg Germany Temple",
-    "status": "Unknown Location",
-    "latitude": 53.59204491,
-    "longitude": 9.959683221,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 53.56640131,
+    "longitude": 10.0327873,
+    "dedication_date": "Announced"
   },
   {
     "name": "Hamilton New Zealand Temple",
@@ -1497,10 +1497,10 @@
   },
   {
     "name": "Medellín Colombia Temple",
-    "status": "Unknown Location",
-    "latitude": 6.303322996,
-    "longitude": -75.57818642,
-    "dedication_date": "Announced - Location TBA"
+    "status": "Announced",
+    "latitude": 6.21074058,
+    "longitude": -75.5833579,
+    "dedication_date": "Announced"
   },
   {
     "name": "Medford Oregon Temple",

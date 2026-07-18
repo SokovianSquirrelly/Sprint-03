@@ -431,6 +431,11 @@
     "longitude": -111.8998251,
     "confidence_level": "Medium-High"
   },
+  {"city": "Minatitlán, Mexico",
+    "latitude": 17.99265260557194, 
+    "longitude": -94.55171922730666,
+    "confidence_level": "Very Low"
+  },
   {
     "city": "Moapa Valley, Nevada",
     "latitude": 36.57325624,
@@ -580,6 +585,12 @@
     "latitude": 9.852283984,
     "longitude": 118.7596461,
     "confidence_level": "Medium-Low"
+  },
+  {
+    "city": "Puno, Peru",
+    "latitude": -15.840244401443218,
+    "longitude": -70.02223452007324,
+    "confidence_level": "Low"
   },
   {
     "city": "Quevedo, Ecuador",
@@ -732,6 +743,12 @@
     "confidence_level": "Medium"
   },
   {
+    "city": "Tarija, Bolivia",
+    "latitude": -21.516383343493906,
+    "longitude": -64.73635348605954,
+    "confidence_level": "Medium-Low"
+  },
+  {
     "city": "Tasmania, Australia",
     "latitude": -42.89428501,
     "longitude": 147.3102994,
@@ -820,6 +837,12 @@
     "latitude": 19.56037079,
     "longitude": -96.90014502,
     "confidence_level": "Low"
+  },
+  {
+    "city": "Yamoussoukro, Côte d'Ivoire",
+    "latitude": 6.81855686286124,
+    "longitude": -5.273448915192079,
+    "confidence_level": "Medium"
   },
   {
     "city": "Yaoundé, Cameroon",
